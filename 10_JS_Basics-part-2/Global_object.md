@@ -50,14 +50,14 @@ window.globalFunction(); // Output: I am a global function (in a browser environ
 
 The Global Object provides access to several built-in global properties and functions, such as:
 
-### Global Properties
+### Global Properties Examples
 
 - `Infinity`: Represents positive infinity value.
 - `NaN`: Represents "Not-a-Number" value.
 - `undefined`: Represents undefined value.
 - `null`: Represents null value.
 
-### Global Functions
+### Global Functions Examples
 
 - `parseInt()`: Parses a string and returns an integer.
 - `parseFloat()`: Parses a string and returns a floating-point number.
