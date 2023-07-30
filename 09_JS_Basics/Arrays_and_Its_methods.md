@@ -145,7 +145,7 @@ const evenNumbers = numbers.filter(number => number % 2 === 0);
 console.log(evenNumbers);
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we learned about JavaScript arrays, including how to create and access array elements. Additionally, we explored various array methods that allow us to manipulate arrays effectively, such as adding and removing elements, combining arrays, extracting portions, searching for elements, and more. 
 

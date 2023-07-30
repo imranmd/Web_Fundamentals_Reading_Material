@@ -70,7 +70,7 @@ The Global Object provides access to several built-in global properties and func
 - `encodeURIComponent()`: Encodes a component of a URI.
 - `setTimeout()`: Executes a function after a specified delay.
 
-## Conclusion
+## Summary
 
 In this tutorial, we learned about the Global Object in JavaScript, which is the root of the scope chain and provides access to global variables, functions, and built-in properties. In a browser environment, the Global Object is referred to as `window`, while in Node.js, it is referred to as `global`. Understanding the Global Object is important for accessing and working with global variables and functions throughout your JavaScript program. 
 Knowing the built-in global properties and functions provided by the Global Object can also be beneficial for various tasks in your code. Happy coding!

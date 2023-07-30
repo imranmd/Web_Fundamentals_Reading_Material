@@ -14,7 +14,6 @@ Below is a table listing all the ways of creating objects in JavaScript:
 | Object.create()                   | Creating objects using `Object.create()` method.                              |
 | Factory Functions                 | Creating objects using factory functions.                                     |
 | Constructor Functions (ES5)       | Creating objects using constructor functions (pre-ES6).                       |
-| Singleton Pattern                 | Creating a single instance of an object that can be shared across the code.   |
 
 ## Object Literal Notation
 
@@ -140,7 +139,7 @@ console.log(person1.name); // Output: John Doe
 console.log(person2.age); // Output: 25
 ```
 
-## Singleton Pattern
+## Bonus: Singleton Pattern
 
 The Singleton pattern ensures only one instance of an object exists and provides a global point of access.
 
@@ -175,7 +174,7 @@ console.log(person1.name); // Output: John Doe
 console.log(person2.occupation); // Output: Developer
 ```
 
-## Conclusion
+## Summary
 
 In JavaScript, there are multiple ways to create objects, each serving different purposes. We explored object literal notation, constructor functions, ES6 class syntax, `Object.create()`, factory functions, constructor functions (pre-ES6), and the Singleton pattern.
 

@@ -192,7 +192,7 @@ const fullName = greet("John", "Doe");
 console.log(fullName);
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored various ways to declare functions in JavaScript, including function declarations, function expressions, anonymous functions, immediately invoked function expressions (IIFE), and arrow functions. 
 

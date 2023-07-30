@@ -56,7 +56,7 @@ Explanation: In the normal mode example, we declare a variable `x` without using
 
 4. **Preventing Silent Failures:** Strict mode helps in catching potential issues early, making debugging and maintenance easier.
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored strict mode in JavaScript, a feature that enforces a more secure and restricted set of rules for writing code. Enabling strict mode helps prevent common coding mistakes, eliminates the creation of accidental global variables, and improves overall code safety and reliability. 
 

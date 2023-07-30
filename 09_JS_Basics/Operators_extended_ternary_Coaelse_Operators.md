@@ -204,7 +204,7 @@ console.log(sum);
 ```
 
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored the ternary operator and the nullish coalescing operator in JavaScript. The ternary operator is a shorthand way of writing `if...else` statements, allowing for concise conditional expressions. The nullish coalescing operator is helpful for providing default values when variables may be null or undefined. 
 By understanding these operators, you can write more efficient and clean code in your JavaScript projects. Happy coding!

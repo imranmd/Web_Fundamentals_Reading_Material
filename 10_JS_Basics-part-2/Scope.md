@@ -96,6 +96,6 @@ console.log(blockVar);
 // Output: ReferenceError: blockVar is not defined
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored the different types of scope in JavaScript. Global scope allows variables to be accessed from anywhere in your code, while local scope restricts variables to be accessible only within a specific function. Function scope makes variables accessible within the entire function, and block scope limits variables to be accessed within the block in which they are defined. Understanding scope is crucial for writing clean and maintainable code in JavaScript and helps you avoid potential bugs and conflicts. Happy coding!

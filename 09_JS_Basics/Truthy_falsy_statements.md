@@ -90,7 +90,7 @@ displayMessage(); // No output, as message is falsy (undefined)
 displayMessage('Hello, world!'); // Output: Message: Hello, world!
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored the concept of truthy and falsy values in JavaScript. Understanding truthy and falsy values is crucial for making decisions in your code using conditions and logical operations. These values provide a convenient way to handle default values and optional parameters in functions, improving the flexibility and readability of your code. 
 Being familiar with truthy and falsy values will help you write more reliable and concise JavaScript applications. Happy coding!

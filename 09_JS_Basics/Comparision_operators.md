@@ -145,7 +145,7 @@ if (num1 > num2) {
 // Output: "num1 is greater than num2"
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored all the comparison operators available in JavaScript, including equal to, not equal to, equal value and type, not equal value or type, greater than, less than, greater than or equal to, and less than or equal to. Comparison operators play a crucial role in decision-making and logic implementation in JavaScript code. 
 

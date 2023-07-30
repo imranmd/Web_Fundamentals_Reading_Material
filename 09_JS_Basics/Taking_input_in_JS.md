@@ -87,6 +87,6 @@ while (age <= 0 || isNaN(age)) {
 
 console.log("Valid age entered:", age);
 ```
-## Conclusion
+## Summary
 
 In this tutorial, we explored how to take input from users and print output in JavaScript. We learned about `console.log()` for printing output, `prompt()` for browser-based input, and `readline` for console-based input in Node.js. Additionally, we discussed input validation to ensure the correctness of user-provided data. Understanding input and output mechanisms is crucial for creating interactive and user-friendly JavaScript applications. Happy coding!

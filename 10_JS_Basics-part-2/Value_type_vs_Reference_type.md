@@ -108,7 +108,7 @@ console.log(pattern); // Output: /hello/gi
 console.log(myBook); // Output: Book { title: "The Great Gatsby", author: "F. Scott Fitzgerald" }
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored value types (primitive types) and reference types (objects) in JavaScript. Value types store the actual value directly in the variable, while reference types store a reference to the memory location where the data is stored. 
 Understanding the differences between value types and reference types is essential for working with variables and objects effectively in JavaScript.

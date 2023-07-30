@@ -137,7 +137,7 @@ If you want to customize the app further, you can create a `styles.css` file and
 <link rel="stylesheet" href="styles.css">
 ```
 
-## Conclusion
+## Summary
 
 Congratulations! You've now built a simple portfolio app using Bootstrap. You can further expand and customize this app based on your preferences and needs.
 

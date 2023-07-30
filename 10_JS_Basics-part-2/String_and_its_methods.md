@@ -85,7 +85,7 @@ const newString = text.replace("JavaScript", "TypeScript");
 console.log(newString); // Output: Hello, TypeScript!
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we learned about strings and various string methods available in JavaScript. Strings are essential for working with textual data, and JavaScript provides a rich set of methods to perform various operations on strings. 
 Understanding these string methods will help you manipulate and transform strings effectively in your JavaScript applications. Happy coding!

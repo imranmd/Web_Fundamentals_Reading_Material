@@ -91,7 +91,7 @@ function exampleFunction() {
 exampleFunction();
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored the differences between `var`, `let`, and `const` in JavaScript. 
 We learned that `var` has function scope or global scope and is less preferred in modern JavaScript development. 

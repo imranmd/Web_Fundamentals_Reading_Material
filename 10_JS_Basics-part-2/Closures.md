@@ -121,6 +121,6 @@ createButtonCounter();
 
 In this example, the `handleClick` function retains access to the `count` variable even after `createButtonCounter` has finished executing. Each time the button is clicked, it logs the number of clicks.
 
-## Conclusion
+## Summary
 
 Closures are a fundamental concept in JavaScript, providing a powerful way to manage scope, encapsulate data, and create efficient and reusable code. Understanding closures will not only make you a better JavaScript developer but also open up new possibilities in your code design and architecture.

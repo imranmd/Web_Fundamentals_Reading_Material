@@ -71,7 +71,7 @@ To get started with writing JavaScript code, you need a web browser and a basic 
 3. In the developer tools, navigate to the "Console" tab.
 4. You should see the output "Hello, World!" displayed in the console.
 
-## Conclusion
+## Summary
 
 Congratulations! You have successfully written and executed your first JavaScript program that prints "Hello, World!" to the console. This simple example introduces you to the basics of JavaScript and how to run code in the browser using a script tag. From here, you can explore more JavaScript concepts and gradually build more complex applications. Keep practicing and experimenting to become proficient in JavaScript programming. Happy coding!
 
@@ -125,6 +125,6 @@ node app.js
 
 Congratulations! You've successfully written and executed your first JavaScript program that prints "Hello World" to the console.
 
-## Conclusion
+## Summary
 
 In this tutorial, you learned how to set up a simple JavaScript project using Visual Studio Code, write a basic "Hello World" program in JavaScript, and execute it using Node.js in the integrated terminal. This is the first step in your journey to becoming a JavaScript developer. From here, you can explore more complex JavaScript concepts and build exciting web applications. Happy coding!

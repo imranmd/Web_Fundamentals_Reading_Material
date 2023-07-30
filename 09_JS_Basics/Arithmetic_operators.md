@@ -166,6 +166,6 @@ const message = "My name is " + name + " and I am " + age + " years old.";
 console.log(message);
 ```
 
-## Conclusion
+## Summary
 
 In this short tutorial, we learned about using string arithmetic operators in JavaScript, primarily focusing on string concatenation using the `+` operator. JavaScript's versatility allows us to use operators for different data types, making it easier to handle and manipulate data in our code. Understanding string arithmetic operators can be very useful when working with strings and building dynamic content for web applications. Happy coding!

@@ -113,7 +113,7 @@ person.sayHello(); // Output: Hello, my name is Alice
 
 Explanation: In this example, `person` has a method `sayHello`, which contains an arrow function `greet`. When `person.sayHello()` is called, the arrow function `greet` captures the `this` value from the surrounding context (`person`), so `this` inside `greet` refers to the `person` object.
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored the various contexts of the `this` keyword in JavaScript. `this` dynamically refers to different objects based on how and where a function is called. 
 In the global context, `this` refers to the global object. In a regular function, `this` refers to the global object as well. 

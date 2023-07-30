@@ -133,6 +133,6 @@ Example:
 </html>
 ```
 
-## Conclusion
+## Summary
 
 You now know how to add JavaScript to an HTML file using different methods: inline, internal, external, and asynchronous external script. You've also learned about best practices to follow when adding JavaScript to your HTML pages. With this knowledge, you can create dynamic and interactive web pages using JavaScript. Happy coding!

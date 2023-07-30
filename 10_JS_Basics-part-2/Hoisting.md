@@ -58,7 +58,7 @@ hoistingExample();
 
 Explanation: Although the variable `a` is declared within a block using `var`, it is hoisted to the top of its containing function scope (the `hoistingExample()` function). Therefore, it can be accessed even outside the block scope.
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored hoisting in JavaScript, which is the process of moving variable and function declarations to the top of their containing scope during the compilation phase. We learned about the two main types of hoisting: variable hoisting and function hoisting. 
 Understanding hoisting is crucial for writing reliable and organized JavaScript code. 

@@ -123,6 +123,6 @@ For web developers, it's crucial to create accessible websites by following Web 
 
 Remember, web accessibility benefits all users and contributes to a more inclusive online experience. By embracing these assistive tools and making our websites accessible, we can promote equal access to information and services for everyone.
 
-## Conclusion
+## Summary
 
 Web Assistive Technologies are powerful tools that enhance web accessibility for individuals with disabilities. By incorporating features like screen readers, voice recognition software, keyboard navigation, and text-to-speech/speech-to-text tools, web developers can create inclusive and user-friendly experiences for all users. Embracing these technologies is not only essential for accessibility compliance but also aligns with the principles of a truly inclusive web. Let's continue striving for an internet where everyone can access and enjoy online content without barriers.

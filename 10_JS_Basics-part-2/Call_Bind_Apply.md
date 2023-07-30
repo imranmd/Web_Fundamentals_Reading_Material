@@ -80,7 +80,7 @@ person.sayHello.apply(anotherPerson, args); // Output: Hi, awesome Bob!
 
 Explanation: In this example, `person` has a method `sayHello`, which takes two arguments (`greeting` and `adjective`). We use the `apply` method to invoke `person.sayHello` with `this` set to `anotherPerson` and pass the arguments as an array `args`. The output is "Hi, awesome Bob!".
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored `call`, `bind`, and `apply` in JavaScript, which are methods that allow you to control the context (`this` value) and arguments of a function during its execution. 
 `call` is used to invoke a function with a specific `this` value and individual arguments. 

@@ -98,7 +98,7 @@ Here's a summary of all the data types in JavaScript:
 | Symbol          | `const id = Symbol('id');`| Represents a unique and immutable value used as object property keys.      |
 | Object          | `const person = {...};`  | Represents a collection of key-value pairs, where values can be of any type.|
 
-## Conclusion
+## Summary
 
 In this tutorial, you learned about all the data types in JavaScript, including primitive data types like number, string, boolean, null, undefined, and symbol, as well as the non-primitive data type, object. 
 Understanding data types is crucial as it helps you effectively store and manipulate data in your JavaScript programs. Happy coding!
@@ -215,6 +215,6 @@ const isArray = Array.isArray(myArray);
 console.log(isArray);
 ```
 
-## Conclusion
+## Summary
 
 The `typeof` operator in JavaScript is a handy tool for determining the data type of a value or variable. It helps you make informed decisions based on the data type, allowing you to write more robust and flexible code. Understanding the `typeof` operator is crucial for any JavaScript developer, as it enables better handling of data and more effective programming. Happy coding!

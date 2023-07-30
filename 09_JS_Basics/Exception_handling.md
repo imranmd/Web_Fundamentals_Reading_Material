@@ -108,7 +108,7 @@ const result2 = divideNumbers(10, 0);
 console.log(result2);
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we learned about exceptional handling in JavaScript using the try-catch statement. We saw how to handle errors and exceptions that might occur during the execution of our code, preventing the program from crashing. Additionally, we explored the try-catch-finally statement to perform cleanup tasks or release resources after handling an exception. 
 Exception handling is crucial for writing robust and reliable JavaScript code, ensuring that your applications gracefully handle unexpected situations and recover from errors smoothly. Happy coding!

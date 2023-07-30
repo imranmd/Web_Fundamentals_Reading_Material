@@ -161,7 +161,7 @@ const result = addNumbers(3, 5);
 console.log(result);
 ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we explored various control statements in JavaScript, including `if...else`, `switch`, `for`, `while`, `do...while`, `break`, `continue`, and `return`. Control statements provide us with the ability to create dynamic and interactive programs by controlling the flow of execution based on different conditions. 
 Understanding these control statements is fundamental to writing effective and versatile JavaScript code. Happy coding!

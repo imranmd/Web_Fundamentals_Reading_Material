@@ -256,7 +256,7 @@ let fruitsString = fruits.join(", ");
 console.log(fruitsString); // Output: "apple, banana, orange"
 ```
 
-## Conclusion
+## Summary
 
 Arrays are powerful data structures in JavaScript that allow us to store and manipulate collections of elements. With various built-in methods, we can easily perform common operations on arrays, such as adding, removing, finding, iterating, and converting them to strings. Understanding arrays and their methods is essential for effective JavaScript programming, as they are commonly used in many applications.
 
