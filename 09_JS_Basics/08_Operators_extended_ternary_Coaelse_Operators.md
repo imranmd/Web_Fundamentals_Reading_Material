@@ -5,6 +5,7 @@
 In JavaScript, the ternary operator and the nullish coalescing operator are powerful tools that allow you to write concise and efficient code for conditional operations. They help simplify decision-making and provide default values in certain situations. 
 In this tutorial, we'll explore both the ternary operator and the nullish coalescing operator, along with their usage and benefits.
 
+![Data Types](../Assets/JS/ternary-operator-javascript.webp)
 ## Ternary Operator (`condition ? expression1 : expression2`)
 
 The ternary operator is a shorthand way of writing an `if...else` statement. It takes three operands: a condition, an expression to execute if the condition is true, and another expression to execute if the condition is false.

@@ -4,6 +4,8 @@
 
 DOM events in JavaScript allow you to handle interactions and actions performed by users on an HTML document. Events are actions like clicking a button, hovering over an element, submitting a form, and more. Understanding DOM events is crucial for building interactive and responsive web applications. In this tutorial, we will explore DOM events in JavaScript, explain event bubbling, delegation, and capturing phases, and provide example code snippets with comments to explain each concept.
 
+![Data Types](../Assets/JS/event-bubbling-and-capturing-in-javascript6.png)
+
 ## Handling DOM Events
 
 To handle DOM events, you can use the `addEventListener` method to attach an event listener to an element. The event listener is a JavaScript function that gets executed when the specified event occurs on the element. Here's an example:

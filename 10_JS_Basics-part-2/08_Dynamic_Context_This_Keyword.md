@@ -5,6 +5,7 @@
 In JavaScript, the `this` keyword is a special identifier that refers to the object on which a function is currently being executed. The value of `this` changes dynamically depending on the context in which the function is called. Understanding the different contexts of `this` is crucial for correctly accessing and manipulating data within functions. 
 In this tutorial, we'll explore the various contexts of the `this` keyword and explain what `this` refers to in each context. We'll provide example code snippets with comments to help you grasp the concept more effectively.
 
+![Data Types](../Assets/JS/this_key_word.png)
 ## Global Context
 
 In the global context (outside any function), `this` refers to the global object. In web browsers, the global object is the `window` object.

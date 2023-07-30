@@ -4,6 +4,8 @@
 
 Asynchronous programming is a crucial aspect of JavaScript, especially when dealing with time-consuming tasks such as network requests or file operations. Over time, different approaches have been developed to handle asynchronous operations more efficiently and maintainably. In this tutorial, we will summarize and compare the four common methods for async programming in JavaScript: Callbacks, Promises, Async, and Await. We'll use a table format to present the differences and provide simple explanations for each.
 
+![Data Types](../Assets/JS/call-stack-asynchronous-js.gif)
+
 ## Comparison Table
 
 | Method     | Definition                                                    | Use Case                                                                                    | Syntax                                                                                       |

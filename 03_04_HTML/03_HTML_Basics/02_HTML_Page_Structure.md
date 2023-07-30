@@ -4,6 +4,8 @@
 
 HTML (Hypertext Markup Language) is the foundational language of the World Wide Web. It allows web developers to create the structure and content of web pages, making them readable and interactive. In this tutorial documentation, we will provide a simple and beginner-friendly introduction to HTML and explain the basic structure of an HTML page.
 
+![Data Types](../../Assets/html-structure.png)
+
 **What is HTML?**
 
 HTML is a markup language used to create the structure and content of web pages. It uses a system of tags and elements to mark up different parts of the content, such as headings, paragraphs, images, and links. These tags tell web browsers how to display the content, making it visually appealing and easily accessible.

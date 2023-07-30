@@ -5,7 +5,7 @@
 In JavaScript, arithmetic operators are used to perform various mathematical calculations on numerical values. These operators allow you to add, subtract, multiply, divide, and more. Understanding arithmetic operators is essential for performing mathematical operations in your JavaScript code. 
 
 In this tutorial, we'll explore all the arithmetic operators available in JavaScript.
-
+![Data Types](../Assets/JS/Arithmentic%20Operators.avif)
 ## List of Arithmetic Operators
 
 Here's a table listing all the arithmetic operators in JavaScript:

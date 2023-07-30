@@ -73,6 +73,7 @@ In the above example, we can replace the `<div>` elements with more meaningful s
 </body>
 </html>
 ```
+![Data Types](../../Assets/IdealLayout.avif)
 
 **List of All Semantic Elements:**
 

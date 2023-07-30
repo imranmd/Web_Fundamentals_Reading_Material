@@ -107,6 +107,7 @@ Anonymous functions are commonly used as callback functions for events, timers, 
 
 An IIFE is a function that is executed immediately after its creation:
 
+![Data Types](../Assets/JS/IIFE.png)
 ### Syntax
 
 ```javascript

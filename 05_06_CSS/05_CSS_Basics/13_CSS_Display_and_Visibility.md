@@ -4,6 +4,7 @@
 
 CSS Display and Visibility properties are used to control the visibility and layout behavior of elements on a web page. They enable you to show or hide elements and alter their display characteristics to create responsive and flexible layouts.
 
+![Data Types](../../Assets/display-none.png)
 
 ## CSS Display Property
 

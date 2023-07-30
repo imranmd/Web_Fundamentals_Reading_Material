@@ -4,6 +4,7 @@
 
 CSS Positioning is a fundamental concept that allows you to control the layout and positioning of elements on a web page. It enables you to place elements exactly where you want them, relative to their parent container or the browser window. There are several positioning methods in CSS, each with its own characteristics and use cases.
 
+![Data Types](../../Assets/CSSPositioning.jpg)
 
 ## CSS Positioning Properties
 

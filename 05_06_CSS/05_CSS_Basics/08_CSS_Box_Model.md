@@ -4,6 +4,8 @@
 
 The CSS Box Model is a fundamental concept in web development that describes how elements are structured and how their dimensions and spacing are calculated. Every HTML element can be seen as a rectangular box, and the Box Model helps you understand how padding, borders, margins, and content interact to determine the final size and appearance of the element.
 
+![Data Types](../../Assets/css-box-model.png)
+
 ## Box Model Properties in CSS
 
 There are four main properties that make up the CSS Box Model:

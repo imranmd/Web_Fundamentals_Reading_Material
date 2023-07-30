@@ -4,6 +4,8 @@
 
 HTML headings are used to create hierarchical titles and headings on web pages. They provide structure and help organize content for better readability. In this documentation, we will explore all the HTML heading types, their syntax, and provide a code snippet including all of them.
 
+![Data Types](../../Assets/html-headings.png)
+
 **HTML Heading Types:**
 
 There are six heading levels in HTML, ranging from `<h1>` (highest importance) to `<h6>` (lowest importance).

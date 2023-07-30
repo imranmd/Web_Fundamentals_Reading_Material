@@ -1,6 +1,7 @@
 # Security Best Practices in JavaScript: Do's and Don'ts
 
 Ensuring the security of your JavaScript code is of utmost importance to protect your users and applications from various vulnerabilities and attacks. In this tutorial, we will explore five security best practices in JavaScript that you should follow to build secure and robust applications. Each practice will be accompanied by example code snippets with comments and explained using simple language.
+![Data Types](../Assets/Software-Development-Five-Best-Practices.webp)
 
 ## Best Practice 1: Input Validation and Sanitization
 

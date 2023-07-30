@@ -8,6 +8,8 @@ CSS Keyframes are used in animations to define a sequence of styles that create 
 
 CSS Keyframes are used in conjunction with animations. They allow you to define the stages or key points of an animation, and then you apply those keyframes to an element to create the animation effect. Keyframes are defined using the `@keyframes` rule, which contains CSS rules to be applied at specific percentages of the animation duration.
 
+![Data Types](../../Assets/animation-properties.png)
+
 ## Types of CSS Keyframes
 
 There are different types of CSS Keyframes to define various animations:
@@ -77,7 +79,7 @@ CSS Keyframes allow you to create smooth and dynamic animations by defining inte
 
 CSS Animations allow you to create dynamic and interactive animations on your web page without using JavaScript. With animations, you can add movement, transitions, and visual effects to elements, making your web design more engaging and visually appealing. In this tutorial, we will explore the basics of CSS Animations and how to implement them in your web designs.
 
-
+![Data Types](../../Assets/amination-syntax.png)
 ## Understanding CSS Animations
 
 CSS Animations work by specifying the property changes and timing for an element to move from one state to another smoothly. You can create animations with keyframes or use predefined CSS animation properties.

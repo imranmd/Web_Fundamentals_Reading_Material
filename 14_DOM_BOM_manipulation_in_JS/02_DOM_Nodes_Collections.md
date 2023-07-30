@@ -4,6 +4,8 @@
 
 In the Document Object Model (DOM), nodes represent elements, attributes, and text within an HTML or XML document. Nodes form a hierarchical tree structure, where each node can have child nodes and, in some cases, a parent node. DOM collections are array-like objects that store multiple nodes, making it easier to work with groups of elements in the document. Understanding DOM nodes and collections is crucial for web development, as they form the basis for manipulating and interacting with the content of a web page. In this tutorial, we will explore the definitions and explanations of DOM nodes and collections, provide example code snippets with comments, explain when to use them, and use simple words to explain the concepts.
 
+![Data Types](../Assets/JS/node-structure-in-dom.webp)
+
 ## DOM Nodes
 
 ### Definition and Explanation

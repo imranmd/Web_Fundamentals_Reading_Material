@@ -5,6 +5,7 @@
 In JavaScript, variables can hold two different types of data: value types (also known as primitive types) and reference types (also known as objects). Understanding the difference between value types and reference types is crucial for working with variables and objects effectively in JavaScript. 
 In this tutorial, we'll explore value types and reference types, provide example snippets with comments, and present a detailed comparison table to help you understand their characteristics.
 
+![Data Types](../Assets/JS/How-Value-Types-Reference-Types-are-stored.webp)
 ## Value Types (Primitive Types)
 
 Value types represent simple data types that store their value directly in the variable. They are called "primitive types" because they hold the actual value itself. The value types in JavaScript are:
@@ -107,7 +108,7 @@ console.log(today); // Output: (current date and time)
 console.log(pattern); // Output: /hello/gi
 console.log(myBook); // Output: Book { title: "The Great Gatsby", author: "F. Scott Fitzgerald" }
 ```
-
+![Data Types](../Assets/JS/stack-heap-pointers.png)
 ## Summary
 
 In this tutorial, we explored value types (primitive types) and reference types (objects) in JavaScript. Value types store the actual value directly in the variable, while reference types store a reference to the memory location where the data is stored. 

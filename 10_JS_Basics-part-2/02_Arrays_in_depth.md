@@ -4,6 +4,8 @@
 
 Arrays are a fundamental data structure in JavaScript that allow us to store and manage collections of elements. Each element in an array is associated with an index, starting from 0. JavaScript provides various built-in methods to perform operations on arrays efficiently. In this tutorial, we will explore arrays and their methods step-by-step with code examples and explanations.
 
+![Data Types](../Assets/JS/Array%20Methods.jpg)
+
 ## Table of Array Methods
 
 Below is a table listing the most commonly used array methods in JavaScript:

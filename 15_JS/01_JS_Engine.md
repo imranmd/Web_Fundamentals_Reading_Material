@@ -4,6 +4,8 @@
 
 A JavaScript engine is a program or software that executes JavaScript code. When you run a JavaScript program in your web browser or on the server-side using Node.js, it's the JavaScript engine that interprets and executes your code. It translates the human-readable JavaScript code into machine-understandable instructions that the computer can execute.
 
+![Data Types](../Assets/JS/JS%20Engine.gif)
+
 **Components of a JavaScript Engine:**
 
 A JavaScript engine consists of several components, each playing a specific role in the code execution process:

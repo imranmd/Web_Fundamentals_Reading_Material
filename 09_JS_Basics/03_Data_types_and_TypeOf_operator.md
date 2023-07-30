@@ -2,6 +2,7 @@
 
 JavaScript has two main categories of data types: primitive and non-primitive (also known as reference) data types. Let's explore each of them in detail.
 
+![Data Types](../Assets/JS/Types-of-data-types-in-JS.jpg)
 ## Primitive Data Types
 
 Primitive data types are simple data types that represent a single value. They are immutable, meaning their values cannot be changed after they are created. JavaScript has six primitive data types:

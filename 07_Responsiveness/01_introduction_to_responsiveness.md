@@ -4,6 +4,8 @@
 
 Responsiveness in web design refers to the ability of a website or web application to adapt and adjust its layout, content, and elements automatically based on the screen size and device used by the visitor. With the increasing variety of devices like smartphones, tablets, laptops, and desktop computers, it is crucial to create websites that provide an optimal viewing experience across all platforms.
 
+![Data Types](../Assets/ResponsiveDesign.png)
+
 ## Eye Opening Stats around mobile friendliness
 
 The following statistics highlight the significance of responsiveness in web design from the perspective of user behavior:

@@ -5,6 +5,7 @@
 In JavaScript, `var`, `let`, and `const` are used to declare variables. Each of these keywords has different scoping rules and behavior, making them suitable for specific use cases. Understanding the differences between `var`, `let`, and `const` is crucial for writing clean and maintainable JavaScript code. 
 In this tutorial, we'll explore each of these variable declarations, explain when to use each one, and provide sample code snippets with comments for better understanding.
 
+
 ## Var
 
 ### Definition
@@ -92,7 +93,7 @@ exampleFunction();
 | `let`   | Block | Yes | No | Not Hoisted | Yes |
 | `const` | Block | No | No | Not Hoisted | Yes |
 ## Summary
-
+![Data Types](../Assets/JS/var_%20let_const.png)
 In this tutorial, we explored the differences between `var`, `let`, and `const` in JavaScript. 
 We learned that `var` has function scope or global scope and is less preferred in modern JavaScript development. 
 `let` and `const` have block scope, but `let` allows reassignment, while `const` does not. When declaring variables, prefer using `let` when the value might change and `const` when the value should remain constant. 

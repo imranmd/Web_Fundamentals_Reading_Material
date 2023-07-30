@@ -4,6 +4,7 @@
 
 CSS (Cascading Style Sheets) is used to style and format the content of your HTML documents. It allows you to control the appearance of elements, such as fonts, colors, margins, and layout. There are three ways to add CSS to an HTML document: inline, internal, and external. In this tutorial, we'll explore each method and provide examples to help you understand how to use CSS effectively.
 
+![Data Types](../../Assets/Types%20OF%20CSS.webp)
 
 ## 1. Inline CSS
 
@@ -74,6 +75,7 @@ h1 {
     font-size: 24px;
 }
 ```
+
 
 In this example, we have an HTML file named `index.html`, and the CSS rules are stored in a separate file named `styles.css`. The `link` element in the `head` section links the HTML file to the CSS file, applying the defined styles to the `h1` element.
 

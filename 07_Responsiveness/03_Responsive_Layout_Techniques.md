@@ -2,6 +2,7 @@
 
 Responsive design layout techniques using CSS allow web developers to create flexible and adaptive layouts that adjust to different screen sizes and devices. These techniques ensure that your website looks great and functions well on desktops, laptops, tablets, and smartphones. We will cover four essential techniques: Fluid Layout, Flexbox, CSS Grid, and Media Queries.
 
+![Data Types](../Assets/ResponsiveDesign.png)
 ## 1. Fluid Layout
 
 A fluid layout uses relative units like percentages (%) for width and height instead of fixed units (pixels). This allows elements to scale based on the screen size, making the layout flexible and responsive.

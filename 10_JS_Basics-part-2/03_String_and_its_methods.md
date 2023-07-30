@@ -6,6 +6,8 @@ In JavaScript, a string is a sequence of characters that represents text. String
 
 In this tutorial, we'll explore various string methods in JavaScript and provide examples with comments to help you understand how they work.
 
+![Data Types](../Assets/JS/javascript-string-methods.webp)
+
 ## List of String Methods
 
 Here's a table listing some common string methods in JavaScript:

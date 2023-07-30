@@ -4,6 +4,8 @@
 
 In JavaScript, `setTimeout` and `setInterval` are two essential functions used for handling time-related tasks. They allow you to execute code after a specific delay or repeatedly at a defined interval. Understanding the differences between these functions is crucial for effectively managing time-based operations in your JavaScript applications. In this tutorial, we will explore the definitions, syntax, and examples of both `setTimeout` and `setInterval`, and provide explanations on when to use each one.
 
+![Data Types](../Assets/JS/call-stack-asynchronous-js.gif)
+
 ## `setTimeout`
 
 ### Definition and Syntax

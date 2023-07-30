@@ -4,6 +4,7 @@
 
 CSS Flex Layout (Flexible Box Layout) is a modern and flexible layout model that allows you to create dynamic and responsive layouts with ease. It is designed to distribute and align elements within a container along a single axis (either horizontally or vertically). Understanding CSS Flex Layout is crucial for building adaptive and user-friendly web designs.
 
+![Data Types](../../Assets/flex-box.png)
 ## Prerequisites
 
 Before diving into CSS Flex Layout, make sure you have a basic understanding of HTML and CSS. If you need to learn these topics, you can refer to the [HTML Introduction Tutorial](https://example.com/html-introduction) and the [CSS Introduction Tutorial](https://example.com/css-introduction) first.
@@ -138,6 +139,7 @@ The three divs with the class `.flex-item` will be arranged horizontally within 
 
 The comments in the HTML and CSS code explain the purpose of each part and its contribution to creating the CSS Flexbox Layout.
 ## Summary
+![Data Types](../../Assets/grid-vs-flexbox-1.png)
 
 CSS Flex Layout provides a flexible and intuitive way to create dynamic and responsive layouts. By using flex containers and flex item properties like `justify-content`, `align-items`, `order`, and `flex`, you can design adaptive and user-friendly web layouts.
 

@@ -4,7 +4,7 @@
 
 CSS Pseudo-elements are special selectors that target specific parts of an element, allowing you to style them independently. Pseudo-elements provide a way to add decorative or stylistic elements to your content without the need for extra HTML markup. In this tutorial, we'll explore six types of CSS Pseudo-elements and provide working examples to help you understand their usage.
 
-
+![Data Types](../../Assets/Pseudo.jpg)
 
 ## Types of CSS Pseudo-elements
 

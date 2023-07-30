@@ -9,6 +9,8 @@ CSS 2D Transforms allow you to manipulate elements in two-dimensional space, ena
 
 There are four main types of CSS 2D Transforms:
 
+![Data Types](../../Assets/CSS-2d-transforms.gif)
+
 ### 1. Rotate
 
 **Demo:**
@@ -87,6 +89,7 @@ CSS 2D Transforms provide a versatile way to manipulate elements in two-dimensio
 
 CSS 3D Transforms take the power of CSS 2D Transforms to the next level by allowing you to manipulate elements in three-dimensional space. With 3D Transforms, you can rotate, scale, translate, and apply perspective to elements, creating impressive and interactive 3D effects on your web page. In this tutorial, we will explore different types of CSS 3D Transforms and how to implement them in your web designs.
 
+![Data Types](../../Assets/3d-traansforms.gif)
 
 ## Types of CSS 3D Transforms
 

@@ -4,6 +4,7 @@
 
 In CSS, when multiple selectors target the same element and apply conflicting styles, it's essential to understand how the browser determines which style should take precedence. This concept is known as "CSS Selectors Priority Order" or "CSS Specificity." In this tutorial, we'll explore the priority order of CSS selectors to help you understand how styles are applied and resolved.
 
+![Data Types](../../Assets/Selectorspriority.PNG)
 
 ## Priority Order of CSS Selectors
 

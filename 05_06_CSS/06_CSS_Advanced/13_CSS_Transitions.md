@@ -4,6 +4,7 @@
 
 CSS Transitions allow you to add smooth and gradual animations to CSS properties when they change values. With transitions, you can create more interactive and engaging web designs without the need for complex JavaScript animations. In this tutorial, we will explore the basics of CSS Transitions and how to implement them in your web designs.
 
+![Data Types](../../Assets/transitiondelays-1.jpg)
 
 ## Understanding CSS Transitions
 

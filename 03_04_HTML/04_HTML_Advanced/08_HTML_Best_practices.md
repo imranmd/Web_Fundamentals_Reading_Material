@@ -2,6 +2,9 @@
 
 HTML is a powerful markup language used to structure and create content for webpages. To ensure optimal performance and security, it is essential to follow best practices when writing HTML code. In this tutorial, we will cover some of the best practices in HTML to improve performance and enhance security.
 
+![Data Types](../../Assets/Software-Development-Five-Best-Practices.webp)
+
+
 **1. Use Semantic HTML Tags:**
 
 Semantic HTML tags provide meaning and structure to the content, making it more accessible and SEO-friendly. Avoid using non-semantic elements like `<div>` for content that can be represented using appropriate semantic tags.
@@ -124,6 +127,8 @@ Enhance accessibility by adding appropriate attributes to HTML elements. Use `al
 ```
 
 **9. Use Semantic Form Elements:**
+![Data Types](../../Assets/Semanic_tags.jfif)
+
 
 When creating forms, use semantic form elements like `<input>`, `<textarea>`, and `<label>` for better accessibility and screen reader support. Avoid using custom elements that might not be recognized by assistive technologies.
 

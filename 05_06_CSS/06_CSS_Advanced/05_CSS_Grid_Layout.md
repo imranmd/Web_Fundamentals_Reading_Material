@@ -4,6 +4,8 @@
 
 CSS Grid Layout is a powerful layout system that allows you to create two-dimensional grid-based layouts. It enables you to arrange elements in rows and columns, providing a more flexible and intuitive way to create complex web page layouts. Understanding CSS Grid Layout is essential for building modern, responsive, and adaptive web designs.
 
+![Data Types](../../Assets/CSS-GRID-3.png)
+
 ## Prerequisites
 
 Before diving into CSS Grid Layout, make sure you have a basic understanding of HTML and CSS. If you need to learn these topics, you can refer to the [HTML Introduction Tutorial](https://example.com/html-introduction) and the [CSS Introduction Tutorial](https://example.com/css-introduction) first.

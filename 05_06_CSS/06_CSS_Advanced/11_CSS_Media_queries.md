@@ -4,6 +4,7 @@
 
 CSS Media Queries allow you to apply different styles to your web page based on the characteristics of the user's device or viewport. With media queries, you can create responsive designs that adapt to various screen sizes and devices, providing an optimal user experience on desktops, tablets, and smartphones. In this tutorial, we will explore the basics of CSS Media Queries and how to use them in your web designs.
 
+![Data Types](../../Assets/Media-Queries.png)
 
 ## Understanding CSS Media Queries
 

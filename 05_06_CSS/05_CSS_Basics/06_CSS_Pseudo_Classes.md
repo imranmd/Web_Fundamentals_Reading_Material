@@ -4,7 +4,7 @@
 
 CSS Pseudo-classes are special selectors that target elements based on their state or position in the document. They allow you to apply styles to elements when they are in a particular state, such as when a link is visited or when a user hovers over an element. Pseudo-classes provide a way to add interactivity and dynamic styling to your web pages without the need for JavaScript. In this tutorial, we'll explore six types of CSS Pseudo-classes and provide working examples to help you understand their usage.
 
-
+![Data Types](../../Assets/Pseudo.jpg)
 
 ## Types of CSS Pseudo-classes
 

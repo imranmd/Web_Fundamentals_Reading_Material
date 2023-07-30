@@ -4,6 +4,8 @@
 
 DOM (Document Object Model) and BOM (Browser Object Model) are two essential concepts in JavaScript that allow developers to interact with web pages and control the browser environment. Understanding DOM and BOM is crucial for web development, as they form the foundation for creating dynamic and interactive web applications. In this tutorial, we will explore the definitions and explanations of DOM and BOM, list common functions of DOM and BOM, provide example code snippets with comments, explain when to use them, and use simple words to explain the concepts.
 
+![Data Types](../Assets/JS/window_DOM_BOM.webp)
+
 ## DOM (Document Object Model)
 
 ### Definition and Explanation

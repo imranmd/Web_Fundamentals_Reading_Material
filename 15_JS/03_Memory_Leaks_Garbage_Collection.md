@@ -3,6 +3,9 @@
 
 Memory leaks in JavaScript occur when a program unintentionally retains memory that is no longer needed, leading to an increase in memory usage over time. If not addressed, memory leaks can cause web applications to slow down or crash due to excessive memory consumption. In this tutorial, we will explore memory leaks in JavaScript, provide example code snippets with comments, and explain various ways to avoid memory leaks using simple language.
 
+
+![Data Types](../Assets/JS/JSCallStack.gif)
+
 ## Memory Leaks: Definition and Syntax
 
 Memory leaks occur when objects or data that are no longer in use are still being held in memory, preventing the JavaScript engine from garbage collecting them. Here's a common scenario that can lead to a memory leak:

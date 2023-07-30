@@ -4,6 +4,7 @@
 
 Callbacks are a fundamental concept in JavaScript, allowing you to execute a function after another function has finished its task. They are especially useful when dealing with asynchronous operations, such as network requests or file reading, where the result is not immediately available. However, nested callbacks can lead to a phenomenon known as "Callback Hell," making code hard to read and maintain. In this tutorial, we will explore the definitions, syntax, and examples of callbacks and callback hell, and provide explanations on when to use callbacks in JavaScript.
 
+
 ## Callbacks
 
 ### Definition and Syntax
@@ -52,6 +53,8 @@ Callbacks are commonly used in scenarios where the result of an operation is not
 ## Callback Hell
 
 Callback hell, also known as the pyramid of doom, occurs when multiple nested callbacks are used, making the code hard to read and maintain. It often arises when dealing with complex asynchronous operations.
+
+![Data Types](../Assets/JS/CallbackHell.gif)
 
 ### Example
 

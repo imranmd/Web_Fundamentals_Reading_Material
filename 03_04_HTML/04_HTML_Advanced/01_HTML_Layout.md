@@ -4,6 +4,8 @@
 
 HTML layout is the process of structuring web pages to organize content in a visually appealing and user-friendly manner. It involves using various HTML elements to create a logical and hierarchical structure, ensuring that content flows seamlessly and is easy to navigate. In this documentation, we will explore HTML layout concepts using simple words to help you understand the basics of creating effective webpage layouts.
 
+![Data Types](../../Assets/website_layout-300x268.png)
+
 **HTML Layout Elements:**
 
 1. **`<header>`:**

@@ -4,6 +4,8 @@
 
 CSS (Cascading Style Sheets) is a powerful language used for styling web pages. Writing clean and efficient CSS code is crucial for creating maintainable, scalable, and performant websites. In this tutorial, we'll explore best practices to improve your CSS code quality. We'll provide examples of bad code snippets and then demonstrate how to apply the best practices to improve them.
 
+![Data Types](../Assets/Software-Development-Five-Best-Practices.webp)
+
 ## 1. Use External CSS Files
 
 Bad Code:

@@ -6,6 +6,8 @@ In JavaScript, an array is a data structure used to store multiple values in a s
 
 In this tutorial, we will explore arrays in JavaScript and learn about various array methods to manipulate and work with arrays effectively.
 
+![Data Types](../Assets/JS/Array%20Methods.jpg)
+
 ## Creating an Array
 
 You can create an array using square brackets `[]` and separate the elements with commas.

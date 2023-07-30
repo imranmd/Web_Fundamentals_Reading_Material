@@ -4,6 +4,7 @@ Control statements are an essential part of programming that allows you to contr
 
 In this tutorial, we'll explore various control statements in JavaScript and see how they can be used to create more dynamic and interactive programs.
 
+![Data Types](../Assets/JS/constol%20Statements.png)
 ## List of Control Statements
 
 Here's a table listing the common control statements in JavaScript:

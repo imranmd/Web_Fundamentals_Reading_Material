@@ -5,6 +5,7 @@
 In JavaScript, truthy and falsy values are used to evaluate the truthfulness of expressions in various contexts, such as conditions or logical operations. Understanding truthy and falsy values is important for writing effective and reliable JavaScript code. 
 In this tutorial, we'll explore the concept of truthy and falsy values, see how they behave in different situations, and learn how to use them in practical scenarios.
 
+![Data Types](../Assets/JS/TruthyFalsy.jpg)
 ## Truthy and Falsy Values
 
 In JavaScript, all values are either truthy or falsy. A truthy value is a value that evaluates to `true` when used in a boolean context, while a falsy value is a value that evaluates to `false`.

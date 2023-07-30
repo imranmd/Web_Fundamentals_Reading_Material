@@ -5,6 +5,7 @@
 In JavaScript, `call`, `bind`, and `apply` are methods that allow you to control the context (the value of `this`) and arguments of a function during its execution. They are useful when you want to invoke a function with a specific `this` value and provide arguments explicitly. Understanding how to use `call`, `bind`, and `apply` is essential for writing clean and efficient JavaScript code. 
 In this tutorial, we'll explore these methods in detail, provide example code snippets with comments, and explain their usage.
 
+![Data Types](../Assets/JS/Call-bind-apply.webp)
 ## Call Method
 
 The `call` method allows you to invoke a function with a specified `this` value and pass arguments individually as a list.
@@ -79,7 +80,7 @@ person.sayHello.apply(anotherPerson, args); // Output: Hi, awesome Bob!
 ```
 
 Explanation: In this example, `person` has a method `sayHello`, which takes two arguments (`greeting` and `adjective`). We use the `apply` method to invoke `person.sayHello` with `this` set to `anotherPerson` and pass the arguments as an array `args`. The output is "Hi, awesome Bob!".
-
+![Data Types](../Assets/JS/Call-bind-apply%20differences.png)
 ## Summary
 
 In this tutorial, we explored `call`, `bind`, and `apply` in JavaScript, which are methods that allow you to control the context (`this` value) and arguments of a function during its execution. 

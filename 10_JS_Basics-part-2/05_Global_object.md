@@ -5,6 +5,7 @@
 In JavaScript, the Global Object is a special object that serves as the root of the scope chain. It provides access to built-in properties, functions, and other objects that are available throughout your entire JavaScript program. Understanding the Global Object is important for accessing global variables, using global functions, and working with standard built-in objects. 
 In this tutorial, we'll explore the Global Object in JavaScript and provide sample code snippets with comments to help you understand its usage.
 
+![Data Types](../Assets/JS/window_DOM_BOM.webp)
 ## The Global Object in Browsers and Node.js
 
 In web browsers, the Global Object is referred to as the `window` object. It represents the global scope and provides access to the global environment, including the global variables and functions.

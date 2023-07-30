@@ -4,6 +4,8 @@
 
 Closures are a powerful and often misunderstood concept in JavaScript. They are a fundamental aspect of the language and play a crucial role in many advanced programming techniques. In simple terms, a closure is a function that has access to variables from its outer (enclosing) scope even after the outer function has finished executing.
 
+![Data Types](../Assets/JS/closure.jpg)
+
 ## Definition of Closures
 
 A closure is a function that remembers and has access to the variables from its containing (enclosing) function's scope even after the containing function has finished executing.
@@ -32,6 +34,7 @@ const closure = outerFunction();
 // Now, use the closure to access the outer scope variable
 closure(); // Output: "I am from the outer scope!"
 ```
+![Data Types](../Assets/JS/Closure%20JS.png)
 
 ## Advantages of Closures
 

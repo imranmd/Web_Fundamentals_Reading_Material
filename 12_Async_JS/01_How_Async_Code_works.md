@@ -4,6 +4,9 @@
 
 In JavaScript, asynchronous programming is a way to execute code without blocking the main thread. It allows tasks to run independently, making it possible to perform time-consuming operations, such as network requests or file reading, without freezing the entire application. Asynchronous programming is crucial for building responsive web applications and handling tasks that may take some time to complete.
 
+![Data Types](../Assets/JS/EventLoops.png)
+
+
 **Components of Asynchronous Programming:**
 
 Several components work together to achieve asynchronous execution in JavaScript:
@@ -17,6 +20,8 @@ Several components work together to achieve asynchronous execution in JavaScript
 4. **Web APIs:** Web APIs are provided by the browser and allow asynchronous operations, such as making network requests, reading files, and setting timers, to be executed outside the main thread. Examples of Web APIs include `setTimeout`, `fetch`, and `XMLHttpRequest`.
 
 **How Asynchronous Programming Works Step by Step:**
+
+![Data Types](../Assets/JS/call-stack-asynchronous-js.gif)
 
 1. **Synchronous Code Execution:** When JavaScript starts executing, it processes the code line by line synchronously. Each function call is added to the call stack, and when a function completes its execution, it is removed from the stack.
 

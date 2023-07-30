@@ -2,6 +2,8 @@
 
 Performance is a crucial aspect of JavaScript development, as it directly impacts the user experience and overall efficiency of your applications. In this tutorial, we will explore performance best practices in JavaScript to help you write faster and more optimized code. Each practice will be accompanied by example code snippets with comments and explained using simple language.
 
+![Data Types](../Assets/Software-Development-Five-Best-Practices.webp)
+
 ## Best Practice 1: Use `const` and `let` Instead of `var`
 
 Use `const` for variables that should not be reassigned and `let` for variables that can be reassigned. Avoid using `var`, as it has function scope and may lead to unintended global variable declarations.

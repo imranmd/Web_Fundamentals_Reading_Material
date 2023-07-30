@@ -8,6 +8,8 @@ CSS stands for "Cascading Style Sheets." It is a language used to control the pr
 
 To use CSS, you need a basic understanding of HTML. If you're new to HTML, you may want to check out the HTML Introduction Tutorial before proceeding.
 
+![Data Types](../../Assets/CSS%20Syntax.gif)
+
 ## Writing CSS
 
 CSS is written in the form of rules, where each rule defines how a specific HTML element should be styled. A rule consists of a selector and a set of properties and values.

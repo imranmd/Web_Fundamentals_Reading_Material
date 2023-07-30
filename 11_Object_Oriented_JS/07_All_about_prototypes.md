@@ -4,6 +4,7 @@
 
 In JavaScript, prototypes play a crucial role in the object-oriented nature of the language. Understanding prototypes is essential for mastering JavaScript's object model and inheritance. A prototype is an object that other objects can inherit properties and methods from. In this tutorial, we will explore prototypes in detail and learn about prototype chaining and prototypal inheritance.
 
+![Data Types](../Assets/JS/JS_Prototype.gif)
 ## Definition
 **Definition:** In JavaScript, a prototype is like a blueprint or a template for creating objects. It acts as a reference that other objects can look up to find properties and methods they need.
 
@@ -146,6 +147,8 @@ console.log(person1.age); // 20
 ___
 
 ## JavaScript Prototype Chaining
+
+![Data Types](../Assets/JS/proto_chaining.webp)
 
 If an object tries to access the same property that is in the constructor function and the prototype object, the object takes the property from the constructor function. For example,
 

@@ -3,6 +3,7 @@
 ## Introduction to CSS Selectors
 
 CSS selectors are patterns used to select and apply styles to specific HTML elements. They allow you to target elements based on their attributes, types, classes, and relationships with other elements. Understanding CSS selectors is crucial for customizing the appearance of your web pages effectively.
+![Data Types](../../Assets/CSS-Selectors.png)
 
 ## 1. Type Selector
 

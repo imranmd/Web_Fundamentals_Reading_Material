@@ -6,6 +6,7 @@ Scope is a fundamental concept in JavaScript that defines the accessibility and 
 
 In this tutorial, we'll explore the different types of scope in JavaScript, including global scope, local scope, function scope, and block scope.
 
+![Data Types](../Assets/JS/JavaScript%20Scope-png.webp)
 ## Global Scope
 
 Variables declared outside any function or block have global scope, which means they can be accessed from anywhere in your code, including within functions.
