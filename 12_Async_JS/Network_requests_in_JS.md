@@ -1,4 +1,4 @@
-# Fetch API and XHR (XMLHttpRequest) in JavaScript: A Comprehensive Guide
+# Fetch API and XHR (XMLHttpRequest) in JavaScript
 
 ## Introduction
 

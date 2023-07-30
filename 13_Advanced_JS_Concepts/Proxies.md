@@ -1,4 +1,4 @@
-# Proxies in JavaScript: A Comprehensive Guide
+# Proxies in JavaScript
 
 ## Introduction
 

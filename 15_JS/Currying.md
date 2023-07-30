@@ -1,4 +1,4 @@
-# Currying in JavaScript: A Comprehensive Guide
+# Understanding Currying in JavaScript
 
 ## Introduction
 

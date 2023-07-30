@@ -1,4 +1,4 @@
-# Generators in JavaScript: A Comprehensive Guide
+# Generators in JavaScript
 
 ## Introduction
 

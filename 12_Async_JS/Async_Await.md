@@ -1,4 +1,4 @@
-# All About Async and Await in JavaScript: A Comprehensive Guide
+# Async and Await in JavaScript
 
 ## Introduction
 

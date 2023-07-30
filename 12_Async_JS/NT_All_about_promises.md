@@ -1,5 +1,4 @@
-# All About Promises in JavaScript: A Comprehensive Guide
-
+# Promises in depth JavaScript
 ## Introduction
 
 Promises are a powerful feature in JavaScript that allow you to handle asynchronous operations in a more organized and efficient manner. They provide a cleaner alternative to using nested callbacks, reducing the likelihood of falling into "Callback Hell." Promises represent a value that may not be available yet but will be resolved or rejected at some point in the future. In this tutorial, we will explore the definition, syntax, and various methods of Promises in JavaScript, providing easy-to-understand examples and explanations.

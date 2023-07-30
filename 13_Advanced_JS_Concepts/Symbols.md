@@ -1,4 +1,4 @@
-# Symbols in JavaScript: A Comprehensive Guide
+# Symbols in JavaScript
 
 ## Introduction
 

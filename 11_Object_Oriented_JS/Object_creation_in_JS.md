@@ -1,4 +1,4 @@
-# All Ways of Creating Objects in JavaScript
+# Ways of Creating Objects in JavaScript
 
 In JavaScript, there are multiple ways to create objects, each with its own advantages and use cases. In this tutorial, we will explore all the different ways of creating objects in JavaScript, along with code snippets and explanations for each method.
 

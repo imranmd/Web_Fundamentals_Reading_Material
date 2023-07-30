@@ -1,4 +1,4 @@
-# Memoization in JavaScript: A Comprehensive Guide
+# Memoization
 
 ## Introduction
 

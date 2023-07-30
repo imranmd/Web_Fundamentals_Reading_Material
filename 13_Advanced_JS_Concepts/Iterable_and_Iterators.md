@@ -1,4 +1,4 @@
-# Iterables and Iterators in JavaScript: A Comprehensive Guide
+# Iterables and Iterators in JavaScript
 
 ## Introduction
 

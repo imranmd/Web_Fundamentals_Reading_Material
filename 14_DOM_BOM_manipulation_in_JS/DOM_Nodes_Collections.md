@@ -1,4 +1,4 @@
-# DOM Nodes and Collections: A Comprehensive Guide
+# Understanding DOM Nodes and Collections
 
 ## Introduction
 

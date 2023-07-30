@@ -1,4 +1,4 @@
-# Changing CSS and HTML using JavaScript: A Comprehensive Guide
+# Changing CSS and HTML using JavaScript
 
 ## Introduction
 

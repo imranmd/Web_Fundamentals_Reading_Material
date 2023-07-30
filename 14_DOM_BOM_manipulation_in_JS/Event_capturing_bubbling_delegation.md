@@ -1,4 +1,4 @@
-# DOM Events in JavaScript: A Comprehensive Guide
+# DOM Events in JavaScript: An in depth guide
 
 ## Introduction
 

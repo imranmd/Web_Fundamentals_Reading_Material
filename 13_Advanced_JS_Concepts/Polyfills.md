@@ -1,4 +1,4 @@
-# Polyfills in JavaScript: A Comprehensive Guide
+# Polyfills
 
 ## Introduction
 

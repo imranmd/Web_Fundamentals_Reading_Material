@@ -30,13 +30,7 @@ function exampleFunction() {
 exampleFunction();
 ```
 
-### Difference between Var, Let, and Const
 
-| Keyword | Scoping | Can Be Reassigned | Can Be Redeclared | Hoisted | Temporal Dead Zone |
-| ------- | ------- | ----------------- | ----------------- | ------- | ------------------ |
-| `var`   | Function or Global | Yes | Yes | Hoisted | No |
-| `let`   | Block | Yes | No | Not Hoisted | Yes |
-| `const` | Block | No | No | Not Hoisted | Yes |
 
 ## Let
 
@@ -90,7 +84,13 @@ function exampleFunction() {
 
 exampleFunction();
 ```
+### Difference between Var, Let, and Const
 
+| Keyword | Scoping | Can Be Reassigned | Can Be Redeclared | Hoisted | Temporal Dead Zone |
+| ------- | ------- | ----------------- | ----------------- | ------- | ------------------ |
+| `var`   | Function or Global | Yes | Yes | Hoisted | No |
+| `let`   | Block | Yes | No | Not Hoisted | Yes |
+| `const` | Block | No | No | Not Hoisted | Yes |
 ## Summary
 
 In this tutorial, we explored the differences between `var`, `let`, and `const` in JavaScript. 

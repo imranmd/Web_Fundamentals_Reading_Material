@@ -1,4 +1,4 @@
-# Maps, Sets, Weak Map, Weak Set in JavaScript: A Comprehensive Guide
+# What are Maps, Sets, Weak Map, Weak Set in JavaScript
 
 ## Introduction
 

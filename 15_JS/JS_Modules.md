@@ -1,4 +1,4 @@
-# JavaScript Modules: A Comprehensive Guide
+# Concept of JavaScript Modules
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# JSON Notation in JavaScript: A Comprehensive Guide
+# JSON Notation
 
 ## Introduction
 
