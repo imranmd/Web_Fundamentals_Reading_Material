@@ -55,7 +55,7 @@ Certainly! Here's a detailed revision strategy to prepare for a React interview:
 14. **Documentation:**
     - Keep the official React documentation handy. It's an excellent resource for in-depth learning and quick reference.
 
-Remember, consistency is key. Dedicate a specific amount of time each day for focused learning and practice. Start with the basics and gradually move to more complex topics. By following this strategy, you'll be well-prepared for your React interview. Good luck!breakdown of ReactJS topics to test candidates at different skill levels: Beginner, Intermediate, and Advanced. Along with each topic, I'll provide examples of questions you could ask candidates at each level.
+breakdown of ReactJS topics to test candidates at different skill levels: Beginner, Intermediate, and Advanced. Along with each topic, I'll provide examples of questions you could ask candidates at each level.
 
 **Beginner:**
 
