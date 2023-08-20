@@ -1,174 +1,110 @@
-# Tutorial: Building React JS Class Components with Examples
+# Tutorial: Class Components in React
 
-In this tutorial, you'll embark on a journey to master React JS Class Components using examples inspired by mighty heroes. Class components are a fundamental part of React, allowing you to create reusable and stateful components. We'll start from the basics and gradually delve into more advanced concepts.
+Welcome to the tutorial on Class Components in React. In this tutorial, we will explore class components, explain their characteristics, provide a sample code for creating a class component, discuss the lifecycle methods they have, compare lifecycle methods with React Hooks[Which we will learn in next session]
 
-## Prerequisites
+## What are Class Components?
 
-Before you begin, ensure you have the following installed on your computer:
+Class components are a type of component in React that are defined as JavaScript classes. They were the primary way of creating components in React before the introduction of functional components and React Hooks.
 
-1. Node.js: Download and install Node.js from [nodejs.org](https://nodejs.org/).
+## Sample Class Component Code
 
-## Step 1: Setting Up Your Development Environment
-
-1. Open your terminal or command prompt.
-
-2. Create a new directory for your React app:
-
-   ```bash
-   mkdir react-class-components-tutorial
-   cd react-class-components-tutorial
-   ```
-
-3. Initialize a new Node.js project:
-
-   ```bash
-   npm init -y
-   ```
-
-## Step 2: Installing React and React DOM
-
-1. Install React and React DOM packages:
-
-   ```bash
-   npm install react react-dom
-   ```
-
-## Step 3: Creating Your First Class Component
-
-In this step, we'll create a basic class component using a superhero theme.
-
-1. Create a new file named `Hero.js` in your project directory.
-
-2. Open `Hero.js` and add the following code:
+Here's an example of a simple class component in React:
 
 ```jsx
 import React, { Component } from 'react';
 
-class Hero extends Component {
-  render() {
-    return (
-      <div>
-        <h2>{this.props.name}</h2>
-        <p>Alias: {this.props.alias}</p>
-      </div>
-    );
-  }
-}
-
-export default Hero;
-```
-
-## Step 4: Using Class Components in Your App
-
-1. Create a new file named `App.js` in the same directory.
-
-2. Open `App.js` and add the following code:
-
-```jsx
-import React, { Component } from 'react';
-import Hero from './Hero';
-
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Heroic Squad</h1>
-        <Hero name="Iron Man" alias="Tony Stark" />
-        <Hero name="Spider-Man" alias="Peter Parker" />
-        <Hero name="Black Widow" alias="Natasha Romanoff" />
-      </div>
-    );
-  }
-}
-
-export default App;
-```
-
-## Step 5: Running Your React App
-
-1. Create an HTML file named `index.html` in your project directory.
-
-2. Open `index.html` and add the following code:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>React Class Components Tutorial</title>
-</head>
-<body>
-  <div id="root"></div>
-</body>
-</html>
-```
-
-3. Open your terminal/command prompt and navigate to your project directory.
-
-4. Start your development server:
-
-   ```bash
-   npm start
-   ```
-
-5. Open your web browser and visit `http://localhost:3000`. You should see a list of heroes along with their aliases.
-
-## Advanced Concepts: State and Lifecycle
-
-In this section, we'll explore more advanced class component concepts.
-
-1. Modify the `Hero.js` component to include a state:
-
-```jsx
-import React, { Component } from 'react';
-
-class Hero extends Component {
+class Counter extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      power: 'Unknown',
-    };
+    this.state = { count: 0 };
+  }
+
+  componentDidMount() {
+    console.log('Component mounted');
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    console.log('Component updated');
+  }
+
+  componentWillUnmount() {
+    console.log('Component will unmount');
   }
 
   render() {
     return (
       <div>
-        <h2>{this.props.name}</h2>
-        <p>Alias: {this.props.alias}</p>
-        <p>Power: {this.state.power}</p>
+        <p>Count: {this.state.count}</p>
+        <button onClick={() => this.setState({ count: this.state.count + 1 })}>Increment</button>
       </div>
     );
   }
 }
 
-export default Hero;
+export default Counter;
 ```
 
-2. Update the `App.js` component to include the new state:
+In this code, we've defined a class component named `Counter` that manages a `count` state and provides methods to update it.
 
-```jsx
+## Lifecycle Methods of Class Components
+
+The lifecycle methods of a class component are executed in a specific order:
+
+1. **Constructor:** Initializes the component's state and binds event handlers.
+
+2. **render:** Returns JSX to define the component's UI.
+
+3. **componentDidMount:** Executed after the component is inserted into the DOM. Useful for fetching data or setting up timers.
+
+4. **componentDidUpdate:** Executed whenever the component updates. Useful for responding to changes.
+
+5. **componentWillUnmount:** Executed before the component is removed from the DOM. Used for cleaning up resources.
+
 import React, { Component } from 'react';
-import Hero from './Hero';
 
-class App extends Component {
+class LifecycleExample extends Component {
+  constructor(props) {
+    super(props);
+    console.log('Constructor');
+    this.state = { count: 0 };
+  }
+
+  componentDidMount() {
+    console.log('ComponentDidMount');
+  }
+
+  componentDidUpdate() {
+    console.log('ComponentDidUpdate');
+  }
+
+  componentWillUnmount() {
+    console.log('ComponentWillUnmount');
+  }
+
   render() {
-    return (
-      <div>
-        <h1>Heroic Squad</h1>
-        <Hero name="Iron Man" alias="Tony Stark" />
-        <Hero name="Spider-Man" alias="Peter Parker" />
-        <Hero name="Black Widow" alias="Natasha Romanoff" />
-      </div>
-    );
+    console.log('Render');
+    return <div>Component Lifecycle Example</div>;
   }
 }
 
-export default App;
+export default LifecycleExample;
 ```
 
-## Congratulations, You've Mastered React Class Components!
+## Comparing Lifecycle Methods with Hooks
 
-You've successfully learned how to create and use React class components, exploring both the basics and more advanced concepts. With the power of class components, you can now build dynamic and interactive applications. Keep exploring and building your own heroic React apps!
+- **Lifecycle Methods:** Class components use lifecycle methods to manage state and respond to changes. Lifecycle methods can lead to complex component structures and make code harder to follow.
 
-Happy coding, Super Dev! 🦸‍♂️🦸‍♀️
+- **Hooks:** React Hooks are a modern alternative to lifecycle methods. They allow you to manage state and other functionalities within functional components. Hooks make code more readable and easier to maintain.
+
+## Summary:
+
+- Class components are defined as ES6 classes in React.
+- They are used to create UI elements and manage state.
+- Class components have lifecycle methods for managing component behavior.
+- Lifecycle methods execute in a specific order: constructor, render, componentDidMount, componentDidUpdate, componentWillUnmount.
+- React Hooks provide a modern alternative to lifecycle methods for managing state and functionality in functional components.
+
+## Documentation and Article Resources:
+
+1. [React Official Documentation - Component Lifecycle](https://reactjs.org/docs/react-component.html)
+2. [A Guide to the React Component Lifecycle](https://www.digitalocean.com/community/tutorials/react-react-component-lifecycle) by DigitalOcean

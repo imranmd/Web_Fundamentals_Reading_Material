@@ -2,11 +2,6 @@
 
 In this tutorial, you'll dive into the world of ReactJS props using examples inspired by popular superheroes. Props, short for "properties," allow you to pass data from one component to another in your React application. We'll start with the basics and gradually explore more advanced concepts.
 
-## Prerequisites
-
-Before you start, make sure you have the following installed on your computer:
-
-1. Node.js: Download and install Node.js from [nodejs.org](https://nodejs.org/).
 
 ## Step 1: Setting Up Your Development Environment
 
@@ -110,7 +105,7 @@ export default App;
 
 5. Open your web browser and visit `http://localhost:3000`. You should see a list of superheroes along with their aliases.
 
-## Advanced Concepts: Custom Props and Destructuring
+## Props Destructuring
 
 In this section, we'll explore more advanced prop concepts.
 

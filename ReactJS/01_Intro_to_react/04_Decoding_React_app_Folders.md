@@ -2,10 +2,6 @@
 
 In this tutorial, we will walk through the folder structure of a typical React app and explain the purpose of each directory and file. We'll use code snippets and comments to make it easy for you to grasp. Let's dive in!
 
-## Prerequisites
-
-Before you begin, ensure that you have Node.js and npm (Node Package Manager) installed on your system.
-
 ## Step 1: Basic React App Folder Structure
 
 A basic React app typically has the following folder structure:
