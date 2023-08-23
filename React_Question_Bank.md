@@ -71,69 +71,62 @@ Sure, here are your questions numbered:
 
 ## Advanced[50 Points]:
 
-You are given with a heavy data intensive react web application like amazon, You are asked to increase the load time of the app, What is your strategy and How do you analyze and what are the tasks you will derive in a priority order?[Looking majorly on React performance concepts, Ask the sample code snippet for each action]
+Sure, here are your questions numbered:
 
-Implement a custom hook named useLocalStorage that allows you to store and retrieve data in/from the browser's local storage.
+**25. You are given a heavy data-intensive React web application like Amazon, and you're asked to increase its load time. What is your strategy for improving the load time? How do you analyze the performance, and what tasks would you prioritize?**
 
+**26. Implement a custom hook named useLocalStorage that allows you to store and retrieve data in/from the browser's local storage.**
 
-// Redux flow end to end 
-Implement a Counter:
+**27. Redux Flow End to End: Implement a Counter:**
 
-Description: Create a Counter component where users can increase and decrease a counter. Use Redux to write and read the counter value.
+**Description:** Create a Counter component where users can increase and decrease a counter. Use Redux to write and read the counter value.
 
-Subtasks:
+**Subtasks:**
+- Create Redux Store: Set up a Redux store with a counter state.
+- Implement Counter Component: Build a React component that displays the counter value and buttons to increment and decrement it.
+- Connect Component to Redux: Use the connect function or React Redux hooks to connect the Counter component to the Redux store. Dispatch actions to update the counter value.
 
-Create Redux Store: Set up a Redux store with a counter state.
-Implement Counter Component: Build a React component that displays the counter value and buttons to increment and decrement it.
-Connect Component to Redux: Use the connect function or React Redux hooks to connect the Counter component to the Redux store. Dispatch actions to update the counter value.
+**28. Implement a Todo List:**
 
-Implement a Todo List:
+**Description:** Create a Todo List component where users can add and remove tasks. Use Redux to manage the state of the tasks.
 
-Description: Create a Todo List component where users can add and remove tasks. Use Redux to manage the state of the tasks.
+**Subtasks:**
+- Redux Store for Tasks: Set up a Redux store with an initial state for the tasks.
+- Create Todo List Component: Build a React component that displays the list of tasks, along with input fields to add new tasks.
+- Manage Tasks with Redux: Implement actions and reducers to handle adding and removing tasks. Connect the Todo List component to the Redux store to manage tasks' state.
 
-Subtasks:
+**29. Build a User Profile Page:**
 
-Redux Store for Tasks: Set up a Redux store with an initial state for the tasks.
-Create Todo List Component: Build a React component that displays the list of tasks, along with input fields to add new tasks.
-Manage Tasks with Redux: Implement actions and reducers to handle adding and removing tasks. Connect the Todo List component to the Redux store to manage tasks' state.
+**Description:** Design a User Profile page with fields like name, email, and bio. Allow users to edit their profile information and save the changes using Redux.
 
-Build a User Profile Page:
+**Subtasks:**
+- Redux Store for User Profile: Set up a Redux store with an initial state for the user profile.
+- Create Profile Edit Component: Build a React component that displays the user profile fields and allows users to edit them.
+- Update Profile with Redux: Implement actions and reducers to update the user profile. Connect the Profile Edit component to the Redux store to manage profile state.
 
-Description: Design a User Profile page with fields like name, email, and bio. Allow users to edit their profile information and save the changes using Redux.
+**30. Develop a Shopping Cart:**
 
-Subtasks:
+**Description:** Create a Shopping Cart component for an e-commerce site. Users should be able to add and remove items from the cart, and the cart's total price should be displayed using Redux.
 
-Redux Store for User Profile: Set up a Redux store with an initial state for the user profile.
-Create Profile Edit Component: Build a React component that displays the user profile fields and allows users to edit them.
-Update Profile with Redux: Implement actions and reducers to update the user profile. Connect the Profile Edit component to the Redux store to manage profile state.
+**Subtasks:**
+- Redux Store for Cart: Set up a Redux store with an initial state for the shopping cart.
+- Create Cart Component: Build a React component that displays the items in the cart, along with buttons to add and remove items.
+- Calculate Total Price with Redux: Implement actions and reducers to manage the cart items and calculate the total price. Connect the Cart component to the Redux store to manage cart state.
 
-Develop a Shopping Cart:
+**31. Craft a Blog Post Editor:**
 
-Description: Create a Shopping Cart component for an e-commerce site. Users should be able to add and remove items from the cart, and the cart's total price should be displayed using Redux.
+**Description:** Build a Blog Post Editor where users can write, edit, and preview blog posts. Use Redux to manage the content and state of the editor.
 
-Subtasks:
+**Subtasks:**
+- Redux Store for Post Content: Set up a Redux store with an initial state for the blog post content.
+- Create Editor Component: Build a React component that provides input fields for writing and editing blog post content.
+- Manage Content with Redux: Implement actions and reducers to manage the blog post content. Connect the Editor component to the Redux store to manage content state.
 
-Redux Store for Cart: Set up a Redux store with an initial state for the shopping cart.
-Create Cart Component: Build a React component that displays the items in the cart, along with buttons to add and remove items.
-Calculate Total Price with Redux: Implement actions and reducers to manage the cart items and calculate the total price. Connect the Cart component to the Redux store to manage cart state.
+**32. Create a Polling App:**
 
+**Description:** Design a Polling App where users can create and vote on polls. Use Redux to manage the poll data and user votes.
 
-Craft a Blog Post Editor:
-
-Description: Build a Blog Post Editor where users can write, edit, and preview blog posts. Use Redux to manage the content and state of the editor.
-
-Subtasks:
-
-Redux Store for Post Content: Set up a Redux store with an initial state for the blog post content.
-Create Editor Component: Build a React component that provides input fields for writing and editing blog post content.
-Manage Content with Redux: Implement actions and reducers to manage the blog post content. Connect the Editor component to the Redux store to manage content state.
-
-Create a Polling App:
-
-Description: Design a Polling App where users can create and vote on polls. Use Redux to manage the poll data and user votes.
-
-Subtasks:
-
-Redux Store for Polls: Set up a Redux store with an initial state for poll data and user votes.
-Create Poll List Component: Build a React component that displays a list of polls and provides options to vote.
-Manage Poll Data and Votes with Redux: Implement actions and reducers to manage poll data and user votes. Connect the Poll List component to the Redux store to manage poll state.
+**Subtasks:**
+- Redux Store for Polls: Set up a Redux store with an initial state for poll data and user votes.
+- Create Poll List Component: Build a React component that displays a list of polls and provides options to vote.
+- Manage Poll Data and Votes with Redux: Implement actions and reducers to manage poll data and user votes. Connect the Poll List component to the Redux store to manage poll state.
