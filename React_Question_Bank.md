@@ -1,70 +1,75 @@
-Use below sample code snippet to do collaborative coding.
+## Use below sample code snippet to do collaborative coding.
 - https://codesandbox.io/s/react-new?file=/src/App.js:0-198
 - Tools
     -   https://collabedit.com/
     -   Codility
 
-Mentor Interview Guidelines:
+## Mentor Interview Guidelines:
 - Use combination of Easy/Medium/Hard[1+2+1 or 4+3+0 or 3+1+1]
 - For each question try to grind on writing the code snippet
 - Nudge the candidate on Why and When part of concept
 
-Beginner Questions:[10 Points]
+## Beginner Questions: \[10 Points\]
 
-Create a React component named Header that renders an element with the text "Welcome to My App!"
-Define a React component named Button that renders a button element with the text "Click Me."
+**1\. Create a React component named Header that renders an element with the text "Welcome to My App!"**
 
-Why React Framework over other frameworks such as Angular or VueJS? WHat are the advantages?
+**2\. Define a React component named Button that renders a button element with the text "Click Me."**
 
-What is the difference between Virtual DOM and Shadow DOM?
+**3\. Why choose the React Framework over other frameworks such as Angular or VueJS? What are the advantages?**
 
-Difference between UseMemo and UseCallback?
+**4\. What is the difference between Virtual DOM and Shadow DOM?**
 
-Difference between State and Prop?
+**5\. Difference between UseMemo and UseCallback?**
 
-Build a functional component named UserCard that takes two props, name and email, and displays them inside a <div> element.?
+**6\. Difference between State and Prop?**
 
-Create a parent component called App that renders three instances of the UserCard with different data.?
+**7\. Build a functional component named UserCard that takes two props, name and email, and displays them inside a <div> element.**
 
-Develop a component called Toggle that renders a button with the text "Toggle" and an initial state of true. When clicked, the button should toggle the state between true and false, and display the current state as text.
+**8\. Create a parent component called App that renders three instances of the UserCard with different data.**
 
-Build a component with a text input field. Use the useState hook to store the input's value and update it as the user types.?
+**9\. Develop a component called Toggle that renders a button with the text "Toggle" and an initial state of true. When clicked, the button should toggle the state between true and false, and display the current state as text.**
 
-Develop a component that displays the current date and time. Update the display every second using the setInterval function inside the useEffect hook.?
+**10\. Build a component with a text input field. Use the useState hook to store the input's value and update it as the user types.**
 
-What are Pure Components? When should we use Pure components? Write sample code snippet for the same
+**11\. Develop a component that displays the current date and time. Update the display every second using the setInterval function inside the useEffect hook.**
 
-What is useEffect hook? When should we use? couple of use cases along with one sample code snippet
+**12\. What are Pure Components? When should we use Pure components? Write a sample code snippet for the same.**
 
-Difference between Class Component and Function Component? Which once should be used?
+**13\. What is the useEffect hook? When should we use it? Provide a couple of use cases along with one sample code snippet.**
 
-Intermediate[20 Points]: 
-
-What is HOC? with sample use cases and when should it be used? Sample code snippet for one use case
-
-How do you memoize a Component?
-
-Explain Context API, with couple of use cases and with sample code snippet
-
-Develop a class/functional component named Counter that initializes its state with a count of 0. Display the count in a <p> element, and provide buttons to increment and decrement the count.
+**14\. What is the difference between Class Component and Function Component? Which one should be used?**
 
 
- Use the useEffect hook to fetch data from an API endpoint (https://jsonplaceholder.typicode.com/todos) when a component mounts. Display the fetched data on the screen.
- 
-Define a component named Calculator that has two input fields for numbers and buttons for addition, subtraction, multiplication, and division. Display the result of the operation when a button is clicked.
-Instructions: 
-- Use hooks, that are applicable
+## Intermediate[20 Points]: 
+
+Sure, here are your questions numbered:
+
+**15. What is HOC (Higher Order Component)? Provide sample use cases and explain when it should be used. Include a code snippet for one use case.**
+
+**16. How do you memoize a Component?**
+
+**17. Explain Context API, with a couple of use cases and provide a sample code snippet.**
+
+**18. Develop a class/functional component named Counter that initializes its state with a count of 0. Display the count in a <p> element and provide buttons to increment and decrement the count.**
+
+**19. Use the useEffect hook to fetch data from an API endpoint (https://jsonplaceholder.typicode.com/todos) when a component mounts. Display the fetched data on the screen.**
+
+**20. Define a component named Calculator that has two input fields for numbers and buttons for addition, subtraction, multiplication, and division. Display the result of the operation when a button is clicked.**
+
+**Instructions:**
+- Use hooks, that are applicable.
 - Nudge the learner on the hooks that are being used.
 
-Explain UseMemo and UseCallback with an example.
+**21. Explain UseMemo and UseCallback with an example.**
 
-Explain PropDrilling and write sample pseudo code or code for the same.
+**22. Explain PropDrilling and write sample pseudo code or code for the same.**
 
-What are the ways of communicating between components? Which one should be preferred with sample use cases.
+**23. What are the ways of communicating between components? Which one should be preferred with sample use cases?**
 
-How do we improve performance of a React App? What are the ways?
+**24. How do we improve the performance of a React App? What are the ways?**
 
-Advanced[50 Points]:
+
+## Advanced[50 Points]:
 
 You are given with a heavy data intensive react web application like amazon, You are asked to increase the load time of the app, What is your strategy and How do you analyze and what are the tasks you will derive in a priority order?[Looking majorly on React performance concepts, Ask the sample code snippet for each action]
 
