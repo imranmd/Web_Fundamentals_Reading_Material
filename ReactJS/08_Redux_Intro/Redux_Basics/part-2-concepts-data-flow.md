@@ -1,23 +1,4 @@
----
-id: part-2-concepts-data-flow
-title: 'Redux Fundamentals, Part 2: Concepts and Data Flow'
-sidebar_label: 'Redux Concepts and Data Flow'
-description: 'The official Redux Fundamentals tutorial: learn key Redux terms and how data flows in a Redux app'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
-<!-- prettier-ignore -->
-import FundamentalsWarning from "../../components/_FundamentalsWarning.mdx";
-
 # Redux Fundamentals, Part 2: Concepts and Data Flow
-
-:::tip What You'll Learn
-
-- Key terms and concepts for using Redux
-- How data flows through a Redux app
-
-:::
 
 ## Introduction
 
@@ -25,8 +6,6 @@ In [Part 1: Redux Overview](./part-1-overview.md), we talked about what Redux is
 
 In this section, we'll look at those terms and concepts in more detail, and talk more about how data flows
 through a Redux application.
-
-<FundamentalsWarning />
 
 ## Background Concepts
 
@@ -134,7 +113,7 @@ arr3.push('c')
 
 **Redux expects that all state updates are done immutably**. We'll look at where and how this is important a bit later, as well as some easier ways to write immutable update logic.
 
-:::info Want to Know More?
+### Want to Know More?
 
 For more info on how immutability works in JavaScript, see:
 
@@ -264,7 +243,6 @@ console.log(finalResult)
 
 We can say that **Redux reducers reduce a set of actions (over time) into a single state**. The difference is that with `Array.reduce()` it happens all at once, and with Redux, it happens over the lifetime of your running app.
 
-</DetailedExplanation>
 
 ### Store
 
@@ -361,8 +339,6 @@ Here's what that data flow looks like visually:
 
 ## What You've Learned
 
-:::tip Summary
-
 - **Redux's intent can be summarized in three principles**
   - Global app state is kept in a single store
   - The store state is read-only to the rest of the app
@@ -374,11 +350,3 @@ Here's what that data flow looks like visually:
     - The store runs the reducers, and the state is updated based on what occurred
     - The store notifies the UI that the state has changed
   - The UI re-renders based on the new state
-
-:::
-
-## What's Next?
-
-You should now be familiar with the key concepts and terms that describe the different parts of a Redux app.
-
-Now, let's see how those pieces work together as we start building a new Redux application in [Part 3: State, Actions, and Reducers](./part-3-state-actions-reducers).

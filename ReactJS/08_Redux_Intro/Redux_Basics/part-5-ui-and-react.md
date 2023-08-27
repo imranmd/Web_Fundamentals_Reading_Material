@@ -1,20 +1,10 @@
----
-id: part-5-ui-react
-title: 'Redux Fundamentals, Part 5: UI and React'
-sidebar_label: 'UI and React'
-description: 'The official Redux Fundamentals tutorial: learn how to use Redux with React'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
 # Redux Fundamentals, Part 5: UI and React
 
-:::tip What You'll Learn
+## What You'll Learn
 
 - How a Redux store works with a UI
 - How to use Redux with React
 
-:::
 
 ## Introduction
 
@@ -562,7 +552,7 @@ Let's see how the app looks now, including the components and sections we skippe
   sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
 ></iframe>
 
-:::tip Summary
+## Summary
 
 - **Redux stores can be used with any UI layer**
   - UI code always subscribes to the store, gets the latest state, and redraws itself
@@ -579,8 +569,3 @@ Let's see how the app looks now, including the components and sections we skippe
 - **The `<Provider>` component makes the store available to other React components**
   - Render `<Provider store={store}>` around your entire `<App>`
 
-:::
-
-## What's Next?
-
-Now that our UI is working, it's time to see how to make our Redux app talk to a server. In [Part 6: Async Logic](./part-6-async-logic.md), we'll talk about how asynchronous logic like timeouts and AJAX calls fit into the Redux data flow.

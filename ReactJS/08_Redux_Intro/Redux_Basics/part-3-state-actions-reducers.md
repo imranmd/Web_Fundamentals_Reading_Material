@@ -1,30 +1,10 @@
----
-id: part-3-state-actions-reducers
-title: 'Redux Fundamentals, Part 3: State, Actions, and Reducers'
-sidebar_label: 'State, Actions, and Reducers'
-description: 'The official Redux Fundamentals tutorial: learn how reducers update state in response to actions'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
-<!-- prettier-ignore -->
-import FundamentalsWarning from "../../components/_FundamentalsWarning.mdx";
-
 # Redux Fundamentals, Part 3: State, Actions, and Reducers
 
-:::tip What You'll Learn
+### What You'll Learn
 
 - How to define state values that contain your app's data
 - How to define action objects that describe what happens in your app
 - How to write reducer functions that calculate updated state based on existing state and actions
-
-:::
-
-:::info Prerequisites
-
-- Familiarity with key Redux terms and concepts like "actions", "reducers", "store", and "dispatching". (See **[Part 2: Redux Concepts and Data Flow](./part-2-concepts-data-flow.md)** for explanations of these terms.)
-
-:::
 
 ## Introduction
 
@@ -32,7 +12,6 @@ In [Part 2: Redux Concepts and Data Flow](./part-2-concepts-data-flow.md), we lo
 
 Now that you have some idea of what these pieces are, it's time to put that knowledge into practice. We're going to build a small example app to see how these pieces actually work together.
 
-<FundamentalsWarning />
 
 ### Project Setup
 
@@ -56,9 +35,6 @@ If you'd like to see the final version of what we're going to build, you can che
 
 Once you've finished this tutorial, you'll probably want to try working on your own projects. **We recommend using the [Redux templates for Create-React-App](https://github.com/reduxjs/cra-template-redux) as the fastest way to create a new Redux + React project**. It comes with Redux Toolkit and React-Redux already configured, using [a modernized version of the "counter" app example you saw in Part 1](./part-1-overview.md). This lets you jump right into writing your actual application code without having to add the Redux packages and set up the store.
 
-If you want to know specific details on how to add Redux to a project, see this explanation:
-
-<DetailedExplanation title="Detailed Explanation: Adding Redux to a React Project">
 
 The Redux template for CRA comes with Redux Toolkit and React-Redux already configured. If you're setting up a new project from scratch without that template, follow these steps:
 
@@ -704,7 +680,7 @@ Here's the contents of our app so far:
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
-:::tip Summary
+### Summary
 
 - **Redux apps use plain JS objects, arrays, and primitives as the state values**
   - The root state value should be a plain JS object
@@ -726,12 +702,3 @@ Here's the contents of our app so far:
   - Reducers are usually written in "slice" files, organized into "feature" folders
   - Reducers can be combined together with the Redux `combineReducers` function
   - The key names given to `combineReducers` define the top-level state object keys
-
-:::
-
-## What's Next?
-
-We now have some reducer logic that will update our state, but those reducers won't do anything by themselves. They need
-to be put inside a Redux store, which can call the reducer code with actions when something has happened.
-
-In [Part 4: Store](./part-4-store.md), we'll see how to create a Redux store and run our reducer logic.

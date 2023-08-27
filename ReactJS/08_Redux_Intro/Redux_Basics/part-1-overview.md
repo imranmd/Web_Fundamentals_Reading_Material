@@ -1,23 +1,4 @@
----
-id: part-1-overview
-title: 'Redux Fundamentals, Part 1: Redux Overview'
-sidebar_label: 'Redux Overview'
-description: 'The official Fundamentals tutorial for Redux: learn the fundamentals of using Redux'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
-<!-- prettier-ignore -->
-import FundamentalsWarning from "../../components/_FundamentalsWarning.mdx";
-
 # Redux Fundamentals, Part 1: Redux Overview
-
-:::tip What You'll Learn
-
-- What Redux is and why you might want to use it
-- The basic pieces that make up a Redux app
-
-:::
 
 ## Introduction
 
@@ -27,29 +8,9 @@ In Part 1 of this tutorial, we'll briefly look at a minimal example of a working
 
 Starting in [Part 3: State, Actions, and Reducers](./part-3-state-actions-reducers.md), we'll use that knowledge to build a small example app that demonstrates how these pieces fit together and talk about how Redux works in practice. After we finish building the working example app "by hand" so that you can see exactly what's happening, we'll talk about some of the standard patterns and abstractions typically used with Redux. Finally, we'll see how these lower-level examples translate into the higher-level patterns that we recommend for actual usage in real applications.
 
-### How to Read This Tutorial
 
-**This tutorial will teach you "how Redux works"**, as well as _why_ these patterns exist.
 
-<FundamentalsWarning />
-
-Once you understand how everything fits together, we'll look at using Redux Toolkit to simplify things. **Redux Toolkit is the recommended way to build production apps with Redux**, and is built on all of the concepts that we will look at throughout this tutorial. Once you understand the core concepts covered here, you'll understand how to use Redux Toolkit more efficiently.
-
-We've tried to keep these explanations beginner-friendly, but we do need to make some assumptions about what you know already so that we can focus on explaining Redux itself. **This tutorial assumes that you know**:
-
-:::important Prerequisites
-
-- Familiarity with [HTML & CSS](https://internetingishard.netlify.app/html-and-css/index.html).
-- Familiarity with [ES6 syntax and features](https://www.taniarascia.com/es6-syntax-and-feature-overview/)
-- Understanding of [the array and object spread operators](https://javascript.info/rest-parameters-spread#spread-syntax)
-- Knowledge of React terminology: [JSX](https://react.dev/learn/writing-markup-with-jsx), [State](https://react.dev/learn/state-a-components-memory), [Function Components](https://react.dev/learn/your-first-component), [Props](https://react.dev/learn/passing-props-to-a-component), and [Hooks](https://react.dev/reference/react)
-- Knowledge of [asynchronous JavaScript](https://javascript.info/promise-basics) and [making AJAX requests](https://javascript.info/fetch)
-
-:::
-
-**If you're not already comfortable with those topics, we encourage you to take some time to become comfortable with them first, and then come back to learn about Redux**. We'll be here when you're ready!
-
-Finally, you should make sure that you have the React and Redux DevTools extensions installed in your browser:
+ you should make sure that you have the React and Redux DevTools extensions installed in your browser:
 
 - React DevTools Extension:
   - [React DevTools Extension for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
@@ -83,16 +44,7 @@ Redux is more useful when:
 
 **Not all apps need Redux. Take some time to think about the kind of app you're building, and decide what tools would be best to help solve the problems you're working on.**
 
-:::info Want to Know More?
 
-If you're not sure whether Redux is a good choice for your app, these resources give some more guidance:
-
-- **[When (and when not) to reach for Redux](https://changelog.com/posts/when-and-when-not-to-reach-for-redux)**
-- **[The Tao of Redux, Part 1 - Implementation and Intent](https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-1/)**
-- **[Redux FAQ: When should I use Redux?](../../faq/General.md#when-should-i-use-redux)**
-- **[You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)**
-
-:::
 
 ### Redux Libraries and Tools
 
@@ -314,7 +266,7 @@ That counter example was small, but it does show all the working pieces of a rea
 
 With that in mind, let's review what we've learned so far:
 
-:::tip Summary
+## Summary
 
 - **Redux is a library for managing global application state**
   - Redux is typically used with the React-Redux library for integrating Redux and React together
@@ -324,9 +276,11 @@ With that in mind, let's review what we've learned so far:
   - _Reducers_ are functions that calculate a new state value based on previous state + an action
   - A Redux _store_ runs the root reducer whenever an action is _dispatched_
 
-:::
+## Want to Know More?
 
-## What's Next?
+If you're not sure whether Redux is a good choice for your app, these resources give some more guidance:
 
-Now that you know what the basic pieces of a Redux app are, step ahead to [Part 2: Redux Concepts and Data Flow](./part-2-concepts-data-flow.md),
-where we'll look at how data flows through a Redux app in more detail.
+- **[When (and when not) to reach for Redux](https://changelog.com/posts/when-and-when-not-to-reach-for-redux)**
+- **[The Tao of Redux, Part 1 - Implementation and Intent](https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-1/)**
+- **[Redux FAQ: When should I use Redux?](../../faq/General.md#when-should-i-use-redux)**
+- **[You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)**

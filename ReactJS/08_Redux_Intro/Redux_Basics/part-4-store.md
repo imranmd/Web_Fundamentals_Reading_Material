@@ -1,15 +1,3 @@
----
-id: part-4-store
-title: 'Redux Fundamentals, Part 4: Store'
-sidebar_label: 'Store'
-description: 'The official Redux Fundamentals tutorial: learn how to create and use a Redux store'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
-<!-- prettier-ignore -->
-import FundamentalsWarning from "../../components/_FundamentalsWarning.mdx";
-
 # Redux Fundamentals, Part 4: Store
 
 :::tip What You'll Learn
@@ -539,7 +527,7 @@ A middleware can do anything it wants when it sees a dispatched action:
 
 and anything else you can think of.
 
-In particular, **middleware are _intended_ to contain logic with side effects**. In addition, **middleware can modify `dispatch` to accept things that are _not_ plain action objects**. We'll talk more about both of these [in Part 6: Async Logic](./part-6-async-logic.md).
+In particular, **middleware are _intended_ to contain logic with side effects**. In addition, **middleware can modify `dispatch` to accept things that are _not_ plain action objects**. We'll talk more about both of these [in Part 6: Async Logic](../../09_Redux_Advanced_Concepts/Redux_Advanced/part-6-async-logic.md).
 
 ## Redux DevTools
 

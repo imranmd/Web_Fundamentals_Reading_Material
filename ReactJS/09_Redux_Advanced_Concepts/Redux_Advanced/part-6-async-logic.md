@@ -1,33 +1,15 @@
----
-id: part-6-async-logic
-title: 'Redux Fundamentals, Part 6: Async Logic and Data Fetching'
-sidebar_label: 'Async Logic and Data Fetching'
-description: 'The official Redux Fundamentals tutorial: learn how to use async logic with Redux'
----
-
-<!-- prettier-ignore -->
-import FundamentalsWarning from "../../components/_FundamentalsWarning.mdx";
-
 # Redux Fundamentals, Part 6: Async Logic and Data Fetching
 
-:::tip What You'll Learn
+## What You'll Learn
 
 - How the Redux data flow works with async data
 - How to use Redux middleware for async logic
 - Patterns for handling async request state
 
-:::
-
-:::info Prerequisites
-
-- Familiarity with using AJAX requests to fetch and update data from a server
-- Understanding asynchronous logic in JS, including Promises
-
-:::
 
 ## Introduction
 
-In [Part 5: UI and React](./part-5-ui-and-react.md), we saw how to use the React-Redux library to let our React components interact with a Redux store, including calling `useSelector` to read Redux state, calling `useDispatch` to give us access to the `dispatch` function, and wrapping our app in a `<Provider>` component to give those hooks access to the store.
+In [Part 5: UI and React](../../08_Redux_Intro/Redux_Basics/part-5-ui-and-react.md), we saw how to use the React-Redux library to let our React components interact with a Redux store, including calling `useSelector` to read Redux state, calling `useDispatch` to give us access to the `dispatch` function, and wrapping our app in a `<Provider>` component to give those hooks access to the store.
 
 So far, all the data we've worked with has been directly inside of our React+Redux client application. However, most real applications need to work with data from a server, by making HTTP API calls to fetch and save items.
 
@@ -68,7 +50,7 @@ However, any real app will need to do these kinds of things _somewhere_. So, if 
 
 **Redux middleware were designed to enable writing logic that has side effects**.
 
-As we said [in Part 4](./part-4-store.md#middleware-use-cases), a Redux middleware can do _anything_ when it sees a dispatched action: log something, modify the action, delay the action, make an async call, and more. Also, since middleware form a pipeline around the real `store.dispatch` function, this also means that we could actually pass something that _isn't_ a plain action object to `dispatch`, as long as a middleware intercepts that value and doesn't let it reach the reducers.
+As we said [in Part 4](../../08_Redux_Intro/Redux_Basics/part-4-store.md#middleware-use-cases), a Redux middleware can do _anything_ when it sees a dispatched action: log something, modify the action, delay the action, make an async call, and more. Also, since middleware form a pipeline around the real `store.dispatch` function, this also means that we could actually pass something that _isn't_ a plain action object to `dispatch`, as long as a middleware intercepts that value and doesn't let it reach the reducers.
 
 Middleware also have access to `dispatch` and `getState`. That means you could write some async logic in a middleware, and still have the ability to interact with the Redux store by dispatching actions.
 
@@ -169,7 +151,7 @@ Just like with a normal action, we first need to handle a user event in the appl
 
 Once that dispatched value reaches a middleware, it can make an async call, and then dispatch a real action object when the async call completes.
 
-Earlier, we saw [a diagram that represents the normal synchronous Redux data flow](./part-2-concepts-data-flow.md#redux-application-data-flow). When we add async logic to a Redux app, we add an extra step where middleware can run logic like AJAX requests, then dispatch actions. That makes the async data flow look like this:
+Earlier, we saw [a diagram that represents the normal synchronous Redux data flow](../../08_Redux_Intro/Redux_Basics/part-2-concepts-data-flow.md#redux-application-data-flow). When we add async logic to a Redux app, we add an extra step where middleware can run logic like AJAX requests, then dispatch actions. That makes the async data flow look like this:
 
 ![Redux async data flow diagram](/img/tutorials/essentials/ReduxAsyncDataFlowDiagram.gif)
 
