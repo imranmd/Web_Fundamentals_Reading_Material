@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In [Part 1: Redux Overview](./part-1-overview.md), we talked about what Redux is, why you might want to use it, and listed the other Redux libraries that are typically used with the Redux core. We also saw a small example of what a working Redux app looks like and the pieces that make up the app. Finally, we briefly mentioned some of the terms and concepts used with Redux.
+In [Redux Overview](./part-1-overview.md), we talked about what Redux is, why you might want to use it, and listed the other Redux libraries that are typically used with the Redux core. We also saw a small example of what a working Redux app looks like and the pieces that make up the app. Finally, we briefly mentioned some of the terms and concepts used with Redux.
 
 In this section, we'll look at those terms and concepts in more detail, and talk more about how data flows
 through a Redux application.
@@ -120,7 +120,6 @@ For more info on how immutability works in JavaScript, see:
 - [A Visual Guide to References in JavaScript](https://daveceddia.com/javascript-references/)
 - [Immutability in React and Redux: The Complete Guide](https://daveceddia.com/react-redux-immutability-guide/)
 
-:::
 
 ## Redux Terminology
 
@@ -147,11 +146,9 @@ const addTodoAction = {
 
 A **reducer** is a function that receives the current `state` and an `action` object, decides how to update the state if necessary, and returns the new state: `(state, action) => newState`. **You can think of a reducer as an event listener which handles events based on the received action (event) type.**
 
-:::info
 
 "Reducer" functions get their name because they're similar to the kind of callback function you pass to the [`Array.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) method.
 
-:::
 
 Reducers must _always_ follow some specific rules:
 
@@ -189,7 +186,6 @@ function counterReducer(state = initialState, action) {
 
 Reducers can use any kind of logic inside to decide what the new state should be: `if/else`, `switch`, loops, and so on.
 
-<DetailedExplanation title="Detailed Explanation: Why Are They Called 'Reducers?'" >
 
 The [`Array.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) method lets you take an array of values, process each item in the array one at a time, and return a single final result. You can think of it as "reducing the array down to one value".
 
@@ -294,11 +290,9 @@ The **global state** of your application is stored as an object inside a single 
 
 This makes it easier to debug and inspect your app's state as things change, as well as centralizing logic that needs to interact with the entire application.
 
-:::tip
 
 This does _not_ mean that _every_ piece of state in your app must go into the Redux store! You should decide whether a piece of state belongs in Redux or your UI components, based on where it's needed.
 
-:::
 
 ### State is Read-Only
 

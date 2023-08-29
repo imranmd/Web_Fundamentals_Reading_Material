@@ -52,7 +52,6 @@ ReactDOM.render(
 )
 ```
 
-</DetailedExplanation>
 
 #### Exploring the Initial Project
 
@@ -306,7 +305,6 @@ We said earlier that **reducers must _always_ follow some special rules**:
 - They are not allowed to modify the existing `state`. Instead, they must make _immutable updates_, by copying the existing `state` and making changes to the copied values.
 - They must not do any asynchronous logic or other "side effects"
 
-:::tip
 
 **A "side effect" is any change to state or behavior that can be seen outside of returning a value from a function**. Some common kinds of side effects are things like:
 
@@ -317,7 +315,6 @@ We said earlier that **reducers must _always_ follow some special rules**:
 - Modifying some state that exists outside of a function, or mutating arguments to a function
 - Generating random numbers or unique random IDs (such as `Math.random()` or `Date.now()`)
 
-:::
 
 Any function that follows these rules is also known as a **"pure" function**, even if it's not specifically written as a reducer function.
 
@@ -334,7 +331,6 @@ The rule about "immutable updates" is particularly important, and worth talking 
 
 Earlier, we talked about "mutation" (modifying existing object/array values) and "immutability" (treating values as something that cannot be changed).
 
-:::warning
 
 In Redux, **our reducers are _never_ allowed to mutate the original / current state values!**
 
@@ -343,7 +339,6 @@ In Redux, **our reducers are _never_ allowed to mutate the original / current st
 state.value = 123
 ```
 
-:::
 
 There are several reasons why you must not mutate state in Redux:
 
@@ -355,7 +350,6 @@ There are several reasons why you must not mutate state in Redux:
 
 So if we can't change the originals, how do we return an updated state?
 
-:::tip
 
 **Reducers can only make _copies_ of the original values, and then they can mutate the copies.**
 
@@ -377,12 +371,12 @@ However, if you're thinking that "writing immutable updates by hand this way loo
 
 Writing immutable update logic by hand _is_ hard, and **accidentally mutating state in reducers is the single most common mistake Redux users make**.
 
-:::tip
+
 
 **In real-world applications, you won't have to write these complex nested immutable updates by hand**. In [Part 8: Modern Redux with Redux Toolkit](./part-8-modern-redux.md), you'll
 learn how to use Redux Toolkit to simplify writing immutable update logic in reducers.
 
-:::
+
 
 ### Handling Additional Actions
 

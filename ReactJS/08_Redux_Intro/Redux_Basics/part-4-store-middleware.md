@@ -1,13 +1,10 @@
 # Redux Fundamentals, Part 4: Store
 
-:::tip What You'll Learn
-
 - How to create a Redux store
 - How to use the store to update state and listen for updates
 - How to configure the store to extend its capabilities
 - How to set up the Redux DevTools Extension to debug your app
 
-:::
 
 ## Introduction
 
@@ -18,7 +15,6 @@ to create a "root reducer" based on the different "slice reducers" for each feat
 
 Now, it's time to pull those pieces together, with the central piece of a Redux app: the **store**.
 
-<FundamentalsWarning />
 
 ## Redux Store
 
@@ -78,11 +74,11 @@ const store = createStore(rootReducer, preloadedState)
 
 Now that we have created a store, let's verify our program works! Even without any UI, we can already test the update logic.
 
-:::tip
+
 
 Before you run this code, try going back to `src/features/todos/todosSlice.js`, and remove all the example todo objects from the `initialState` so that it's an empty array. That will make the output from this example a bit easier to read.
 
-:::
+
 
 ```js title="src/index.js"
 // Omit existing React imports
@@ -148,7 +144,7 @@ Notice that our app did _not_ log anything from the last action. That's because 
 We specified the behavior of our app before we even started writing the UI. That
 helps give us confidence that the app will work as intended.
 
-:::info
+
 
 If you want, you can now try writing tests for your reducers. Because they're [pure functions](../../understanding/thinking-in-redux/ThreePrinciples.md#changes-are-made-with-pure-functions), it should be straightforward to test them. Call them with an example `state` and `action`,
 take the result, and check to see if it matches what you expect:
@@ -165,7 +161,7 @@ test('Toggles a todo based on id', () => {
 })
 ```
 
-:::
+
 
 ## Inside a Redux Store
 
@@ -225,11 +221,10 @@ In other words:
 
 One common cause of accidental mutations is sorting arrays. [**Calling `array.sort()` actually mutates the existing array**](https://doesitmutate.xyz/sort/). If we called `const sortedTodos = state.todos.sort()`, we'd end up mutating the real store state unintentionally.
 
-:::tip
+
 
 In [Part 8: Modern Redux](./part-8-modern-redux.md), we'll see how Redux Toolkit helps avoid mutations in reducers, and detects and warns about accidental mutations outside of reducers.
 
-:::
 
 ## Configuring the Store
 
@@ -322,7 +317,6 @@ So, we can see that both enhancers are modifying the behavior of the store at th
 
 Store enhancers are a very powerful way to modify the store, and almost all Redux apps will include at least one enhancer when setting up the store.
 
-:::tip
 
 If you don't have any `preloadedState` to pass in, you can pass the `enhancer` as the second argument instead:
 
@@ -330,7 +324,6 @@ If you don't have any `preloadedState` to pass in, you can pass the `enhancer` a
 const store = createStore(rootReducer, storeEnhancer)
 ```
 
-:::
 
 ## Middleware
 
@@ -427,7 +420,6 @@ Let's break down what these three functions do and what their arguments are.
 - `wrapDispatch`: The middle function receives a function called `next` as its argument. This function is actually the _next middleware_ in the pipeline. If this middleware is the last one in the sequence, then `next` is actually the original `store.dispatch` function instead. Calling `next(action)` passes the action to the _next_ middleware in the pipeline. This is also only called once
 - `handleAction`: Finally, the inner function receives the current `action` as its argument, and will be called _every_ time an action is dispatched.
 
-:::tip
 
 You can give these middleware functions any names you want, but it can help to use these names to remember what each one does:
 
@@ -435,7 +427,6 @@ You can give these middleware functions any names you want, but it can help to u
 - Middle: `wrapDispatch`
 - Inner: `handleAction`
 
-:::
 
 Because these are normal functions, we can also write them using ES6 arrow functions. This lets us write them shorter because arrow functions don't have to have a `return` statement, but it can also be a bit harder to read if you're not yet familiar with arrow functions and implicit returns.
 
@@ -455,11 +446,9 @@ We're still nesting those three functions together, and returning each function,
 
 Let's say we want to add some logging to our application. We'd like to see the contents of each action in the console when it's dispatched, and we'd like to see what the state is after the action has been handled by the reducers.
 
-:::info
 
 These example middleware aren't specifically part of the actual todo app, but you can try adding them to your project to see what happens when you use them.
 
-:::
 
 We can write a small middleware that will log that information to the console for us:
 
@@ -527,7 +516,7 @@ A middleware can do anything it wants when it sees a dispatched action:
 
 and anything else you can think of.
 
-In particular, **middleware are _intended_ to contain logic with side effects**. In addition, **middleware can modify `dispatch` to accept things that are _not_ plain action objects**. We'll talk more about both of these [in Part 6: Async Logic](../../09_Redux_Advanced_Concepts/Redux_Advanced/part-6-async-logic.md).
+In particular, **middleware are _intended_ to contain logic with side effects**. In addition, **middleware can modify `dispatch` to accept things that are _not_ plain action objects**.
 
 ## Redux DevTools
 
@@ -598,7 +587,7 @@ Let's see how our example app looks now:
 
 And as a reminder, here's what we covered in this section:
 
-:::tip Summary
+## Summary
 
 - **Redux apps always have a single store**
   - Stores are created with the Redux `createStore` API
@@ -620,11 +609,3 @@ And as a reminder, here's what we covered in this section:
   - The DevTools Extension can be installed in your browser
   - The store needs the DevTools enhancer added, using `composeWithDevTools`
   - The DevTools show dispatched actions and changes in state over time
-
-:::
-
-## What's Next?
-
-We now have a working Redux store that can run our reducers and update the state when we dispatch actions.
-
-However, every app needs a user interface to display the data and let the user do something useful. In [Part 5: UI and React](./part-5-ui-and-react.md), we'll see how the Redux store works with a UI, and specifically see how Redux can work together with React.

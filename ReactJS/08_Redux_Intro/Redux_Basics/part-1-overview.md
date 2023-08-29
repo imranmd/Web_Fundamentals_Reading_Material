@@ -4,11 +4,6 @@
 
 Welcome to the Redux Fundamentals tutorial! **This tutorial will introduce you to the core concepts, principles, and patterns for using Redux**. By the time you finish, you should understand the different pieces that make up a Redux app, how data flows when using Redux, and our standard recommended patterns for building Redux apps.
 
-In Part 1 of this tutorial, we'll briefly look at a minimal example of a working Redux app to see what the pieces are, and in [Part 2: Redux Concepts and Data Flow](./part-2-concepts-data-flow.md) we'll look at those pieces in more detail and how data flows in a Redux application.
-
-Starting in [Part 3: State, Actions, and Reducers](./part-3-state-actions-reducers.md), we'll use that knowledge to build a small example app that demonstrates how these pieces fit together and talk about how Redux works in practice. After we finish building the working example app "by hand" so that you can see exactly what's happening, we'll talk about some of the standard patterns and abstractions typically used with Redux. Finally, we'll see how these lower-level examples translate into the higher-level patterns that we recommend for actual usage in real applications.
-
-
 
  you should make sure that you have the React and Redux DevTools extensions installed in your browser:
 
@@ -66,11 +61,7 @@ The [**Redux DevTools Extension**](https://github.com/reduxjs/redux-devtools/tre
 
 Now that you know what Redux is, let's briefly look at the pieces that make up a Redux app and how it works.
 
-:::info
-
 The rest of the description on this page focuses solely on the Redux core library (the `redux` package). We'll talk about the other Redux-related packages as we go through the rest of the tutorial.
-
-:::
 
 ### The Redux Store
 
@@ -97,11 +88,6 @@ Let's look at a minimal working example of a Redux app - a small counter applica
 
 Because Redux is a standalone JS library with no dependencies, this example is written by only loading a single script tag for the Redux library, and uses basic JS and HTML for the UI. In practice, Redux is normally used by [installing the Redux packages from NPM](../../introduction/Installation.md), and the UI is created using a library like [React](https://reactjs.org).
 
-:::info
-
-[Part 5: UI and React](./part-5-ui-and-react.md) shows how to use Redux and React together.
-
-:::
 
 Let's break this example down into its separate parts to see what's happening.
 

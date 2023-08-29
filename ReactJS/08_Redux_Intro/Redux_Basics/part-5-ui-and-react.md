@@ -8,19 +8,11 @@
 
 ## Introduction
 
-In [Part 4: Store](./part-4-store.md), we saw how to create a Redux store, dispatch actions, and read the current state. We also looked at how a store works inside, how enhancers and middleware let us customize the store with additional abilities, and how to add the Redux DevTools to let us see what's happening inside our app as actions are dispatched.
+In [Part 4: Store](part-4-store-middleware.md), we saw how to create a Redux store, dispatch actions, and read the current state. We also looked at how a store works inside, how enhancers and middleware let us customize the store with additional abilities, and how to add the Redux DevTools to let us see what's happening inside our app as actions are dispatched.
 
 In this section, we'll add a User Interface for our todo app. We'll see how Redux works with a UI layer overall, and we'll specifically cover how Redux works together with React.
 
-:::caution
 
-Note that **this page and all of the "Essentials" tutorial teach how to use [our modern React-Redux hooks API](https://react-redux.js.org/api/hooks)**. The old-style [`connect` API](https://react-redux.js.org/api/connect) still works, but today we want all Redux users using the hooks API.
-
-Also, the other pages in this tutorial intentionally show older-style Redux logic patterns that require more code than the "modern Redux" patterns with Redux Toolkit we teach as the right approach for building apps with Redux today, in order to explain the principles and concepts behind Redux.
-
-See [**the "Redux Essentials" tutorial**](../essentials/part-1-overview-concepts.md) for full examples of "how to use Redux, the right way" with Redux Toolkit and React-Redux hooks for real-world apps.
-
-:::
 
 ## Integrating Redux with a UI
 
@@ -93,11 +85,6 @@ npm install react-redux
 
 For this tutorial, we'll cover the most important patterns and examples you need to use React and Redux together, and see how they work in practice as part of our todo app.
 
-:::info
-
-See **the official React-Redux docs at https://react-redux.js.org** for a complete guide on how to use Redux and React together, and reference documentation on the React-Redux APIs.
-
-:::
 
 ### Designing the Component Tree
 
@@ -113,7 +100,6 @@ Based on [the list of business requirements for the app](./part-3-state-actions-
 
 Beyond this basic component structure, we could potentially divide the components up in several different ways. For example, the `<Footer>` component _could_ be one larger component, or it could have multiple smaller components inside like `<CompletedTodos>`, `<StatusFilter>`, and `<ColorFilters>`. There's no single right way to divide these, and you'll find that it may be better to write larger components or split things into many smaller components depending on your situation.
 
-For now, we'll start with this small list of components to keep things easier to follow. On that note, since we assume that [you already know React](https://reactjs.org), **we're going to skip past the details of how to write the layout code for these components and focus on how to actually use the React-Redux library in your React components**.
 
 Here's the initial React UI of this app before we start adding any Redux-related logic:
 
@@ -190,11 +176,10 @@ Fortunately, **`useSelector` automatically subscribes to the Redux store for us!
 
 However, there's a very important thing to remember here:
 
-:::caution
+
 
 **`useSelector` compares its results using strict `===` reference comparisons, so the component will re-render any time the selector result is a new reference!** This means that if you create a new reference in your selector and return it, your component could re-render _every_ time an action has been dispatched, even if the data really isn't different.
 
-:::
 
 For example, passing this selector to `useSelector` will cause the component to _always_ re-render, because `array.map()` always returns a new array reference:
 
@@ -206,11 +191,7 @@ const selectTodoDescriptions = state => {
 }
 ```
 
-:::tip
 
-We'll talk about one way to fix this issue later in this section. We'll also talk about how you can improve performance and avoid unnecessary re-renders using "memoized" selector function in [Part 7: Standard Redux Patterns](./part-7-standard-patterns.md).
-
-:::
 
 It's also worth noting that we don't have to write a selector function as a separate variable. You can write a selector function directly inside the call to `useSelector`, like this:
 
@@ -333,7 +314,7 @@ So, it makes sense to keep that value in a `useState` hook here in the `<Header>
 
 Similarly, if we had a boolean flag called `isDropdownOpen`, no other components in the app would care about that - it should really stay local to this component.
 
-:::tip
+
 
 **In a React + Redux app, your global state should go in the Redux store, and your local state should stay in React components.**
 
@@ -346,7 +327,7 @@ If you're not sure where to put something, here are some common rules of thumb f
 - Do you want to cache the data (ie, use what's in state if it's already there instead of re-requesting it)?
 - Do you want to keep this data consistent while hot-reloading UI components (which may lose their internal state when swapped)?
 
-:::
+
 
 This is also a good example of how to think about forms in Redux in general. **Most form state probably shouldn't be kept in Redux.** Instead, keep the data in your form components as you're editing it, and then dispatch Redux actions to update the store when the user is done.
 
@@ -525,22 +506,8 @@ const TodoList = () => {
 
 Now, if we toggle a todo item, the list of IDs will be considered the same, and `<TodoList>` won't have to re-render. The one `<TodoListItem>` will get an updated todo object and re-render, but all the rest of them will still have the existing todo object and not have to re-render at all.
 
-As mentioned earlier, you can also use a specialized kind of selector function called [a "memoized selector"](part-7-standard-patterns.md) to help improve component rendering, and we'll look at how to use those in another section.
 
-## What You've Learned
 
-We now have a working todo app! Our app creates a store, passes the store to the React UI layer using `<Provider>`, and then calls `useSelector` and `useDispatch` to talk to the store in our React components.
-
-:::info
-
-Try implementing the rest of the missing UI features on your own! Here's a list of the things you'll need to add:
-
-- In `<TodoListItem>` component, use the `useDispatch` hook to dispatch actions for changing the color category and deleting the todo
-- In `<Footer>`, use the `useDispatch` hook to dispatch actions for marking all todos as completed, clearing completed todos, and changing the filter values.
-
-We'll cover implementing the filters in [Part 7: Standard Redux Patterns](./part-7-standard-patterns.md).
-
-:::
 
 Let's see how the app looks now, including the components and sections we skipped to keep this shorter:
 
@@ -568,4 +535,3 @@ Let's see how the app looks now, including the components and sections we skippe
   - You can call `dispatch(action)` as needed inside your components
 - **The `<Provider>` component makes the store available to other React components**
   - Render `<Provider store={store}>` around your entire `<App>`
-
