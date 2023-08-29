@@ -1,38 +1,10 @@
----
-id: part-8-rtk-query-advanced
-title: 'Redux Essentials, Part 8: RTK Query Advanced Patterns'
-sidebar_label: 'RTK Query Advanced Patterns'
-description: 'The official Redux Essentials tutorial: learn advanced patterns for fetching data with RTK Query'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
-:::tip What You'll Learn
-
-- How to use tags with IDs to manage cache invalidation and refetching
-- How to work with the RTK Query cache outside of React
-- Techniques for manipulating response data
-- Implementing optimistic updates and streaming updates
-
-:::
-
-:::info Prerequisites
-
-- Completion of [Part 7](./part-7-rtk-query-basics.md) to understand RTK Query setup and basic usage
-
-:::
-
 ## Introduction
 
 In [Part 7: RTK Query Basics](./part-7-rtk-query-basics.md), we saw how to set up and use the RTK Query API to handle data fetching and caching in our application. We added an "API slice" to our Redux store, defined "query" endpoints to fetch posts data, and a "mutation" endpoint to add a new post.
 
 In this section, we'll continue migrating our example app to use RTK Query for the other data types, and see how to use some of its advanced features to simplify the codebase and improve user experience.
 
-:::info
 
-Some of the changes in this section aren't strictly necessary - they're included to demonstrate RTK Query's features and show some of the things you _can_ do, so you can see how to use these features if you need them.
-
-:::
 
 ## Editing Posts
 
@@ -219,7 +191,7 @@ Because we provided the relationships between the endpoints using tags, **RTK Qu
 
 There is one caveat here. By specifying a plain `'Post'` tag in `getPosts` and invalidating it in `addNewPost`, we actually end up forcing a refetch of all _individual_ posts as well. If we really want to just refetch the list of posts for the `getPost` endpoint, you can include an additional tag with an arbitrary ID, like `{type: 'Post', id: 'LIST'}`, and invalidate that tag instead. The RTK Query docs have [a table that describes what will happen if certain general/specific tag combinations are invalidated](https://redux-toolkit.js.org/rtk-query/usage/automated-refetching#tag-invalidation-behavior).
 
-:::info
+### Bonus
 
 RTK Query has many other options for controlling when and how to refetch data, including "conditional fetching", "lazy queries", and "prefetching", and query definitions can be customized in a variety of ways. See the RTK Query usage guide docs for more details on using these features:
 
@@ -229,7 +201,6 @@ RTK Query has many other options for controlling when and how to refetch data, i
 - [RTK Query: Customizing Queries](https://redux-toolkit.js.org/rtk-query/usage/customizing-queries)
 - [RTK Query: `useLazyQuery`](https://redux-toolkit.js.org/rtk-query/api/created-api/hooks#uselazyquery)
 
-:::
 
 ## Managing Users Data
 
@@ -309,11 +280,7 @@ main()
 
 This dispatch happens automatically inside the query hooks, but we can start it manually if needed.
 
-:::caution
 
-Manually dispatching an RTKQ request thunk will create a subscription entry, but it's then up to you to [unsubscribe from that data later](https://redux-toolkit.js.org/rtk-query/usage/usage-without-react-hooks#removing-a-subscription) - otherwise the data stays in the cache permanently. In this case, we always need user data, so we can skip unsubscribing.
-
-:::
 
 ### Selecting Users Data
 
@@ -1111,7 +1078,7 @@ Let's take one last look at the whole application in action:
   sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
 ></iframe>
 
-:::tip Summary
+## Summary
 
 - **Specific cache tags can be used for finer-grained cache invalidation**
   - Cache tags can be either `'Post'` or `{type: 'Post', id}`
@@ -1126,16 +1093,6 @@ Let's take one last look at the whole application in action:
   - The `onQueryStarted` lifecycle can be used for optimistic updates by updating cache immediately before a request returns
   - The `onCacheEntryAdded` lifecycle can be used for streaming updates by updating cache over time based on server push connections
 
-:::
 
-## What's Next?
-
-Congratulations, **you've completed the Redux Essentials tutorial!** You should now have a solid understanding of what Redux Toolkit and React-Redux are, how to write and organize Redux logic, Redux data flow and usage with React, and how to use APIs like `configureStore` and `createSlice`. You should also see how RTK Query can simplify the process of fetching and using cached data.
-
-The ["What's Next?" section in Part 6](./part-6-performance-normalization.md) has links to additional resources for app ideas, tutorials, and documentation.
-
-For more details on using RTK Query, see [the RTK Query usage guide docs](https://redux-toolkit.js.org/rtk-query/usage/queries) and [API reference](https://redux-toolkit.js.org/rtk-query/api/createApi).
-
-If you're looking for help with Redux questions, come join [the `#redux` channel in the Reactiflux server on Discord](https://www.reactiflux.com).
 
 **Thanks for reading through this tutorial, and we hope you enjoy building applications with Redux!**

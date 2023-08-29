@@ -1,37 +1,10 @@
----
-id: part-3-data-flow
-title: 'Redux Essentials, Part 3: Basic Redux Data Flow'
-sidebar_label: 'Basic Redux Data Flow'
-description: 'The official Redux Essentials tutorial: learn how data flows in a React + Redux app'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
-:::tip What You'll Learn
-
-- How to add "slices" of reducer logic to the Redux store with `createSlice`
-- Reading Redux data in components with the `useSelector` hook
-- Dispatching actions in components with the `useDispatch` hook
-
-:::
-
-:::info Prerequisites
-
-- Familiarity with key Redux terms and concepts like "actions", "reducers", "store", and "dispatching". (See [**Part 1: Redux Overview and Concepts**](./part-1-overview-concepts.md) for explanations of these terms.)
-
-:::
-
 ## Introduction
 
 In [Part 1: Redux Overview and Concepts](./part-1-overview-concepts.md), we looked at how Redux can help us build maintainable apps by giving us a single central place to put global app state. We also talked about core Redux concepts like dispatching action objects, using reducer functions that return new state values, and writing async logic using thunks. In [Part 2: Redux Toolkit App Structure](./part-2-app-structure.md), we saw how APIs like `configureStore` and `createSlice` from Redux Toolkit and `Provider` and `useSelector` from React-Redux work together to let us write Redux logic and interact with that logic from our React components.
 
 Now that you have some idea of what these pieces are, it's time to put that knowledge into practice. We're going to build a small social media feed app, which will include a number of features that demonstrate some real-world use cases. This will help you understand how to use Redux in your own applications.
 
-:::caution
 
-The example app is not meant as a complete production-ready project. The goal is to help you learn the Redux APIs and typical usage patterns, and point you in the right direction using some limited examples. Also, some of the early pieces we build will be updated later on to show better ways to do things. Please read through the whole tutorial to see all the concepts in use.
-
-:::
 
 ### Project Setup
 
@@ -327,11 +300,10 @@ export const { postAdded } = postsSlice.actions
 export default postsSlice.reducer
 ```
 
-:::warning
+### warning
 
 Remember: **reducer functions must _always_ create new state values immutably, by making copies!** It's safe to call mutating functions like `Array.push()` or modify object fields like `state.someField = someValue` inside of `createSlice()`, because it converts those mutations into safe immutable updates internally using the Immer library, but **don't try to mutate any data outside of `createSlice`!**
 
-:::
 
 #### Dispatching the "Post Added" Action
 
@@ -339,11 +311,7 @@ Our `AddPostForm` has text inputs and a "Save Post" button, but the button doesn
 
 Our post objects also need to have an `id` field. Right now, our initial test posts are using some fake numbers for their IDs. We could write some code that would figure out what the next incrementing ID number should be, but it would be better if we generated a random unique ID instead. Redux Toolkit has a `nanoid` function we can use for that.
 
-:::info
 
-We'll talk more about generating IDs and dispatching actions in [Part 4: Using Redux Data](./part-4-using-data.md).
-
-:::
 
 In order to dispatch actions from a component, we need access to the store's `dispatch` function. We get this by calling the `useDispatch` hook from React-Redux. We also need to import the `postAdded` action creator into this file.
 
@@ -426,7 +394,7 @@ Notice that our `AddPostForm` component has some React `useState` hooks inside, 
 
 Let's recap what you've learned in this section:
 
-:::tip Summary
+## Summary
 
 - **Redux state is updated by "reducer functions"**:
   - Reducers always calculate a new state _immutably_, by copying existing state values and modifying the copies with the new data
@@ -441,7 +409,6 @@ Let's recap what you've learned in this section:
   - Reducers will run, check to see if this action is relevant, and return new state if appropriate
   - Temporary data like form input values should be kept as React component state. Dispatch a Redux action to update the store when the user is done with the form.
 
-:::
 
 Here's what the app looks like so far:
 
@@ -453,6 +420,5 @@ Here's what the app looks like so far:
   sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
 ></iframe>
 
-## What's Next?
 
-Now that you know the basic Redux data flow, move on to [Part 4: Using Redux Data](./part-4-using-data.md), where we'll add some additional functionality to our app and see examples of how to work with the data that's already in the store.
+**Thanks for reading through this tutorial, and we hope you enjoy building applications with Redux!**

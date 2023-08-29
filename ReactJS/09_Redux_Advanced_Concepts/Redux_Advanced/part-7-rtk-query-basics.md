@@ -1,25 +1,3 @@
----
-id: part-7-rtk-query-basics
-title: 'Redux Essentials, Part 7: RTK Query Basics'
-sidebar_label: 'RTK Query Basics'
-description: 'The official Redux Essentials tutorial: learn how to use RTK Query for data fetching'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
-:::tip What You'll Learn
-
-- How RTK Query simplifies data fetching for Redux apps
-- How to set up RTK Query
-- How to use RTK Query for basic data fetching and update requests
-
-:::
-
-:::info Prerequisites
-
-- Completion of the previous sections of this tutorial to understand Redux Toolkit usage patterns
-
-:::
 
 ## Introduction
 
@@ -138,13 +116,7 @@ export const { useGetPostsQuery } = apiSlice
 
 RTK Query's functionality is based on a single method, called `createApi`. All of the Redux Toolkit APIs we've seen so far are UI-agnostic, and could be used with _any_ UI layer. The RTK Query core logic is the same way. However, RTK Query also includes a React-specific version of `createApi`, and since we're using RTK and React together, we need to use that to take advantage of RTK's React integration. So, we import from `'@reduxjs/toolkit/query/react'` specifically.
 
-:::tip
 
-**Your application is expected to have only one `createApi` call in it**. This one API slice should contain _all_ endpoint definitions that talk to the same base URL. For example, endpoints `/api/posts` and `/api/users` are both fetching data from the same server, so they would go in the same API slice. If your app does fetch data from multiple servers, you can either specify full URLs in each endpoint, or if necessary create separate API slices for each server.
-
-Endpoints are normally defined directly inside the `createApi` call. If you're looking to split up your endpoints between multiple files, see [the "Injecting Endpoints" section in Part 8](./part-8-rtk-query-advanced.md#injecting-endpoints) section of the docs!
-
-:::
 
 #### API Slice Parameters
 
@@ -287,11 +259,10 @@ export const PostsList = () => {
 
 Conceptually, `<PostsList>` is still doing all the same work it was before, but **we were able to replace the multiple `useSelector` calls and the `useEffect` dispatch with a single call to `useGetPostsQuery()`**.
 
-:::tip
+### tip
 
 You should normally use the query hooks to access cached data in components - you _shouldn't_ write your own `useSelector` calls to access fetched data or `useEffect` calls to trigger fetching!
 
-:::
 
 Each generated query hook returns a "result" object containing several fields, including:
 
@@ -451,24 +422,12 @@ We can see that we have a top-level `state.api` slice, as expected from the stor
 
 RTK Query creates a "cache key" for each unique endpoint + argument combination, and stores the results for each cache key separately. That means that **you can use the same query hook multiple times, pass it different query parameters, and each result will be cached separately in the Redux store**.
 
-:::tip
-
-If you need the same data in multiple components, just call the same query hook with the same arguments in each component! For example, you can call `useGetPostQuery('123')` in three different components, and RTK Query will make sure the data is only fetched once, and each component will re-render as needed.
-
-:::
 
 It's also important to note that **the query parameter must be a _single_ value!** If you need to pass through multiple parameters, you must pass an object containing multiple fields (exactly the same as with `createAsyncThunk`). RTK Query will do a "shallow stable" comparison of the fields, and re-fetch the data if any of them have changed.
 
 Notice that the names of the actions in the left-hand list are much more generic and less descriptive: `api/executeQuery/fulfilled`, instead of `posts/fetchPosts/fulfilled`. This is a tradeoff of using an additional abstraction layer. The individual actions do contain the specific endpoint name under `action.meta.arg.endpointName`, but it's not as easily viewable in the action history list.
 
-:::tip
 
-The Redux DevTools have an "RTK Query" tab that specifically shows RTK Query data in a more usable format. This includes info on each endpoint and cache result, stats on query timing, and much more:
-
-- [Redux DevTools #750: Add RTK Query-Inspector monitor](https://github.com/reduxjs/redux-devtools/pull/750)
-- [RTK Query Monitor preview demo](https://rtk-query-monitor-demo.netlify.app/)
-
-:::
 
 ## Creating Posts with Mutations
 
@@ -704,7 +663,7 @@ With RTK Query, the actual details of how to manage data fetching, caching, and 
   sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
 ></iframe>
 
-:::tip Summary
+## Summary
 
 - **RTK Query is a data fetching and caching solution included in Redux Toolkit**
   - RTK Query abstracts the process of managing cached server data for you, and eliminates the need to write logic for loading state, storing results, and making requests
@@ -720,8 +679,5 @@ With RTK Query, the actual details of how to manage data fetching, caching, and 
   - Mutation hooks return a "trigger" function that sends an update request, plus loading status
   - The trigger function returns a Promise that can be "unwrapped" and awaited
 
-:::
 
-## What's Next?
-
-RTK Query provides solid default behavior, but also includes many options for customizing how requests are managed and working with cached data. In [Part 8: RTK Query Advanced Patterns](./part-8-rtk-query-advanced.md), we'll see how to use these options to implement useful features like optimistic updates.
+**Thanks for reading through this tutorial, and we hope you enjoy building applications with Redux!**

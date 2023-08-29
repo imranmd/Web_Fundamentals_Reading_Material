@@ -1,19 +1,3 @@
----
-id: part-2-app-structure
-title: 'Redux Essentials, Part 2: Redux Toolkit App Structure'
-sidebar_label: 'Redux Toolkit App Structure'
-description: 'The official Redux Essentials tutorial: learn the structure of a typical React + Redux Toolkit app'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
-:::tip What You'll Learn
-
-- The structure of a typical React + Redux Toolkit app
-- How to view state changes in the Redux DevTools Extension
-
-:::
-
 ## Introduction
 
 In [Part 1: Redux Overview and Concepts](./part-1-overview-concepts.md), we looked at why Redux is useful, the terms and concepts used to describe different parts of Redux code, and how data flows through a Redux app.
@@ -299,14 +283,13 @@ Earlier, we talked about "mutation" (modifying existing object/array values) and
 
 In Redux, **our reducers are _never_ allowed to mutate the original / current state values!**
 
-:::warning
+### warning
 
 ```js
 // ❌ Illegal - by default, this will mutate the state!
 state.value = 123
 ```
 
-:::
 
 There are several reasons why you must not mutate state in Redux:
 
@@ -318,7 +301,7 @@ There are several reasons why you must not mutate state in Redux:
 
 So if we can't change the originals, how do we return an updated state?
 
-:::tip
+
 
 **Reducers can only make _copies_ of the original values, and then they can mutate the copies.**
 
@@ -330,7 +313,6 @@ return {
 }
 ```
 
-:::
 
 We already saw that we can [write immutable updates by hand](./part-1-overview-concepts.md#immutability), by using JavaScript's array / object spread operators and other functions that return copies of the original values. However, if you're thinking that "writing immutable updates by hand this way looks hard to remember and do correctly"... yeah, you're right! :)
 
@@ -372,11 +354,10 @@ That's a lot easier to read!
 
 But, here's something _very_ important to remember:
 
-:::warning
+### warning
 
 **You can _only_ write "mutating" logic in Redux Toolkit's `createSlice` and `createReducer` because they use Immer inside! If you write mutating logic in reducers without Immer, it _will_ mutate the state and cause bugs!**
 
-:::
 
 With that in mind, let's go back and look at the actual reducers from the counter slice.
 
@@ -411,11 +392,10 @@ In both of those reducers, we don't actually need to have our code look at the `
 
 On the other hand, the `incrementByAmount` reducer _does_ need to know something: how much it should be adding to the counter value. So, we declare the reducer as having both `state` and `action` arguments. In this case, we know that the amount we typed into the textbox is being put into the `action.payload` field, so we can add that to `state.value`.
 
-:::info Want to Know More?
+### Want to Know More?
 
 For more information on immutability and writing immutable updates, see [the "Immutable Update Patterns" docs page](../../usage/structuring-reducers/ImmutableUpdatePatterns.md) and [The Complete Guide to Immutability in React and Redux](https://daveceddia.com/react-redux-immutability-guide/).
 
-:::
 
 ### Writing Async Logic with Thunks
 
@@ -512,11 +492,6 @@ This gives us a way to write whatever sync or async code we want, while still ha
 
 There's one more function in this file, but we'll talk about that in a minute when we look at the `<Counter>` UI component.
 
-:::info Want to Know More?
-
-See [the Redux Thunk docs](../../usage/writing-logic-thunks.mdx), the post [What the heck is a thunk?](https://daveceddia.com/what-is-a-thunk/) and the [Redux FAQ entry on "why do we use middleware for async?"](../../faq/Actions.md#how-can-i-represent-side-effects-such-as-ajax-calls-why-do-we-need-things-like-action-creators-thunks-and-middleware-to-do-async-behavior) for more information.
-
-:::
 
 ### The React Counter Component
 
@@ -730,7 +705,7 @@ Now, any React components that call `useSelector` or `useDispatch` will be talki
 
 Even though the counter example app is pretty small, it showed all the key pieces of a React + Redux app working together. Here's what we covered:
 
-:::tip Summary
+## Summary
 
 - **We can create a Redux store using the Redux Toolkit `configureStore` API**
   - `configureStore` accepts a `reducer` function as a named argument
@@ -750,10 +725,4 @@ Even though the counter example app is pretty small, it showed all the key piece
   - Wrapping the app with `<Provider store={store}>` enables all components to use the store
   - Global state should go in the Redux store, local state should stay in React components
 
-:::
-
-## What's Next?
-
-Now that you've seen all the pieces of a Redux app in action, it's time to write your own! For the rest of this tutorial, you'll be building a larger example app that uses Redux. Along the way, we'll cover all the key ideas you need to know to use Redux the right way.
-
-Continue on to [Part 3: Basic Redux Data Flow](./part-3-data-flow.md) to get started building the example app.
+**Thanks for reading through this tutorial, and we hope you enjoy building applications with Redux!**

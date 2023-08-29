@@ -1,10 +1,3 @@
----
-id: overview
-title: 'Redux Toolkit: Overview'
-description: 'Redux Toolkit is the recommended way to write Redux logic'
-hide_title: true
----
-
 ## What is Redux Toolkit?
 
 **[Redux Toolkit](https://redux-toolkit.js.org)** is our official, opinionated, batteries-included toolset for efficient Redux development. It is intended to be the standard way to write Redux logic, and we strongly recommend that you use it.
@@ -64,3 +57,5 @@ Redux Toolkit also has the [**RTK Query data fetching API**](https://redux-toolk
 ## Documentation
 
 The complete Redux Toolkit documentation is available at **[https://redux-toolkit.js.org](https://redux-toolkit.js.org)**.
+
+**Thanks for reading through this tutorial, and we hope you enjoy building applications with Redux!**

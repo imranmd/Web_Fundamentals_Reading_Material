@@ -361,7 +361,6 @@ return {
 }
 ```
 
-:::
 
 We already saw that we can [write immutable updates by hand](./part-2-concepts-data-flow.md#immutability), by using JavaScript's array / object spread operators and other functions that return copies of the original values.
 
@@ -589,7 +588,6 @@ export default function filtersReducer(state = initialState, action) {
 
 We still have to copy the object containing the filters state, but since there's less nesting, it's easier to read what's happening.
 
-:::info
 
 To keep this page shorter, we'll skip showing how to write the reducer update logic for the other actions.
 
@@ -597,7 +595,6 @@ To keep this page shorter, we'll skip showing how to write the reducer update lo
 
 If you get stuck, see [the CodeSandbox at the end of this page](#what-youve-learned) for the complete implementation of these reducers.
 
-:::
 
 ## Combining Reducers
 

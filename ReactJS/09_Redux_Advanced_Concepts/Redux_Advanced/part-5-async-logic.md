@@ -1,25 +1,3 @@
----
-id: part-5-async-logic
-title: 'Redux Essentials, Part 5: Async Logic and Data Fetching'
-sidebar_label: 'Async Logic and Data Fetching'
-description: 'The official Redux Essentials tutorial: learn how async logic works in Redux apps'
----
-
-import { DetailedExplanation } from '../../components/DetailedExplanation'
-
-:::tip What You'll Learn
-
-- How to use the Redux "thunk" middleware for async logic
-- Patterns for handling async request state
-- How to use the Redux Toolkit `createAsyncThunk` API to simplify async calls
-
-:::
-
-:::info Prerequisites
-
-- Familiarity with using AJAX requests to fetch and update data from a server
-
-:::
 
 ## Introduction
 
@@ -29,13 +7,11 @@ So far, all the data we've worked with has been directly inside of our React cli
 
 In this section, we'll convert our social media app to fetch the posts and users data from an API, and add new posts by saving them to the API.
 
-:::tip
 
 Redux Toolkit includes the [**RTK Query data fetching and caching API**](https://redux-toolkit.js.org/rtk-query/overview). RTK Query is a purpose built data fetching and caching solution for Redux apps, and **can eliminate the need to write _any_ thunks or reducers to manage data fetching**. We specifically teach RTK Query as the default approach for data fetching, and RTK Query is built on the same patterns shown in this page.
 
 We'll cover how to use RTK Query starting in [Part 7: RTK Query Basics](./part-7-rtk-query-basics.md).
 
-:::
 
 ### Example REST API and Client
 
@@ -47,11 +23,6 @@ We'll use the `client` object to make HTTP calls to our in-memory fake REST API 
 
 Also, the mock server has been set up to reuse the same random seed each time the page is loaded, so that it will generate the same list of fake users and fake posts. If you want to reset that, delete the `'randomTimestampSeed'` value in your browser's Local Storage and reload the page, or you can turn that off by editing `src/api/server.js` and setting `useSeededRNG` to `false`.
 
-:::info
-
-As a reminder, the code examples focus on the key concepts and changes for each section. See the CodeSandbox projects and the [`tutorial-steps` branch in the project repo](https://github.com/reduxjs/redux-essentials-example-app/tree/tutorial-steps) for the complete changes in the application.
-
-:::
 
 ## Thunks and Async Logic
 
@@ -112,7 +83,6 @@ store.dispatch(logAndAdd(5))
 
 Thunks are typically written in "slice" files. `createSlice` itself does not have any special support for defining thunks, so you should write them as separate functions in the same slice file. That way, they have access to the plain action creators for that slice, and it's easy to find where the thunk lives.
 
-:::info
 
 The word "thunk" is a programming term that means ["a piece of code that does some delayed work"](https://en.wikipedia.org/wiki/Thunk). For more details on how to use thunks, see the thunk usage guide page:
 
@@ -123,7 +93,6 @@ as well as these posts:
 - [What the heck is a thunk?](https://daveceddia.com/what-is-a-thunk/)
 - [Thunks in Redux: the basics](https://medium.com/fullstack-academy/thunks-in-redux-the-basics-85e538a3fe60)
 
-:::
 
 ### Writing Async Thunks
 
@@ -652,11 +621,6 @@ You may have noticed that this time the case reducer isn't using the `state` var
 
 In this case, the initial state was an empty array, and we probably could have done `state.push(...action.payload)` to mutate it. But, in our case we really want to replace the list of users with whatever the server returned, and this avoids any chance of accidentally duplicating the list of users in state.
 
-:::info
-
-To learn more about how state updates with Immer work, see the ["Writing Reducers with Immer" guide in the RTK docs](https://redux-toolkit.js.org/usage/immer-reducers#immer-usage-patterns).
-
-:::
 
 We only need to fetch the list of users once, and we want to do it right when the application starts. We can do that in our `index.js` file, and directly dispatch the `fetchUsers` thunk because we have the `store` right there:
 
@@ -810,7 +774,7 @@ Here's what our app looks like now that we're fetching data from that fake API:
 
 As a reminder, here's what we covered in this section:
 
-:::tip Summary
+## Summary
 
 - **You can write reusable "selector" functions to encapsulate reading values from the Redux state**
   - Selectors are functions that get the Redux `state` as an argument, and return some data
@@ -827,8 +791,5 @@ As a reminder, here's what we covered in this section:
   - Action creators can be used to automatically fill in the keys of the `extraReducers` object so the slice knows what actions to listen for.
   - Thunks can return promises. For `createAsyncThunk` specifically, you can `await dispatch(someThunk()).unwrap()` to handle the request success or failure at the component level.
 
-:::
 
-## What's Next?
-
-We've got one more set of topics to cover the core Redux Toolkit APIs and usage patterns. In [Part 6: Performance and Normalizing Data](./part-6-performance-normalization.md), we'll look at how Redux usage affects React performance, and some ways we can optimize our application for improved performance.
+**Thanks for reading through this tutorial, and we hope you enjoy building applications with Redux!**

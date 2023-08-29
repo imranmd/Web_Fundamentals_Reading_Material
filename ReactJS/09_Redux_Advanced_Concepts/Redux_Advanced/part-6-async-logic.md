@@ -15,15 +15,7 @@ So far, all the data we've worked with has been directly inside of our React+Red
 
 In this section, we'll update our todo app to fetch the todos from an API, and add new todos by saving them to the API.
 
-<FundamentalsWarning />
 
-:::tip
-
-Redux Toolkit includes the [**RTK Query data fetching and caching API**](https://redux-toolkit.js.org/rtk-query/overview). RTK Query is a purpose built data fetching and caching solution for Redux apps, and **can eliminate the need to write _any_ thunks or reducers to manage data fetching**. We specifically teach RTK Query as the default approach for data fetching, and RTK Query is built on the same patterns shown in this page.
-
-Learn how to use RTK Query for data fetching in [Redux Essentials, Part 7: RTK Query Basics](../essentials/part-7-rtk-query-basics.md).
-
-:::
 
 ### Example REST API and Client
 
@@ -87,15 +79,6 @@ const fetchTodosMiddleware = storeAPI => next => action => {
   return next(action)
 }
 ```
-
-:::info
-
-For more details on why and how Redux uses middleware for async logic, see these StackOverflow answers by Redux creator Dan Abramov:
-
-- ["How to dispatch a Redux action with a timeout?"](https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559)
-- ["Why do we need middleware for async flow?"](https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux/34599594#34599594)
-
-:::
 
 ### Writing an Async Function Middleware
 
@@ -161,18 +144,6 @@ As it turns out, Redux already has an official version of that "async function m
 
 **Writing async logic as thunk functions allows us to reuse that logic without knowing what Redux store we're using ahead of time**.
 
-:::info
-
-The word "thunk" is a programming term that means ["a piece of code that does some delayed work"](https://en.wikipedia.org/wiki/Thunk). For more details on how to use thunks, see the thunk usage guide page:
-
-- [Using Redux: Writing Logic with Thunks](../../usage/writing-logic-thunks.mdx)
-
-as well as these posts:
-
-- [What the heck is a thunk?](https://daveceddia.com/what-is-a-thunk/)
-- [Thunks in Redux: the basics](https://medium.com/fullstack-academy/thunks-in-redux-the-basics-85e538a3fe60)
-
-:::
 
 ### Configuring the Store
 
@@ -421,11 +392,7 @@ And now adding a new todo will work correctly:
 
 ![Devtools - async todoAdded state diff](/img/tutorials/fundamentals/devtools-async-todoAdded-diff.png)
 
-:::tip
 
-Thunk functions can be used for both asynchronous _and_ synchronous logic. Thunks provide a way to write any reusable logic that needs access to `dispatch` and `getState`.
-
-:::
 
 ## What You've Learned
 
@@ -443,7 +410,7 @@ Here's what the current app looks like:
   sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
 ></iframe>
 
-:::tip Summary
+##  Summary
 
 - **Redux middleware were designed to enable writing logic that has side effects**
   - "Side effects" are code that changes state/behavior outside a function, like AJAX calls, modifying function arguments, or generating random values
@@ -454,14 +421,4 @@ Here's what the current app looks like:
   - "Thunk" functions let us write async logic ahead of time, without knowing what Redux store is being used
   - A Redux thunk function receives `dispatch` and `getState` as arguments, and can dispatch actions like "this data was received from an API response"
 
-:::
-
-## What's Next?
-
-We've now covered all the core pieces of how to use Redux! You've seen how to:
-
-- Write reducers that update state based on dispatched actions,
-- Create and configure a Redux store with a reducer, enhancers, and middleware
-- Use middleware to write async logic that dispatches actions
-
-In [Part 7: Standard Redux Patterns](./part-7-standard-patterns.md), we'll look at several code patterns that are typically used by real-world Redux apps to make our code more consistent and scale better as the application grows.
+**Thanks for reading through this tutorial, and we hope you enjoy building applications with Redux!**
