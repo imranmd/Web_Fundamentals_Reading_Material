@@ -8,7 +8,7 @@
 
 ## Introduction
 
-In [Part 3: State, Actions, and Reducers](./part-3-state-actions-reducers.md), we started writing our example todo app. We
+In [Part 3: State, Actions, and Reducers](03-state-actions-reducers.md), we started writing our example todo app. We
 listed business requirements, defined the **state** structure we need to make the app work, and created a series of action types
 to describe "what happened" and match the kinds of events that can happen as a user interacts with our app. We also wrote **reducer** functions that can handle updating our `state.todos` and `state.filters` sections, and saw how we can use the Redux `combineReducers` function
 to create a "root reducer" based on the different "slice reducers" for each feature in our app.
@@ -26,12 +26,12 @@ The Redux **store** brings together the state, actions, and reducers that make u
 - Registers listener callbacks via [`store.subscribe(listener)`](../../api/Store.md#subscribe);
 - Handles unregistering of listeners via the `unsubscribe` function returned by [`store.subscribe(listener)`](../../api/Store.md#subscribe).
 
-It's important to note that **you'll only have a single store in a Redux application**. When you want to split your data handling logic, you'll use [reducer composition](./part-3-state-actions-reducers.md#splitting-reducers) and create multiple reducers that
+It's important to note that **you'll only have a single store in a Redux application**. When you want to split your data handling logic, you'll use [reducer composition](03-state-actions-reducers.md#splitting-reducers) and create multiple reducers that
 can be combined together, instead of creating separate stores.
 
 ### Creating a Store
 
-**Every Redux store has a single root reducer function**. In the previous section, we [created a root reducer function using `combineReducers`](./part-3-state-actions-reducers.md#combinereducers). That root reducer is currently defined in `src/reducer.js` in our example app. Let's import that root reducer and create our first store.
+**Every Redux store has a single root reducer function**. In the previous section, we [created a root reducer function using `combineReducers`](03-state-actions-reducers.md#combinereducers). That root reducer is currently defined in `src/reducer.js` in our example app. Let's import that root reducer and create our first store.
 
 The Redux core library has [**a `createStore` API**](../../api/createStore.md) that will create the store. Add a new file
 called `store.js`, and import `createStore` and the root reducer. Then, call `createStore` and pass in the root reducer:

@@ -8,7 +8,7 @@
 
 ## Introduction
 
-In [Part 4: Store](part-4-store-middleware.md), we saw how to create a Redux store, dispatch actions, and read the current state. We also looked at how a store works inside, how enhancers and middleware let us customize the store with additional abilities, and how to add the Redux DevTools to let us see what's happening inside our app as actions are dispatched.
+In [Part 4: Store](04-store-middleware.md), we saw how to create a Redux store, dispatch actions, and read the current state. We also looked at how a store works inside, how enhancers and middleware let us customize the store with additional abilities, and how to add the Redux DevTools to let us see what's happening inside our app as actions are dispatched.
 
 In this section, we'll add a User Interface for our todo app. We'll see how Redux works with a UI layer overall, and we'll specifically cover how Redux works together with React.
 
@@ -37,7 +37,7 @@ Using Redux with any UI layer requires a few consistent steps:
 4. If necessary, render the UI with initial state
 5. Respond to UI inputs by dispatching Redux actions
 
-Let's go back to the [the counter app example we saw in Part 1](./part-1-overview.md) and see how it follows those steps:
+Let's go back to the [the counter app example we saw in Part 1](01-overview.md) and see how it follows those steps:
 
 ```js
 // 1) Create a new Redux store with the `createStore` function
@@ -88,9 +88,9 @@ For this tutorial, we'll cover the most important patterns and examples you need
 
 ### Designing the Component Tree
 
-Much like we [designed the state structure](./part-3-state-actions-reducers.md#designing-the-state-structure) based on requirements, we can also design the overall set of UI components and how they relate to each other in the application.
+Much like we [designed the state structure](03-state-actions-reducers.md#designing-the-state-structure) based on requirements, we can also design the overall set of UI components and how they relate to each other in the application.
 
-Based on [the list of business requirements for the app](./part-3-state-actions-reducers.md#defining-requirements), at a minimum we're going to need this set of components:
+Based on [the list of business requirements for the app](03-state-actions-reducers.md#defining-requirements), at a minimum we're going to need this set of components:
 
 - **`<App>`**: the root component that renders everything else.
   - **`<Header>`**: contains the "new todo" text input and the "complete all todos" checkbox

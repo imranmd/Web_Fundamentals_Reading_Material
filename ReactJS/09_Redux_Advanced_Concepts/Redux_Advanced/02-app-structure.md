@@ -447,7 +447,7 @@ const fetchUserById = userId => {
 }
 ```
 
-We'll see thunks being used in [Part 5: Async Logic and Data Fetching](./part-5-async-logic.md)
+We'll see thunks being used in [Part 5: Async Logic and Data Fetching](05-async-logic.md)
 
 <DetailedExplanation title="Detailed Explanation: Thunks and Async Logic">
 
