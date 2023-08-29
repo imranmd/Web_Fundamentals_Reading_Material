@@ -9,7 +9,7 @@
 
 ## Introduction
 
-In [Part 5: UI and React](../../08_Redux_Intro/Redux_Basics/05-ui-and-react.md), we saw how to use the React-Redux library to let our React components interact with a Redux store, including calling `useSelector` to read Redux state, calling `useDispatch` to give us access to the `dispatch` function, and wrapping our app in a `<Provider>` component to give those hooks access to the store.
+In [Part 5: UI and React](../../08_Redux_Intro/Redux_Library_Framework_Agnostic_Concepts_Basics/05-ui-and-react.md), we saw how to use the React-Redux library to let our React components interact with a Redux store, including calling `useSelector` to read Redux state, calling `useDispatch` to give us access to the `dispatch` function, and wrapping our app in a `<Provider>` component to give those hooks access to the store.
 
 So far, all the data we've worked with has been directly inside of our React+Redux client application. However, most real applications need to work with data from a server, by making HTTP API calls to fetch and save items.
 
@@ -134,7 +134,7 @@ Just like with a normal action, we first need to handle a user event in the appl
 
 Once that dispatched value reaches a middleware, it can make an async call, and then dispatch a real action object when the async call completes.
 
-Earlier, we saw [a diagram that represents the normal synchronous Redux data flow](../../08_Redux_Intro/Redux_Basics/02-concepts-data-flow.md#redux-application-data-flow). When we add async logic to a Redux app, we add an extra step where middleware can run logic like AJAX requests, then dispatch actions. That makes the async data flow look like this:
+Earlier, we saw [a diagram that represents the normal synchronous Redux data flow](../../08_Redux_Intro/Redux_Library_Framework_Agnostic_Concepts_Basics/02-concepts-data-flow.md#redux-application-data-flow). When we add async logic to a Redux app, we add an extra step where middleware can run logic like AJAX requests, then dispatch actions. That makes the async data flow look like this:
 
 ![Redux async data flow diagram](/img/tutorials/essentials/ReduxAsyncDataFlowDiagram.gif)
 
