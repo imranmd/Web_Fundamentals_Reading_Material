@@ -32,7 +32,7 @@ The counter app has already been set up to let us watch what happens inside as w
 
 Open up your browser's DevTools. Then, choose the "Redux" tab in the DevTools, and click the "State" button in the upper-right toolbar. You should see something that looks like this:
 
-![Redux DevTools: initial app state](/img/tutorials/essentials/devtools-initial.png)
+![Redux DevTools: initial app state](../../Assets/Redux/devtools-initial.png)
 
 On the right, we can see that our Redux store is starting off with an app state value that looks like this:
 
@@ -48,7 +48,7 @@ The DevTools will show us how the store state changes as we use the app.
 
 Let's play with the app first to see what it does. Click the "+" button in the app, then look at the "Diff" tab in the Redux DevTools:
 
-![Redux DevTools: first dispatched action](/img/tutorials/essentials/devtools-first-action.png)
+![Redux DevTools: first dispatched action](../../Assets/Redux/devtools-first-action.png)
 
 We can see two important things here:
 
@@ -65,7 +65,7 @@ Now try these steps:
 
 Go back to the Redux DevTools. You should see a total of five actions dispatched, one for each time we clicked a button . Now select the last `"counter/incrementByAmount"` entry from the list on the left, and click the "Action" tab on the right side:
 
-![Redux DevTools: done clicking buttons](/img/tutorials/essentials/devtools-done-clicking.png)
+![Redux DevTools: done clicking buttons](../../Assets/Redux/devtools-done-clicking.png)
 
 We can see that this action object looked like this:
 
@@ -82,7 +82,7 @@ The ability to see what is happening inside of our app and how our state is chan
 
 The DevTools have several more commands and options to help you debug your app. Try clicking the "Trace" tab in the upper right. You should see a JavaScript function stack trace in the panel, with several sections of source code showing the lines that were executing when the action reached the store. One line in particular should be highlighted: the line of code where we dispatched this action from the `<Counter>` component:
 
-![Redux DevTools: action stack traces](/img/tutorials/essentials/devtools-action-stacktrace.png)
+![Redux DevTools: action stack traces](../../Assets/Redux/devtools-action-stacktrace.png)
 
 This makes it easier to trace what part of the code dispatched a specific action.
 
@@ -152,7 +152,6 @@ export default configureStore({
 
 In that example, `state.users`, `state.posts`, and `state.comments` are each a separate "slice" of the Redux state. Since `usersReducer` is responsible for updating the `state.users` slice, we refer to it as a "slice reducer" function.
 
-<DetailedExplanation title="Detailed Explanation: Reducers and State Structure">
 
 A Redux store needs to have a single "root reducer" function passed in when it's created. So if we have many different slice reducer functions, how do we get a single root reducer instead, and how does this define the contents of the Redux store state?
 
@@ -190,7 +189,6 @@ const store = configureStore({
 })
 ```
 
-</DetailedExplanation>
 
 ### Creating Slice Reducers and Actions
 
@@ -449,7 +447,6 @@ const fetchUserById = userId => {
 
 We'll see thunks being used in [Part 5: Async Logic and Data Fetching](05-async-logic.md)
 
-<DetailedExplanation title="Detailed Explanation: Thunks and Async Logic">
 
 We know that we're not allowed to put any kind of async logic in reducers. But, that logic has to live somewhere.
 
@@ -488,7 +485,6 @@ It looks to see if the "action" that was passed into `dispatch` is actually a fu
 
 This gives us a way to write whatever sync or async code we want, while still having access to `dispatch` and `getState`.
 
-</DetailedExplanation>
 
 There's one more function in this file, but we'll talk about that in a minute when we look at the `<Counter>` UI component.
 

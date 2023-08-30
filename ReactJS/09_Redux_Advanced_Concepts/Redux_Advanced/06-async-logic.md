@@ -136,7 +136,7 @@ Once that dispatched value reaches a middleware, it can make an async call, and 
 
 Earlier, we saw [a diagram that represents the normal synchronous Redux data flow](../../08_Redux_Intro/Redux_Library_Framework_Agnostic_Concepts_Basics/02-concepts-data-flow.md#redux-application-data-flow). When we add async logic to a Redux app, we add an extra step where middleware can run logic like AJAX requests, then dispatch actions. That makes the async data flow look like this:
 
-![Redux async data flow diagram](/img/tutorials/essentials/ReduxAsyncDataFlowDiagram.gif)
+![Redux async data flow diagram](../../Assets/Redux/ReduxAsyncDataFlowDiagram.gif)
 
 ## Using the Redux Thunk Middleware
 

@@ -98,7 +98,7 @@ We'll add some more requirements later on, but this is enough to get us started.
 
 The end goal is an app that should look like this:
 
-![Example todo app screenshot](/img/tutorials/fundamentals/todos-app-screenshot.png)
+![Example todo app screenshot](../../Assets/Redux/todos-app-screenshot.png)
 
 ### Designing the State Values
 

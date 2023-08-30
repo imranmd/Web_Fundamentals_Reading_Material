@@ -102,7 +102,7 @@ Let's try this out and see what happens. Open up your browser's DevTools, go to 
 
 Now click "Edit Post" inside the single post page. The UI switches over to show `<EditPostForm>`, but this time there's no network request for the individual post. Why not?
 
-![RTK Query network requests](/img/tutorials/essentials/devtools-cached-requests.png)
+![RTK Query network requests](../../Assets/Redux/devtools-cached-requests.png)
 
 **RTK Query allows multiple components to subscribe to the same data, and will ensure that each unique set of data is only fetched once.** Internally, RTK Query keeps a reference counter of active "subscriptions" to each endpoint + cache key combination. If Component A calls `useGetPostQuery(42)`, that data will be fetched. If Component B then mounts and also calls `useGetPostQuery(42)`, it's the exact same data being requested. The two hook usages will return the exact same results, including fetched `data` and loading status flags.
 
@@ -176,7 +176,7 @@ It's possible for the `result` argument in these callbacks to be undefined if th
 
 With those changes in place, let's go back and try editing a post again, with the Network tab open in the browser DevTools.
 
-![RTK Query invalidation and refetching](/img/tutorials/essentials/devtools-cached-invalidation-refetching.png)
+![RTK Query invalidation and refetching](../../Assets/Redux/devtools-cached-invalidation-refetching.png)
 
 When we save the edited post this time, we should see two requests happen back-to-back:
 
@@ -242,7 +242,7 @@ export const {
 
 If we inspect the API slice object, it includes an `endpoints` field, with one endpoint object inside for each endpoint we've defined.
 
-![API slice endpoint contents](/img/tutorials/essentials/api-slice-contents.png)
+![API slice endpoint contents](../../Assets/Redux/api-slice-contents.png)
 
 Each endpoint object contains:
 
@@ -657,7 +657,7 @@ export const ReactionButtons = ({ post }) => {
 
 Let's see this in action! Go to the main `<PostsList>`, and click one of the reactions to see what happens.
 
-![PostsList disabled while fetching](/img/tutorials/essentials/disabled-posts-fetching.png)
+![PostsList disabled while fetching](../../Assets/Redux/disabled-posts-fetching.png)
 
 Uh-oh. The entire `<PostsList>` component was grayed out, because we just refetched the _entire_ list of posts in response to that one post being updated. This is deliberately more visible because our mock API server is set to have a 2-second delay before responding, but even if the response is faster, this still isn't a good user experience.
 

@@ -137,7 +137,7 @@ Remember, every time we call `store.dispatch(action)`:
 If we look at the console log output from that example, you can see how the
 Redux state changes as each action was dispatched:
 
-![Logged Redux state after dispatching actions](/img/tutorials/fundamentals/initial-state-updates.png)
+![Logged Redux state after dispatching actions](../../Assets/Redux/initial-state-updates.png)
 
 Notice that our app did _not_ log anything from the last action. That's because we removed the listener callback when we called `unsubscribe()`, so nothing else ran after the action was dispatched.
 
@@ -269,7 +269,7 @@ console.log('Dispatch complete')
 
 Now look at the console. You should see `'Hi!'` logged there, in between the other two log statements:
 
-![sayHi store enhancer logging](/img/tutorials/fundamentals/sayhi-enhancer-logging.png)
+![sayHi store enhancer logging](../../Assets/Redux/sayhi-enhancer-logging.png)
 
 The `sayHiOnDispatch` enhancer wrapped the original `store.dispatch` function with its own specialized version of `dispatch`. When we called `store.dispatch()`, we were actually calling the wrapper function from `sayHiOnDispatch`, which called the original and then printed 'Hi'.
 
@@ -311,7 +311,7 @@ console.log('State after dispatch: ', store.getState())
 
 And the logged output looks like this:
 
-![meaningOfLife store enhancer logging](/img/tutorials/fundamentals/meaningOfLife-enhancer-logging.png)
+![meaningOfLife store enhancer logging](../../Assets/Redux/meaningOfLife-enhancer-logging.png)
 
 So, we can see that both enhancers are modifying the behavior of the store at the same time. `sayHiOnDispatch` has changed how `dispatch` works, and `includeMeaningOfLife` has changed how `getState` works.
 
@@ -373,7 +373,7 @@ store.dispatch({ type: 'todos/todoAdded', payload: 'Learn about actions' })
 
 And we can see the output in the console:
 
-![print middleware logging](/img/tutorials/fundamentals/print-middleware-logging.png)
+![print middleware logging](../../Assets/Redux/download.png)
 
 So how does that work?
 
@@ -554,7 +554,7 @@ export default store
 
 Make sure that `index.js` is still dispatching an action after importing the store. Now, open up the Redux DevTools tab in the browser's DevTools window. You should see something that looks like this:
 
-![Redux DevTools Extension: action tab](/img/tutorials/fundamentals/devtools-action-tab.png)
+![Redux DevTools Extension: action tab](../../Assets/Redux/devtools-action-tab.png)
 
 There's a list of dispatched actions on the left. If we click one of them, the right pane shows several tabs:
 
@@ -565,9 +565,9 @@ There's a list of dispatched actions on the left. If we click one of them, the r
 
 Here's what the "State" and "Diff" tabs look like after we dispatched that "add todo" action:
 
-![Redux DevTools Extension: state tab](/img/tutorials/fundamentals/devtools-state-tab.png)
+![Redux DevTools Extension: state tab](../../Assets/Redux/devtools-state-tab.png)
 
-![Redux DevTools Extension: diff tab](/img/tutorials/fundamentals/devtools-diff-tab.png)
+![Redux DevTools Extension: diff tab](../../Assets/Redux/devtools-diff-tab.png)
 
 These are very powerful tools that can help us debug our apps and understand exactly what's happening inside.
 

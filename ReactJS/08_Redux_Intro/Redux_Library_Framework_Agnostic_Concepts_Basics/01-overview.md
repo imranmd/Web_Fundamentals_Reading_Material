@@ -243,7 +243,7 @@ We can summarize the flow of data through a Redux app with this diagram. It repr
 
 (Don't worry if these pieces aren't quite clear yet! Keep this picture in your mind as you go through the rest of this tutorial, and you'll see how the pieces fit together.)
 
-![Redux data flow diagram](/img/tutorials/essentials/ReduxDataFlowDiagram.gif)
+![Redux data flow diagram](../../Assets/Redux/ReduxDataFlowDiagram.gif)
 
 ## What You've Learned
 

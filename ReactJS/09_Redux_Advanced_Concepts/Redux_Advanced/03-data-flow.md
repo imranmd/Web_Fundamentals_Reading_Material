@@ -32,7 +32,7 @@ Once you've finished this tutorial, you'll probably want to try working on your 
 
 If you want to know specific details on how to add Redux to a project, see this explanation:
 
-<DetailedExplanation title="Detailed Explanation: Adding Redux to a React Project">
+## Adding Redux to a React Project
 
 The Redux template for CRA comes with Redux Toolkit and React-Redux already configured. If you're setting up a new project from scratch without that template, follow these steps:
 
@@ -50,7 +50,6 @@ ReactDOM.render(
 )
 ```
 
-</DetailedExplanation>
 
 #### Exploring the Initial Project
 
@@ -123,7 +122,7 @@ This tells Redux that we want our top-level state object to have a field named `
 
 We can confirm that this works by opening the Redux DevTools Extension and looking at the current state contents:
 
-![Initial posts state](/img/tutorials/essentials/example-initial-posts.png)
+![Initial posts state](../../Assets/Redux/example-initial-posts.png)
 
 ### Showing the Posts List
 
@@ -201,7 +200,7 @@ export default App
 
 Once that's added, the main page of our app should now look like this:
 
-![Initial posts list](/img/tutorials/essentials/working_post_list.png)
+![Initial posts list](../../Assets/Redux/working_post_list.png)
 
 Progress! We've added some data to the Redux store, and shown it on screen in a React component.
 
@@ -384,7 +383,7 @@ All the new features we'll add after this will follow the same basic patterns yo
 
 We can check the Redux DevTools Extension to see the action we dispatched, and look at how the Redux state was updated in response to that action. If we click the `"posts/postAdded"` entry in the actions list, the "Action" tab should look like this:
 
-![postAdded action contents](/img/tutorials/essentials/example-postAdded-action.png)
+![postAdded action contents](../../Assets/Redux/example-postAdded-action.png)
 
 The "Diff" tab should also show us that `state.posts` had one new item added, which is at index 2.
 

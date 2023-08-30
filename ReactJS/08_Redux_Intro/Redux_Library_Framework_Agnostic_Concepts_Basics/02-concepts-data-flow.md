@@ -47,7 +47,7 @@ This is a small example of **"one-way data flow"**:
 - When something happens (such as a user clicking a button), the state is updated based on what occurred
 - The UI re-renders based on the new state
 
-![One-way data flow](/img/tutorials/essentials/one-way-data-flow.png)
+![One-way data flow](../../Assets/Redux/one-way-data-flow.png)
 
 However, the simplicity can break down when we have **multiple components that need to share and use the same state**, especially if those components are located in different parts of the application. Sometimes this can be solved by ["lifting state up"](https://react.dev/learn/sharing-state-between-components) to parent components, but that doesn't always help.
 
@@ -329,7 +329,7 @@ For Redux specifically, we can break these steps into more detail:
 
 Here's what that data flow looks like visually:
 
-![Redux data flow diagram](/img/tutorials/essentials/ReduxDataFlowDiagram.gif)
+![Redux data flow diagram](../../Assets/Redux/ReduxDataFlowDiagram.gif)
 
 ## What You've Learned
 
