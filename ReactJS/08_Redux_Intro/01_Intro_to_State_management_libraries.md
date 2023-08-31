@@ -15,7 +15,7 @@
    - Basic Concepts
 6. State Management Workflow
 7. Advanced Usage
-8. Conclusion
+8. Summary
 9. Additional Resources
 
 ## 1. Introduction
@@ -108,7 +108,7 @@ Before you begin, make sure you have a basic understanding of JavaScript and the
 
 - **DevTools Integration:** Use browser extensions or libraries to visualize and debug state changes.
 
-## 8. Conclusion
+## 8. Summary
 
 State management libraries are essential tools for building complex and scalable applications. They provide a structured approach to managing the state of your application and facilitate communication between components. By understanding the basic concepts and workflows of state management libraries, you can build more maintainable and efficient applications.
 

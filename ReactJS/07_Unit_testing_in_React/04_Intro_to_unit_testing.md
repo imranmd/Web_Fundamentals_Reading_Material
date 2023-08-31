@@ -38,4 +38,4 @@ Unit testing specifically in React applications offers several advantages:
 
 6. **Ensuring UI Consistency:** Unit tests for UI components ensure that the visual aspects of the application remain consistent across changes.
 
-In conclusion, unit testing plays a critical role in software development, providing confidence in code quality, preventing regressions, and improving collaboration. React applications, with their modular and reusable components, greatly benefit from thorough unit testing practices. In the next sections of this tutorial, we will delve deeper into how to write effective unit tests for React components using popular testing libraries.
+In Summary, unit testing plays a critical role in software development, providing confidence in code quality, preventing regressions, and improving collaboration. React applications, with their modular and reusable components, greatly benefit from thorough unit testing practices. In the next sections of this tutorial, we will delve deeper into how to write effective unit tests for React components using popular testing libraries.
