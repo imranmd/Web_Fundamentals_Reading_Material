@@ -6,6 +6,8 @@ Welcome to the tutorial on JSX (JavaScript XML) in ReactJS. In this tutorial, we
 
 JSX is a syntax extension for JavaScript that allows you to write HTML-like code directly within your JavaScript code. It's a fundamental concept in React that provides a way to define the structure and appearance of your UI components. JSX is not a separate language; instead, it's a syntactic sugar that gets transformed into regular JavaScript by tools like Babel.
 
+![](../Assets/React/JSX-image1.png)
+
 ## Evolution of JSX
 
 JSX was introduced by the React team to address the challenges of creating and maintaining UI components using plain JavaScript. Prior to JSX, developers were using JavaScript functions to generate HTML strings, which made the code difficult to read and prone to errors. JSX aimed to simplify the process of building and managing UI components by allowing developers to use familiar HTML syntax.

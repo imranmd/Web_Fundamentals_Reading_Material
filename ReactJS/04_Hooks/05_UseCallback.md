@@ -6,6 +6,9 @@ The `useCallback` hook is a valuable asset in React's hooks arsenal that optimiz
 
 In React, passing functions as props can sometimes lead to unnecessary re-renders, especially when the functions are recreated with every render. The `useCallback` hook offers a solution by memoizing the functions, ensuring they remain consistent across renders.
 
+![](../Assets/React/useCallback-React-hook-1280x720.png)
+
+
 ### Using the useCallback Hook
 
 Let's explore how to use the `useCallback` hook to memoize functions and enhance your component's performance.

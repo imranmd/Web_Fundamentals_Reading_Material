@@ -6,6 +6,8 @@ The `useMemo` hook is a performance optimization tool in React's hooks toolkit t
 
 In React, re-rendering components can sometimes lead to unnecessary re-computations of expensive functions or calculations. The `useMemo` hook offers a solution by memoizing the result of such computations, ensuring they are recalculated only when necessary.
 
+![](../Assets/React/usememo.jpg)
+
 ### Using the useMemo Hook
 
 Let's explore how to use the `useMemo` hook to optimize component performance by memoizing the result of a computation.

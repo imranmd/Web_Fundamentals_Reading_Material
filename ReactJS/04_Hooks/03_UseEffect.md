@@ -5,6 +5,11 @@ The `useEffect` hook is a fundamental piece of React's hooks arsenal, allowing f
 ### What is the useEffect Hook?
 
 In React, side effects like data fetching, DOM manipulation, and subscriptions were traditionally handled in class component lifecycle methods. The `useEffect` hook brings this functionality to functional components, streamlining the way side effects are managed.
+![](../Assets/React/useEffect_hook_description.png)
+
+
+![](../Assets/React/use-Effect-hook-2.png)
+![](../Assets/React/react-useeffect-hook-3.svg)
 
 ### Using the useEffect Hook
 

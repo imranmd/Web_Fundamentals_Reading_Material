@@ -6,6 +6,9 @@ The `useContext` hook is a pivotal addition to React's hooks ecosystem, enabling
 
 In React, context provides a way to share data between components without having to explicitly pass it through props at every level. The `useContext` hook simplifies the process of consuming context values within functional components.
 
+
+![](../Assets/React/Context.png)
+
 ### Using the useContext Hook
 
 Let's dive into how to use the `useContext` hook to consume context values within a functional component.

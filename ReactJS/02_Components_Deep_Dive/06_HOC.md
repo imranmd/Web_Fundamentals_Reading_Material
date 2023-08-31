@@ -6,6 +6,8 @@ Welcome to the tutorial on Higher Order Components (HOC) in React. In this tutor
 
 Higher Order Components (HOCs) are a design pattern in React that enhance the behavior and capabilities of existing components. HOCs are functions that take a component as an argument and return a new component with added functionality.
 
+![](../Assets/React/HOCDef.png)
+
 ## Creating a Higher Order Component
 
 Creating an HOC involves creating a function that takes a component and returns a new component. Let's see an example of creating a simple logging HOC:

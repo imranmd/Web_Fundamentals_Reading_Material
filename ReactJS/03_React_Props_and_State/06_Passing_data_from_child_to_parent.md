@@ -1,10 +1,13 @@
 ## Passing Data from Child to Parent in React using Callbacks
 
 In React, passing data from a child component to a parent component can be achieved by using a technique called **callbacks**. Callbacks provide a way for child components to communicate with their parent components, allowing for a seamless exchange of data. This tutorial will guide you through the process of passing data from child to parent using callbacks in React.
-
+![](../Assets/React/ChildEmitsEvents.webp)
 ### Understanding Callbacks for Data Flow
 
 Callbacks are functions that are passed as props from a parent component to a child component. The child component can then invoke the callback function to send data back to the parent component. This mechanism establishes a clear channel of communication between the two components.
+
+![](../Assets/React/React-Parent-to-child-Component-and-Child-to-Parent-compoent-communication.webp)
+
 
 ### Implementing Data Passing with Callbacks
 

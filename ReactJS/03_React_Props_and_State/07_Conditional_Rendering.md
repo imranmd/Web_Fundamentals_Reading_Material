@@ -5,7 +5,7 @@ Conditional rendering in React is a powerful technique that allows you to contro
 ### Introduction to Conditional Rendering
 
 Conditional rendering is the practice of rendering different components or elements based on the values of certain conditions. It allows you to create more interactive and context-aware user interfaces by showing or hiding content as needed. React provides several ways to implement conditional rendering, each suited for different scenarios.
-
+![](../Assets/React/conditionalRendering.webp)
 ### Using `if` Statements
 
 The simplest form of conditional rendering involves using standard `if` statements within the `render()` method of a component.

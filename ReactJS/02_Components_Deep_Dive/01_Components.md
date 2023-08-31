@@ -6,7 +6,11 @@ Welcome to the tutorial on ReactJS components. In this tutorial, we will introdu
 
 In simple terms, a component in ReactJS is like a building block for your user interface. Just as you might assemble a complex structure using Lego bricks, React components allow you to create complex user interfaces by combining smaller, reusable parts.
 
+![](../Assets/React/Component_Lego_Brick_analogy.png)
+
 In Layman's terms, think of a component as a self-contained piece of a web page that can do something specific, like displaying a button, a header, or a list.
+
+![](../Assets/React/Component.gif)
 
 ## Sample Demo Component Code
 

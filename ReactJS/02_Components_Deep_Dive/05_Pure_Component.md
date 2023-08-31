@@ -6,6 +6,8 @@ Welcome to the tutorial on Pure Components in React. In this tutorial, we will e
 
 Pure Components are a specialized type of React component that performs a shallow comparison of their props and state. If there are no changes in the props or state, a Pure Component prevents unnecessary re-renders, resulting in better performance.
 
+![](../Assets/React/PureComponents.webp)
+
 ## Creating a Pure Component
 
 Creating a Pure Component is straightforward. You simply extend the `React.PureComponent` class or use the `React.memo` function to wrap your functional component. Let's see examples of both:

@@ -6,6 +6,8 @@ Prop drilling is a common challenge that arises when passing data through multip
 
 **Prop drilling**, also known as **component nesting**, occurs when data needs to be passed from a top-level component down to a deeply nested component. Each intermediary component in the hierarchy must receive the data as props and pass it along to the next level, even if those components don't directly use the data.
 
+![](../Assets/React/PropDrilling.png)
+
 ### The Problem with Prop Drilling
 
 Prop drilling can lead to several issues:
@@ -33,6 +35,9 @@ Consider a scenario where a user's information needs to be passed down to a deep
 In this example, if `UserAddress` needs the user's information, it must be passed as props through all intermediary components (`UserProfileContainer`, `UserProfile`, and `UserDetails`), even if they don't use the data.
 
 ### Mitigating Prop Drilling
+
+![](../Assets/React/fixing-the-prop-drilling-by-using-the-context-api.jpg)
+
 
 To mitigate prop drilling, consider the following strategies:
 

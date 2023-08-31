@@ -6,6 +6,8 @@ Welcome to the tutorial on Class Components in React. In this tutorial, we will 
 
 Class components are a type of component in React that are defined as JavaScript classes. They were the primary way of creating components in React before the introduction of functional components and React Hooks.
 
+![](../Assets/React/LifeCycle.png)
+
 ## Sample Class Component Code
 
 Here's an example of a simple class component in React:
@@ -47,6 +49,8 @@ export default Counter;
 In this code, we've defined a class component named `Counter` that manages a `count` state and provides methods to update it.
 
 ## Lifecycle Methods of Class Components
+![](../Assets/React/LifeCycleMethods.png)
+
 
 The lifecycle methods of a class component are executed in a specific order:
 
@@ -60,6 +64,7 @@ The lifecycle methods of a class component are executed in a specific order:
 
 5. **componentWillUnmount:** Executed before the component is removed from the DOM. Used for cleaning up resources.
 
+```
 import React, { Component } from 'react';
 
 class LifecycleExample extends Component {

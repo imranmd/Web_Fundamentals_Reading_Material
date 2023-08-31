@@ -2,6 +2,8 @@
 
 Understanding the differences between **state** and **props** is crucial for building robust and maintainable React applications. These two concepts are fundamental to React's component-based architecture. This tutorial will provide you with an in-depth comparison of state and props, their roles, and when to use each in your React components.
 
+![](../Assets/React/StateAndProps.png)
+
 ### Introduction to State and Props in React
 
 Both state and props are mechanisms for handling data in React components, but they serve different purposes:

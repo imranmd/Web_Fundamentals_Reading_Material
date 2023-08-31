@@ -6,6 +6,7 @@ State is a fundamental concept in React that allows components to manage and tra
 
 State represents the mutable data within a React component. Unlike props, which are passed from parent to child components, state is managed within the component itself. By updating the state, you trigger component re-rendering, leading to updates in the UI.
 
+
 ### Creating and Initializing State
 
 To create and initialize state in a React component, follow these steps:

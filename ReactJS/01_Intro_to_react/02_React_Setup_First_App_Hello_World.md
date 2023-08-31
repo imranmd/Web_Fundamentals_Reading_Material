@@ -2,6 +2,7 @@
 
 Welcome to the tutorial on setting up a development environment and creating a simple "Hello World" application in ReactJS. This tutorial will guide you through the process of installing the necessary tools, creating a new React application, and displaying a basic message on the screen.
 
+![](../Assets/React/setup_reactjs_logo.jpg)
 ## Step 1: Install Node.js and npm
 
 1. Visit the [Node.js website](https://nodejs.org/) and download the latest LTS (Long-Term Support) version for your operating system.

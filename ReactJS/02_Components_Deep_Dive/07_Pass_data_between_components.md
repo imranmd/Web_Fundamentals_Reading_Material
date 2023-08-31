@@ -2,6 +2,8 @@
 
 Welcome to the tutorial on how to pass data between components in React. In this tutorial, we'll explore the concept of using props to send and receive data between components, and we'll provide a hands-on example to illustrate the process.
 
+![](../Assets/React/passing%20Props.webp)
+
 ## Using Props to Pass Data
 
 Props (short for properties) are a way to pass data from a parent component to a child component. They allow you to make your components dynamic and reusable by providing different data each time they are used.

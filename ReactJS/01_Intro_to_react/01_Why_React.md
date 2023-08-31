@@ -2,6 +2,7 @@
 
 Welcome to the tutorial on why React is an essential library for building modern web applications. React is a JavaScript library that focuses on creating user interfaces (UIs) with a component-based approach. In this tutorial, we will explore the key features and advantages of using React for your web development projects.
 
+![](../Assets/React/WhyReact.jpg)
 ## 1. Introduction to React
 
 React, developed and maintained by Facebook, is an open-source JavaScript library used for building user interfaces. It allows developers to create reusable UI components and manage the state of these components efficiently. React follows the concept of a Virtual DOM (Document Object Model), which enhances performance by minimizing direct manipulation of the actual DOM.
@@ -13,6 +14,8 @@ One of the main reasons to choose React is its component-based architecture. Wit
 ## 3. Virtual DOM
 
 React's Virtual DOM is a representation of the actual DOM in memory. When the state of a component changes, React creates a new Virtual DOM, compares it with the previous one, and calculates the minimal set of changes needed to update the actual DOM. This approach reduces unnecessary reflows and repaints, leading to improved performance.
+![](../Assets/React/virtual_DOM_React.gif)
+
 
 ## 4. JSX - Declarative UI
 

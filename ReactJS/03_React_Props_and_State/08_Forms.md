@@ -5,7 +5,7 @@ Handling forms is a crucial aspect of building interactive web applications. In 
 ### Introduction to Form Handling in React
 
 Forms in React operate similarly to traditional HTML forms but with some key differences. React components manage their own state, making it essential to update the state whenever form inputs change. By doing so, you can reflect the user's input in the UI and manage form submission effectively.
-
+![](../Assets/React/ReactForms.png)
 ### Basic Form Handling
 
 Here's a step-by-step guide to handling a simple form in React:

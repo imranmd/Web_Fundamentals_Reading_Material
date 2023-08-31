@@ -6,6 +6,8 @@ The `useState` hook is a foundational part of React hooks that empowers function
 
 In React, components need to manage state to keep track of dynamic data. The `useState` hook provides an elegant solution to this, allowing functional components to introduce and update state without converting them into class components.
 
+![](../Assets/React/useState.webp)
+
 ### Using the useState Hook
 
 Let's start by exploring how to use the `useState` hook to manage state in a functional component.

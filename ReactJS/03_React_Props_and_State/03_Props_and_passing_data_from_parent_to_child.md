@@ -6,6 +6,8 @@ In React, **props** (short for "properties") are a fundamental concept that enab
 
 Props are essentially a mechanism for passing data from a parent component to a child component. They are read-only and cannot be modified by the child component that receives them. Props are used to customize the rendering, behavior, and appearance of components in a dynamic and reusable way.
 
+![](../Assets/React/passing%20Props.webp)
+
 ### Passing Props
 
 To pass props from a parent component to a child component, follow these steps:

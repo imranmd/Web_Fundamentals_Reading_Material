@@ -35,6 +35,7 @@ function FunctionComponent() {
 
 export default FunctionComponent;
 ```
+![](../Assets/React/FunctionalVsClasscomponents.png)
 
 ## Differences between Class and Function Components
 
