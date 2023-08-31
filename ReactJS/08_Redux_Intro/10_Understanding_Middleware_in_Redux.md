@@ -2,6 +2,8 @@
 
 Welcome to this beginner-friendly tutorial on Middleware in Redux Toolkit! In this guide, we'll explain what middleware is and how it can help enhance your Redux applications. We'll use simple examples and easy-to-understand explanations that anyone, including a 15-year-old, can follow.
 
+![](../Assets/React/ReduxAsyncDataFlowDiagram.gif)
+
 ## What is Middleware?
 
 Imagine you're playing a video game, and you want to customize your character's appearance before starting the game. Middleware in Redux is like a special room you pass through where you can add cool accessories to your character before it enters the game world. In simple terms, middleware is a way to add extra features to Redux.
@@ -9,6 +11,8 @@ Imagine you're playing a video game, and you want to customize your character's 
 ## Why Do We Need Middleware?
 
 Middleware is like a helpful assistant that stands between the actions you send to Redux and the store. It can do things like checking the actions, logging information, or even making changes to the actions before they reach the store. This can be super useful for tasks like authentication, logging, or handling asynchronous operations.
+
+![](../Assets/React/Redux_Middleware.png)
 
 ## Example: Logging Middleware
 

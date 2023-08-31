@@ -28,17 +28,22 @@ In `counterSlice.js`, let's define the initial state, reducer, and actions for o
 ```javascript
 import { createSlice } from '@reduxjs/toolkit';
 
+// Create a slice of the Redux store that manages the counter state
 const counterSlice = createSlice({
-  name: 'counter',
-  initialState: 0,
+  name: 'counter', // The name of the slice
+  initialState: 0, // The initial state of the slice
   reducers: {
+    // Reducer function that increments the counter state by 1
     increment: state => state + 1,
+    // Reducer function that decrements the counter state by 1
     decrement: state => state - 1,
   },
 });
 
+// Export the increment and decrement actions from the counter slice
 export const { increment, decrement } = counterSlice.actions;
 
+// Export the counter reducer function from the counter slice
 export default counterSlice.reducer;
 ```
 
@@ -50,12 +55,14 @@ Open the `src/app` directory and create a file named `store.js`. Configure the R
 import { configureStore } from '@reduxjs/toolkit';
 import counterReducer from '../features/counterSlice';
 
+// Configure the Redux store with the counterReducer as the reducer
 const store = configureStore({
   reducer: {
     counter: counterReducer,
   },
 });
 
+// Export the configured store as the default export of this module
 export default store;
 ```
 
@@ -88,16 +95,21 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { increment, decrement } from './features/counterSlice';
 
+/**
+ * Counter component that displays a simple counter app.
+ * Uses useSelector hook to get the current count from the Redux store.
+ * Uses useDispatch hook to dispatch the increment and decrement actions to the Redux store.
+ */
 function Counter() {
-  const count = useSelector(state => state.counter);
-  const dispatch = useDispatch();
+  const count = useSelector(state => state.counter); // Get the current count from the Redux store
+  const dispatch = useDispatch(); // Get the dispatch function from the useDispatch hook
 
   return (
     <div>
       <h1>Simple Counter App</h1>
       <p>Count: {count}</p>
-      <button onClick={() => dispatch(increment())}>Increment</button>
-      <button onClick={() => dispatch(decrement())}>Decrement</button>
+      <button onClick={() => dispatch(increment())}>Increment</button> {/* Dispatch the increment action when the button is clicked */}
+      <button onClick={() => dispatch(decrement())}>Decrement</button> {/* Dispatch the decrement action when the button is clicked */}
     </div>
   );
 }
@@ -114,6 +126,10 @@ import React from 'react';
 import './App.css';
 import Counter from './Counter';
 
+/**
+ * The App component is the root component of the application.
+ * It renders the Counter component, which displays a simple counter.
+ */
 function App() {
   return (
     <div className="App">

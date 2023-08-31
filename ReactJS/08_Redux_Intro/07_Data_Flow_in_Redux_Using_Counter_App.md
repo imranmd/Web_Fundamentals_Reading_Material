@@ -2,6 +2,8 @@
 
 Welcome to the comprehensive guide on understanding how data flows in the Simple Counter app built using Redux Toolkit. In this tutorial, we'll walk you through the step-by-step process of how data moves through the application's components and the Redux store, helping you gain a clear understanding of the data flow.
 
+![](../Assets/React/Redux%20Data%20Flow.webp)
+
 ## Prerequisites
 
 Before we dive into the data flow, make sure you are familiar with the basics of React, Redux, and Redux Toolkit. If not, consider reviewing those concepts before proceeding.

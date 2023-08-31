@@ -10,7 +10,11 @@ Next.js is an open-source JavaScript framework that allows developers to build w
 
 1. **Server-Side Rendering (SSR):** Next.js enables server-side rendering out of the box. This means that when a user requests a page, the server renders the page with data, sending back HTML to the browser. This can greatly improve initial page load times and search engine optimization (SEO).
 
+![](../Assets/React/server-side-rendering.png)
+
 2. **Static Site Generation (SSG):** Next.js supports static site generation, allowing you to pre-render pages at build time. This is particularly useful for pages with content that doesn't change frequently, as it results in fast loading times and reduced server load.
+
+![](../Assets/React/static-generation.png)
 
 3. **Client-Side Rendering (CSR):** While Next.js promotes server-side rendering, it also supports client-side rendering for dynamic and interactive parts of your application. You can choose the best rendering approach based on your needs.
 

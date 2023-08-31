@@ -1,5 +1,6 @@
 # Introduction to State Management Libraries
 
+![](../Assets/React/top-react-state-management-libraries-list.webp)
 ## Table of Contents
 
 1. Introduction

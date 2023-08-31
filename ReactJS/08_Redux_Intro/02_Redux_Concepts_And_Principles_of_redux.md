@@ -2,6 +2,8 @@
 
 In this tutorial, we'll cover all the fundamental concepts of Redux, a state management library for JavaScript applications. We'll provide clear definitions of each concept and explain the flow between them, giving you a solid foundation to understand how Redux works.
 
+![](../Assets/React/Redux%20Data%20Flow.webp)
+
 ## Redux Concepts
 
 ### 1. **Store**:
@@ -52,11 +54,13 @@ The `Provider` component is provided by the `react-redux` library. It wraps your
 8. **Provider Wrapping**:
    - The `Provider` component wraps the top-level component in your React application. It passes the Redux store down the component tree, enabling components to access the store's state and dispatch actions.
 
-## Conclusion
+## Summary
 
 You've learned about the core concepts of Redux and the flow between them. Understanding how actions, reducers, selectors, middleware, and the store interact is crucial for effectively managing the state of your application. With this knowledge, you'll be well-equipped to implement state management solutions using Redux in your JavaScript applications.
 
 # Principles of Redux: A Comprehensive Tutorial
+
+![](../Assets/React/redux_rule_book.gif)
 
 ## Table of Contents
 1. Introduction to Redux
