@@ -83,6 +83,6 @@ In this example, the timer interval is set up within the `useEffect` hook. The c
 
 - **Reduced Boilerplate:** `useEffect` streamlines side effect management, reducing the need for separate lifecycle methods.
 
-### Conclusion
+### Summary
 
 The `useEffect` hook revolutionizes the way functional components handle side effects and lifecycle-related behavior. By encapsulating data fetching, subscriptions, timers, and other side effects within functional components, you can create more concise, organized, and maintainable code. This tutorial provided an in-depth exploration of the `useEffect` hook and demonstrated its application through practical examples. Apply this newfound knowledge to efficiently manage side effects and enhance the functionality of your React components.

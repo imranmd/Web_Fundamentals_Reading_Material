@@ -121,6 +121,6 @@ class Counter extends Component {
 export default Counter;
 ```
 
-### Conclusion
+### Summary
 
 Rerendering is at the heart of React's dynamic nature, ensuring your components stay in sync with the underlying data. This tutorial provided an in-depth exploration of when and how rerendering occurs, how to optimize rendering using `React.memo`, and the use of lifecycle methods like `shouldComponentUpdate`. By understanding the intricacies of rerendering, you can create more efficient and responsive applications, delivering a seamless user experience.

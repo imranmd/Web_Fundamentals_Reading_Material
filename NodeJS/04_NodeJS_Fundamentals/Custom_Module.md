@@ -64,6 +64,6 @@ console.log(myModule());
 
 - **Utility Functions:** Build modules for utility functions like date formatting.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the creation and usage of custom modules in Node.js. By following the steps to create a custom module, you've learned how to encapsulate and reuse code effectively, enhancing the organization, reusability, and maintainability of your Node.js projects. As you work on building applications and projects, integrating custom modules into your codebase will help you create modular, efficient, and scalable applications that are easier to maintain and extend over time.

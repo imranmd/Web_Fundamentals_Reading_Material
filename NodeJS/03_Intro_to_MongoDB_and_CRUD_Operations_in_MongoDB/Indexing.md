@@ -90,6 +90,6 @@ db.collection_name.find({ field: value }).explain("executionStats");
 
 - **Sorting Operations:** Index fields commonly used for sorting.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MongoDB indexing, understanding its significance and practical applications. By grasping the key steps involved in opening the MongoDB shell, switching to the desired database, creating different types of indexes, viewing existing indexes, and using the `explain()` method for query analysis, you're well-equipped to enhance your MongoDB database's query performance and efficiency through indexing. As you work on developing applications that rely on MongoDB for data retrieval and manipulation, the knowledge of indexing will serve as a valuable skill in ensuring optimal performance and responsiveness of your applications.

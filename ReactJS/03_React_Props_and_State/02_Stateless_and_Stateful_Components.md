@@ -74,6 +74,6 @@ export default Counter;
 
 - **Use Stateful Components When:** You need to manage state, handle user interactions, or utilize lifecycle methods.
 
-### Conclusion
+### Summary
 
 Stateless and stateful components each have their own roles in React applications. Stateless components are simple, efficient, and ideal for UI presentation. Stateful components manage dynamic data, trigger re-renders, and interact with lifecycle methods. By understanding the differences and benefits of both types of components, you can make informed decisions when designing your React components, resulting in maintainable and performant applications.

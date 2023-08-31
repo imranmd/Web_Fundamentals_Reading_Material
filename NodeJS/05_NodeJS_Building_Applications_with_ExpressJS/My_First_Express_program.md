@@ -72,6 +72,6 @@ node app.js
 
 Your Express.js server is now running. Open your web browser and visit `http://localhost:3000` to see the "Hello, Express!" message.
 
-## Conclusion
+## Summary
 
 Congratulations! You've successfully created your first Express.js program. By setting up your project, installing Express.js, defining routes, and running your server, you've taken the first step toward building web applications using this powerful framework. As you continue your journey, explore more features of Express.js, such as route handling, middleware, and template engines, to create robust and dynamic web applications that cater to various user needs.

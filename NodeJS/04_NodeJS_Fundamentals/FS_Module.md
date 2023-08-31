@@ -123,6 +123,6 @@ fs.rmdir('newdir', (err) => {
 
 - **Configuration Files:** Manage configuration files for applications.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the Node.js FS module, understanding its significance and practical applications. By mastering key functions such as reading files, writing files, creating directories, listing directory contents, and deleting files and directories, you're well-equipped to perform various file system operations using the FS module in Node.js. As you work on projects that involve data management, file manipulation, and automation, the knowledge of the Node.js FS module will empower you to build applications that efficiently interact with the file system, store and retrieve data, and streamline file-related tasks for enhanced application functionality and performance.

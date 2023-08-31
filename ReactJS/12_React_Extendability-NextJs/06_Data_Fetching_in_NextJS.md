@@ -114,6 +114,6 @@ Client-side rendering fetches data after the initial page load and updates the U
    export default AboutPage;
    ```
 
-### Conclusion
+### Summary
 
 Data fetching is a critical aspect of building dynamic web applications. Next.js provides flexible tools for fetching data, including server-side rendering (SSR), static site generation (SSG), and client-side rendering (CSR). Depending on your use case, you can choose the appropriate technique to achieve optimal performance and user experience. By mastering these data fetching methods, you'll be able to create applications that efficiently retrieve and display data to users.

@@ -65,6 +65,6 @@ Microtasks (e.g., promises) and macrotasks (e.g., setTimeout) are queued differe
 
 - **Web Servers:** Build high-performance web servers to handle multiple client requests.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into the Node.js event loop, understanding its significance and practical applications. By grasping key concepts such as single-threaded architecture, event loop phases, event emitters, and microtasks vs. macrotasks, you're well-equipped to develop efficient and responsive applications using Node.js. As you work on building applications that require asynchronous operations, real-time functionality, and high concurrency, the knowledge of the Node.js event loop will serve as a foundational skill in harnessing the power of non-blocking I/O to create applications that are both performant and user-friendly.

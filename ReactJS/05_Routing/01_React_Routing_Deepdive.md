@@ -188,6 +188,6 @@ function PrivateRoute({ component: Component, isAuthenticated, ...rest }) {
 export default PrivateRoute;
 ```
 
-### Conclusion
+### Summary
 
 Routing is a crucial aspect of building modern React applications that offer a seamless navigation experience. This tutorial provided an extensive exploration of routing using `react-router-dom`. By following the steps outlined here, you can set up routing, navigate between routes, handle URL parameters, and create more complex navigation structures in your React applications. Apply this knowledge to enhance user experience and create dynamic, multi-page applications with the power of single-page architecture.

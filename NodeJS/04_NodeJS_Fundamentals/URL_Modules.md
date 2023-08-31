@@ -79,6 +79,6 @@ console.log('Resolved URL:', resolvedUrl);
 
 - **API Consumption:** Parse URLs to extract data for API requests.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the Node.js URL module, understanding its significance and practical applications. By mastering key functions such as parsing URLs, formatting URLs, and resolving URLs, you're well-equipped to navigate, manipulate, and process URLs using the URL module in Node.js. As you work on projects that involve URL routing, API consumption, and data extraction, the knowledge of the Node.js URL module will empower you to build applications that effectively handle URLs, ensuring accurate navigation, proper data extraction, and streamlined URL representation for enhanced user experience and application functionality.

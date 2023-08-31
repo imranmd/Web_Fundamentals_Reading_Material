@@ -68,6 +68,6 @@ app.use(express.urlencoded({ extended: true })); // Parse URL-encoded data
 app.use(express.static('public')); // Serve static files from the 'public' directory
 ```
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, you've explored the world of middleware in Express.js. By understanding the significance of middleware, creating custom middleware, managing the order of execution, handling errors, and utilizing built-in middleware, you're now well-equipped to enhance your Express.js applications with organized and efficient request-handling flows. As you continue to build web applications, leverage the power of middleware to streamline your code, add custom logic, and ensure a seamless experience for your users.

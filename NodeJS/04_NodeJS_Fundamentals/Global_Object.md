@@ -82,6 +82,6 @@ const fs = require('fs');
 
 - **File Operations:** Utilize the `__dirname` and `__filename` properties for file-related tasks.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the Node.js global object, understanding its significance and practical applications. By mastering key properties and methods such as `global`, `__dirname`, `__filename`, `setTimeout`, `setInterval`, `require`, and more, you're well-equipped to leverage the global object to streamline your Node.js application development. As you work on building applications that require access to core features, logging, and code organization, the knowledge of the Node.js global object will serve as a foundational skill in creating efficient, maintainable, and feature-rich Node.js applications.

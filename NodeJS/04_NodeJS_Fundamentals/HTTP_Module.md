@@ -85,6 +85,6 @@ const server = http.createServer((req, res) => {
 
 - **Web Applications:** Develop web applications by handling different routes and serving HTML pages.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the Node.js HTTP module, understanding its significance and practical applications. By mastering key functions such as creating an HTTP server, handling different HTTP methods, and routing requests, you're well-equipped to build robust and scalable web servers using the HTTP module in Node.js. As you work on developing web applications, APIs, and handling client requests, the knowledge of the Node.js HTTP module will serve as a foundational skill in creating high-performance and responsive web servers that cater to a wide range of user interactions and requests.

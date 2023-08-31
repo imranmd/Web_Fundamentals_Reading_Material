@@ -38,6 +38,6 @@ Next.js is an open-source JavaScript framework that allows developers to build w
 
 6. **Community and Ecosystem:** Being a popular framework, Next.js has a vibrant community and a rich ecosystem of plugins, libraries, and resources.
 
-### Conclusion
+### Summary
 
 Next.js is a powerful framework that empowers developers to create high-performance web applications with ease. Its features like server-side rendering, automatic code splitting, and simplified routing contribute to building fast, SEO-friendly, and maintainable applications. In the following tutorials, we'll dive deeper into the various features of Next.js and learn how to leverage them to build exceptional web experiences.

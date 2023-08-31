@@ -139,6 +139,6 @@ Styled Components is a popular library for writing CSS directly in your JavaScri
 
 - **Styled Components:** Provides a component-centric approach to styling.
 
-### Conclusion
+### Summary
 
 Adding styles to your React application is essential for creating visually appealing and user-friendly interfaces. This tutorial explored various methods of adding styles, from inline styles to CSS modules and styled components. Each approach has its strengths, allowing you to choose the one that best fits your project's requirements. Apply this knowledge to enhance your application's aesthetics and create engaging and captivating user experiences.

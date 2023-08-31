@@ -89,6 +89,6 @@ summarizing the key differences between **State** and **Props** in React:
 
 - **Use Props When:** You want to pass data from a parent component to a child component. Props are ideal for configuring and customizing child components to display external data or behavior.
 
-### Conclusion
+### Summary
 
 State and props are essential concepts in React, each serving distinct roles in component-based development. By understanding their differences and use cases, you'll be equipped to make informed decisions about when to use state to manage internal data and when to use props to pass data between components. Utilizing state and props effectively contributes to building modular, maintainable, and highly customizable React applications.

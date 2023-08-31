@@ -90,6 +90,6 @@ console.log('Normalized path:', normalizedPath);
 
 - **URL Routing:** Use path functions for routing URL paths in web applications.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the Node.js Path module, understanding its significance and practical applications. By mastering key functions such as resolving paths, joining paths, extracting file extensions, getting directory names, and normalizing paths, you're well-equipped to manage and manipulate file paths using the Path module in Node.js. As you work on projects that involve file operations, URL routing, and path manipulation, the knowledge of the Node.js Path module will empower you to build applications that handle file paths accurately and reliably across different platforms, ensuring seamless functionality and enhancing overall code quality.

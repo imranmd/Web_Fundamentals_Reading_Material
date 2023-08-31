@@ -76,6 +76,6 @@ db.collection_name.find();
 
 - **Content Management:** Modify content details like article titles or descriptions.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've walked through the steps of updating data in MongoDB, understanding its significance and practical applications. By grasping the key steps involved in opening the MongoDB shell, switching to the desired database, updating single and multiple documents, and verifying updates, you're well-equipped to effectively modify data within your MongoDB collections. As you work on developing applications that rely on MongoDB for data management, the knowledge of updating data will serve as a vital skill in maintaining accurate and up-to-date information in your database.

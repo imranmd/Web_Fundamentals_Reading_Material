@@ -88,6 +88,6 @@ Form validation is a crucial part of handling forms. You can implement validatio
 
 React provides specialized form controls like `textarea`, `select`, and `checkbox` inputs. Handling these controls follows similar principles but might involve using different event types and props.
 
-### Conclusion
+### Summary
 
 Handling forms in React involves managing user input, updating component state, and handling form submission. By following the principles outlined in this guide, you'll be well-equipped to create interactive and user-friendly forms in your React applications. Remember to consider form validation and utilize advanced form controls as needed to enhance the user experience.

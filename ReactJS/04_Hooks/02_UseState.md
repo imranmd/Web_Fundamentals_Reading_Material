@@ -83,6 +83,6 @@ In this example, the `formData` state variable is an object that stores the valu
 
 - **Predictable Updates:** The hook guarantees the correct handling of state updates and re-renders.
 
-### Conclusion
+### Summary
 
 The `useState` hook is a powerful tool that simplifies state management in functional components. By declaring state variables and using the corresponding updater functions, you can easily incorporate dynamic behavior into your components. This tutorial provided an overview of `useState` and showcased how it can be used to manage simple and complex state scenarios. Apply this knowledge to enhance your React components with controlled and dynamic behavior while keeping your codebase concise and comprehensible.

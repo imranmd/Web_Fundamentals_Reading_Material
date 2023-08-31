@@ -154,6 +154,6 @@ function ErrorHandlingExample() {
 export default ErrorHandlingExample;
 ```
 
-### Conclusion
+### Summary
 
 Handling HTTP requests is a crucial skill for building dynamic and data-driven React applications. This tutorial provided a comprehensive exploration of making GET and POST requests, error handling, and practical examples using the JSONPlaceholder API. By mastering HTTP requests, you can interact with external data sources, create interactive user experiences, and build powerful applications that connect to the world of web APIs.

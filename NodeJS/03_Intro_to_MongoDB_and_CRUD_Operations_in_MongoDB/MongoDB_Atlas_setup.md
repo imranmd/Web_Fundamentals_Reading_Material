@@ -61,6 +61,6 @@ mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: 
 
 - **Global Distribution:** Choose a region closest to your users for improved performance.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've walked through the steps of setting up MongoDB Atlas, understanding its significance and practical applications. By grasping the key steps involved in signing up, creating a cluster, configuring security, and connecting to your cluster, you're empowered to leverage MongoDB Atlas for efficient cloud-based database management. As you work on developing applications with reliable data storage and management, the knowledge of MongoDB Atlas setup will serve as a valuable asset in architecting scalable and robust database solutions.

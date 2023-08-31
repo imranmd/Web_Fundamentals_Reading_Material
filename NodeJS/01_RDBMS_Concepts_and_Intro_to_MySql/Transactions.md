@@ -70,6 +70,6 @@ COMMIT; -- Or ROLLBACK;
 
 - **Reservations:** Handling seat reservations, room bookings, and event registrations.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the world of DBMS transactions, understanding their significance, properties, and practical applications. By grasping the concepts of ACID properties, transaction states, and concurrent execution, you're empowered to design and manage transactions that ensure data integrity, consistency, and reliability. As you navigate the landscape of database management, the knowledge of transaction management will serve as a foundation for building robust and dependable systems.

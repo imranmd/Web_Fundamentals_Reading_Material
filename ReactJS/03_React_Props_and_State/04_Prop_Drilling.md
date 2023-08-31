@@ -51,6 +51,6 @@ To mitigate prop drilling, consider the following strategies:
 
 5. **Hooks:** If using functional components, hooks like `useContext` and custom hooks can help manage shared data in a more elegant way.
 
-### Conclusion
+### Summary
 
 Prop drilling can lead to code complexity, performance issues, and maintenance challenges. By understanding the drawbacks of prop drilling and exploring alternatives such as the Context API, state management libraries, HOCs, render props, and hooks, you can significantly improve the maintainability and performance of your React applications. Choose the strategy that best fits your project's requirements to minimize the impact of prop drilling and build more efficient and maintainable code.

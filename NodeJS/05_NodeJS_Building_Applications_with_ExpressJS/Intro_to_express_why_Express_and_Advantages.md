@@ -68,6 +68,6 @@ Express.js is suitable for a wide range of projects:
 
 - **Microservices:** Create microservices with modular routes and independent components.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've introduced you to Express.js, explaining why it's a popular choice for building web applications. Its minimalistic approach, rapid development capabilities, middleware support, robust routing, and active community make it an ideal framework for various projects. As you embark on your web development journey, consider using Express.js to simplify your workflow, accelerate development, and create efficient and scalable applications.

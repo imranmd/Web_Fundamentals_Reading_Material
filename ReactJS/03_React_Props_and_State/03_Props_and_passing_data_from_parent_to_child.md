@@ -134,7 +134,7 @@ Props can be used to customize various aspects of a component:
    ```
 
 
-### Conclusion
+### Summary
 
 Props are a powerful mechanism in React that enable components to be highly customizable, dynamic, and reusable. By passing data from parent to child components, you can create a dynamic UI that responds to different inputs and conditions.
 

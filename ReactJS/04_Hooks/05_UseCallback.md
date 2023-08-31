@@ -81,6 +81,6 @@ In this example, the `handleClick` function is memoized using `useCallback` befo
 
 - **Efficient Prop Passing:** `useCallback` is particularly beneficial when passing functions as props to child components.
 
-### Conclusion
+### Summary
 
 The `useCallback` hook is a vital tool for optimizing performance in React applications. By memoizing functions and preventing unnecessary re-creation, you can improve your application's efficiency and responsiveness. This tutorial offered a comprehensive exploration of the `useCallback` hook, its purpose, and its role in enhancing React application performance. Use this knowledge to strategically apply `useCallback` and create more efficient, performant, and maintainable components.

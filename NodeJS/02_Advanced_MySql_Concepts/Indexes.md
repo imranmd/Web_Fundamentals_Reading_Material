@@ -58,6 +58,6 @@ DROP INDEX idx_last_name ON employees;
 
 - **Query-Intensive Applications:** Optimize queries for applications that rely heavily on data retrieval.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into MySQL indexes, understanding their significance and practical applications. By grasping the key index types—regular, unique, primary key, and composite—you're empowered to create indexes that accelerate data retrieval efficiently. As you work on developing applications, generating reports, and optimizing database queries, the knowledge of indexes in MySQL will serve as an invaluable tool in enhancing query performance and ensuring efficient data access.

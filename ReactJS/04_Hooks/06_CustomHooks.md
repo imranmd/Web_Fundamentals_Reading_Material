@@ -78,6 +78,6 @@ In this example, the `DisplayData` component utilizes the `useFetchData` custom 
 
 - **Testing:** Custom hooks can be easily tested in isolation, enhancing the overall testability of your application.
 
-### Conclusion
+### Summary
 
 Custom hooks are a powerful tool in React that empowers you to create reusable and encapsulated logic. By abstracting complex operations into custom hooks, you can achieve code reusability and maintainable components. This tutorial provided a comprehensive exploration of custom hooks, from creation to practical application. Apply this knowledge to streamline your React development workflow and create more efficient, organized, and reusable code.

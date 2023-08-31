@@ -89,6 +89,6 @@ DROP TABLE employees;
 
 - **Database Maintenance:** Alter tables, add indexes, and create views as your application's needs evolve.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL's Data Definition Language (DDL), understanding its concepts and practical applications. By grasping the key DDL commands for creating databases, tables, indexes, and views, you're empowered to define and manage your database structure effectively. As you work on developing and maintaining databases, the knowledge of DDL in MySQL will serve as a foundational skill in building robust and well-structured data systems.

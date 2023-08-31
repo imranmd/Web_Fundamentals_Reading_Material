@@ -86,6 +86,6 @@ node app.js
 
 Your Express.js server is now up and running. Open your web browser and visit `http://localhost:3000` to see the "Hello, Express!" message.
 
-## Conclusion
+## Summary
 
 In this step-by-step guide, you've learned how to set up an Express.js project from scratch. By installing Node.js, initializing a project, installing Express.js, creating the project structure, and building a basic server, you're now well-equipped to begin developing robust web applications using Express.js. As you progress, you can expand your project, add routes, middleware, and explore the full potential of Express.js to build feature-rich and efficient web applications.

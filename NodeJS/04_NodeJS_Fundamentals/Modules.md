@@ -79,6 +79,6 @@ npm install package-name
 
 - **Utility Functions:** Create utility modules for common tasks (e.g., data validation).
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the world of Node.js modules, understanding their significance and practical applications. By mastering key concepts such as creating and using modules, differentiating core and custom modules, and utilizing folder modules, you're well-equipped to modularize your Node.js applications for improved organization and maintainability. As you work on developing applications that require scalability, collaboration, and efficient code management, the knowledge of Node.js modules will serve as a foundational skill to ensure your codebase remains clean, reusable, and manageable throughout its lifecycle.

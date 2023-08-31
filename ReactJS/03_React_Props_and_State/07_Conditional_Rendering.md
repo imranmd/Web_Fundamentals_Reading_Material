@@ -111,6 +111,6 @@ class DynamicRendering extends Component {
 export default DynamicRendering;
 ```
 
-### Conclusion
+### Summary
 
 Conditional rendering is a crucial concept in React that empowers you to create versatile and user-friendly interfaces. By selectively rendering components or elements based on conditions, you can provide tailored experiences to your users. This guide has equipped you with various techniques for implementing conditional rendering in your React applications. Utilize these techniques wisely to build dynamic, responsive, and engaging UIs.

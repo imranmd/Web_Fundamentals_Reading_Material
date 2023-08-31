@@ -72,6 +72,6 @@ Setting up and installing MySQL is a crucial step for anyone venturing into the 
 
 3. **Success:** If you're able to access the MySQL command-line interface, your installation is successful.
 
-## Conclusion
+## Summary
 
 In this comprehensive setup and installation guide, we've walked you through the process of installing MySQL on Windows, macOS, and Linux. By following these step-by-step instructions, you've now laid the groundwork to start working with MySQL, a powerful relational database management system that's widely used in the industry. As you continue your journey in database management, this solid foundation will serve as a valuable asset in building and maintaining robust database systems.

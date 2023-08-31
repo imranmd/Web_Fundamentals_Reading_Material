@@ -73,6 +73,6 @@ Identify key columns that will be frequently used for searching and sorting, and
 
 Review the entire data model with stakeholders and developers for feedback. Refine the model based on the feedback and make necessary adjustments.
 
-## Conclusion
+## Summary
 
 Data modeling is a pivotal step in building effective databases that meet the requirements of applications while ensuring data integrity, efficiency, and scalability. By following the steps outlined in this guide, you'll be well-equipped to design and implement well-structured databases that serve as the backbone of modern software systems.

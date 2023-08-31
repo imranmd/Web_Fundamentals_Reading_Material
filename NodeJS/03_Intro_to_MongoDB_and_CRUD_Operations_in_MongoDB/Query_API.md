@@ -83,6 +83,6 @@ const result = await collection.find({ field: value }).hint("index_name").toArra
 
 - **Data Analytics:** Use aggregation to analyze and extract insights from large datasets.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the MongoDB Query API, understanding its significance and practical applications. By grasping the key concepts of basic queries, comparison and logical operators, projection, sorting, aggregation, and more, you're empowered to craft precise and efficient queries to retrieve data from your MongoDB databases. As you work on developing applications that rely on MongoDB for data retrieval, the knowledge of the MongoDB Query API will serve as a valuable asset in optimizing data access and enhancing the efficiency of your applications.

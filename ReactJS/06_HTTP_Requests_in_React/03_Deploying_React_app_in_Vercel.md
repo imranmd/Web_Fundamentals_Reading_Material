@@ -57,6 +57,6 @@ You can also manage your deployments on the Vercel dashboard:
 
 3. Here, you can monitor your deployments, access deployment logs, and configure various settings related to your app's hosting.
 
-### Conclusion
+### Summary
 
 Deploying a React.js app on Vercel is a straightforward process that takes advantage of Vercel's seamless integration with React.js. By following these steps, you can quickly get your app up and running on the web. Vercel's user-friendly interface and powerful features make it an excellent choice for hosting and deploying React.js applications.

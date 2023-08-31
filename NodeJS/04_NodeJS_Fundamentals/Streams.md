@@ -82,6 +82,6 @@ readableStream.on('error', (err) => {
 
 - **Network Operations:** Handle network requests and responses using streams.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored Node.js streams, understanding their significance and practical applications. By mastering key concepts such as types of streams, piping, transform streams, and error handling, you're well-equipped to leverage streams for efficient data handling and processing in your Node.js applications. As you work on developing applications that require optimized data processing, file handling, and network operations, the knowledge of Node.js streams will empower you to build performant and scalable applications that efficiently manage data flow and enhance overall application performance.

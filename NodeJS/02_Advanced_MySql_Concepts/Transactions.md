@@ -74,6 +74,6 @@ ROLLBACK;
 
 - **E-commerce:** Apply transactions to manage order processing and inventory updates.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL transactions, understanding their significance and practical applications. By grasping the concepts of transaction properties, starting, committing, and rolling back transactions, you're empowered to maintain data integrity and consistency within your MySQL database. As you work on developing applications with critical data operations, the knowledge of transactions in MySQL will serve as an invaluable tool in ensuring reliable and accurate data management and processing.

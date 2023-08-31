@@ -93,6 +93,6 @@ console.log('User information:', userInfo);
 
 - **Logging and Analytics:** Gather system data for logging and performance analysis.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the Node.js OS module, understanding its significance and practical applications. By mastering key functions such as retrieving platform and architecture information, system uptime, memory details, and user information, you're well-equipped to gather critical system insights and make informed decisions using the OS module in Node.js. As you work on projects that require efficient resource management, logging, and system monitoring, the knowledge of the Node.js OS module will empower you to build applications that are optimized for resource usage, performance, and user experience, enhancing your ability to create robust and responsive software solutions.

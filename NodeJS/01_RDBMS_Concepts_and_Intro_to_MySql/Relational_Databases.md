@@ -86,6 +86,6 @@ Relational databases find application in various domains, including:
 - **Human Resources:** Storing employee records, payroll, and benefits.
 - **E-commerce:** Managing products, orders, and customer interactions.
 
-## Conclusion
+## Summary
 
 In this tutorial, we've journeyed through the realm of Relational Databases, unraveling their concepts, components, benefits, and practical applications. By understanding the principles of tables, relationships, primary keys, and foreign keys, you're equipped to design efficient and structured databases that facilitate data management, ensure integrity, and empower applications to thrive.

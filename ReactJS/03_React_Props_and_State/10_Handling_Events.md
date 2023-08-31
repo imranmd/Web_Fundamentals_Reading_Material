@@ -93,6 +93,6 @@ export default PreventDefaultExample;
 
 React follows the same event propagation and bubbling model as native DOM events. Events triggered on child elements will also propagate to their parent elements unless explicitly stopped.
 
-### Conclusion
+### Summary
 
 Handling events in React is essential for creating interactive and user-friendly applications. By attaching event handlers to JSX elements and defining corresponding functions, you can capture and respond to various user interactions. This comprehensive guide has equipped you with the knowledge and skills needed to effectively handle events in your React projects. Utilize these techniques to build engaging and responsive user interfaces that provide a seamless user experience.

@@ -71,6 +71,6 @@ myEmitter.emit('customEvent', { message: 'Hello, Event Emitter!' });
 
 - **File Processing:** Employ events to manage file read/write operations.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the concept of events and the built-in Event Emitter in Node.js, understanding their significance and practical applications. By mastering event emission, listening, and data passing, you're well-equipped to implement an event-driven architecture that handles asynchronous interactions seamlessly. As you work on projects that involve HTTP servers, file processing, and asynchronous communication, the knowledge of Node.js events and the Event Emitter will empower you to build applications that respond efficiently to asynchronous events, ensuring enhanced performance, modular design, and a seamless user experience.

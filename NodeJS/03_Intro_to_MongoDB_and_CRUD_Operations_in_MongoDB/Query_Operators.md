@@ -94,6 +94,6 @@ db.collection_name.find({ field: { operator: value } });
 
 - **User Management:** Retrieve users by age, location, or activity.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MongoDB query operators, understanding their significance and practical applications. By grasping the key steps involved in opening the MongoDB shell, switching to the desired database, using query operators within the `find()` method, and viewing query results, you're well-equipped to perform precise data filtering and manipulation using a variety of query operators. As you work on developing applications that require specific data retrieval and filtering, the knowledge of query operators will serve as a fundamental skill to efficiently manage and extract valuable information from your MongoDB collections.

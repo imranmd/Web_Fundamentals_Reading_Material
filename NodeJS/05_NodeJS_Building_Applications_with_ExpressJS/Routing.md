@@ -84,6 +84,6 @@ router.get('/route2', (req, res) => {
 app.use('/api', router);
 ```
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, you've explored the world of routing in Express.js. By defining routes, working with route parameters, implementing middleware, and using the Express Router, you're now well-equipped to build efficient and organized web applications. As you continue your journey with Express.js, leverage these routing techniques to create feature-rich and dynamic applications that effectively handle different URLs, HTTP methods, and user interactions.

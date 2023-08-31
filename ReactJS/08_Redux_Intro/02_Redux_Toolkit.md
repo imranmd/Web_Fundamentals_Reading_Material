@@ -166,6 +166,6 @@ Redux Toolkit simplifies handling asynchronous actions using the `createAsyncThu
    export default UserComponent;
    ```
 
-## Conclusion
+## Summary
 
 Redux Toolkit is a powerful and efficient tool for managing state in your React applications. It simplifies the process of setting up Redux, reduces boilerplate code, and provides utilities for handling asynchronous actions. By following this tutorial, you've learned the basics of using Redux Toolkit to create and manage state in your React projects. As you continue to explore and work with Redux Toolkit, you'll find it to be a valuable asset in building robust and maintainable applications.

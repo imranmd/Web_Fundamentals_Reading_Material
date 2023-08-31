@@ -79,6 +79,6 @@ db.collection_name.aggregate([
 
 - **User Analytics:** Analyze user behavior, active users, and engagement metrics.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored aggregation in MongoDB, understanding its significance and practical applications. By grasping the key steps involved in opening the MongoDB shell, switching to the desired database, using aggregation pipeline stages, and viewing results, you're well-equipped to perform advanced data operations and analysis using MongoDB's aggregation framework. As you work on developing applications that require data insights and complex analysis, the knowledge of aggregation will serve as a powerful tool to extract valuable information from your MongoDB collections.

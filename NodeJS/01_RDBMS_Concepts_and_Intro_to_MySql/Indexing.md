@@ -59,6 +59,6 @@ CREATE INDEX idx_lastname ON Employees(LastName);
 
 - **Large Databases:** Indexes significantly improve performance in large databases with extensive data.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into the world of DBMS indexing, understanding its concepts, types, and practical application. By grasping the purpose of indexing, identifying suitable columns, and choosing the right index type, you're empowered to optimize database performance and enhance data retrieval speed. As you venture into the realm of database optimization, the knowledge of indexing techniques will prove invaluable in creating efficient and responsive database systems.

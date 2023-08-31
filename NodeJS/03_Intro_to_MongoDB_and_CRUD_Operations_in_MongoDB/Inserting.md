@@ -74,6 +74,6 @@ db.collection_name.find();
 
 - **E-commerce:** Insert product information into a collection for e-commerce platforms.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've walked through the steps of inserting data into MongoDB, understanding its significance and practical applications. By grasping the key steps involved in opening the MongoDB shell, switching to the desired database, inserting single and multiple documents, and verifying insertion, you're equipped to seamlessly add data to your MongoDB collections. As you work on developing applications that rely on MongoDB for data storage, the knowledge of inserting data will serve as an essential skill in building dynamic and data-rich solutions.

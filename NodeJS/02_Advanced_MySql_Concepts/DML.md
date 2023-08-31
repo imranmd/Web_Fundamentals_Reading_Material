@@ -92,6 +92,6 @@ FROM employees;
 
 - **Reporting:** Use DML to aggregate and analyze data for generating meaningful reports.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL's Data Manipulation Language (DML), understanding its concepts and practical applications. By grasping the key DML commands for retrieving, inserting, updating, and deleting data, as well as for combining tables and performing aggregates, you're empowered to interact with and manipulate data within your MySQL database effectively. As you work on developing applications and analyzing data, the knowledge of DML in MySQL will serve as a foundational skill in working with and extracting value from your database systems.

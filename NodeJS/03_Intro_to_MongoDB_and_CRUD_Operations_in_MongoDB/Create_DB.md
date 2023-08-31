@@ -78,6 +78,6 @@ db.new_collection.insert({ field1: value1, field2: value2 });
 
 - **Analytics:** Create separate databases for different projects or datasets.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've walked through the steps of creating a database in MongoDB, understanding its significance and practical applications. By grasping the key steps involved in opening the MongoDB shell, creating a new database, inserting data, and performing operations within the new database, you're equipped to create and manage databases to suit your data storage and manipulation needs. As you work on developing applications that rely on MongoDB for data storage, the knowledge of creating databases will serve as a foundational skill in building efficient and organized data solutions.

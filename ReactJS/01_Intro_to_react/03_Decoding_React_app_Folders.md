@@ -141,6 +141,6 @@ To run your React app, follow these steps:
 
 4. Open your web browser and go to `http://localhost:3000` to see your React app in action!
 
-## Conclusion
+## Summary
 
 Congratulations! You've learned about the folder structure of a React app, from the basic setup to an advanced organization. Understanding this structure will help you build and manage your React applications more effectively. Happy coding, and may the React force be with you! 🚀🌟

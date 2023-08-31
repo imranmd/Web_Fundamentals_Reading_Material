@@ -166,7 +166,7 @@ Before proceeding, ensure you have the following installed:
    });
    ```
 
-## Conclusion
+## Summary
 
 In this tutorial, we've explored the significance of Database Management Systems (DBMS) and implemented practical examples using MySQL and MongoDB with Node.js. By following this guide, you've gained insights into creating databases, tables/collections, inserting data, and interacting with these databases using Node.js. This knowledge forms a strong foundation for building powerful and data-driven applications.
 
@@ -237,7 +237,7 @@ In multi-user scenarios, maintaining data consistency can be challenging. DBMS h
 
 DBMS abstracts data storage complexities, allowing developers to focus on application logic rather than low-level data management tasks. This speeds up development and reduces errors.
 
-## Conclusion
+## Summary
 
 In this guide, we've explored the fundamental concept of Database Management Systems (DBMS) and their critical role in modern software development. A DBMS is not just a tool; it's a foundational element that empowers applications to manage data efficiently, securely, and reliably. By understanding the importance of DBMS, you're equipped with the knowledge to make informed decisions when designing and developing applications that require effective data management.
 
@@ -344,7 +344,7 @@ The shift towards cloud computing introduced cloud-native databases. Managed dat
 [Application] <-> [Managed Database Service]
 ```
 
-## Conclusion
+## Summary
 
 The evolution of DBMS has been a remarkable journey, from hierarchical and network models to the relational paradigm, and then to NoSQL and specialized databases. Today, we stand at the crossroads of advanced NewSQL systems, graph databases, and cloud-native services. This evolution reflects the continuous effort to meet the diverse demands of modern applications, providing data management solutions that empower developers and organizations to innovate and thrive.
 
@@ -424,7 +424,7 @@ COMMIT; -- Transaction 1 completes
 -- After COMMIT, the changes are durable
 ```
 
-## Conclusion
+## Summary
 
 ACID properties are the bedrock of reliable and robust databases. They ensure data integrity, consistency, and reliability, making them indispensable for applications where accuracy and correctness are paramount. By understanding and applying the principles of ACID, you're equipped to design and build databases that can withstand failures, maintain data accuracy, and provide a dependable foundation for applications of all kinds.
 
@@ -512,7 +512,7 @@ Identify key columns that will be frequently used for searching and sorting, and
 
 Review the entire data model with stakeholders and developers for feedback. Refine the model based on the feedback and make necessary adjustments.
 
-## Conclusion
+## Summary
 
 Data modeling is a pivotal step in building effective databases that meet the requirements of applications while ensuring data integrity, efficiency, and scalability. By following the steps outlined in this guide, you'll be well-equipped to design and implement well-structured databases that serve as the backbone of modern software systems.
 
@@ -582,7 +582,7 @@ CREATE TABLE Order (
    - **Logical Schema:** Aims to capture the semantics and relationships of data accurately.
    - **Physical Schema:** Aims to optimize storage space, access speed, and overall system performance.
 
-## Conclusion
+## Summary
 
 In this tutorial, we've explored the intricacies of database schema, shedding light on both logical and physical schema in the context of Database Management Systems (DBMS). The logical schema provides a conceptual view of data organization, while the physical schema handles the practical aspects of data storage and retrieval. A clear understanding of these schemas is crucial for designing databases that are not only well-organized and efficient but also capable of meeting the needs of modern applications.
 
@@ -683,7 +683,7 @@ Relational databases find application in various domains, including:
 - **Human Resources:** Storing employee records, payroll, and benefits.
 - **E-commerce:** Managing products, orders, and customer interactions.
 
-## Conclusion
+## Summary
 
 In this tutorial, we've journeyed through the realm of Relational Databases, unraveling their concepts, components, benefits, and practical applications. By understanding the principles of tables, relationships, primary keys, and foreign keys, you're equipped to design efficient and structured databases that facilitate data management, ensure integrity, and empower applications to thrive.
 
@@ -773,7 +773,7 @@ The ER Model finds application in various scenarios, including:
 
 - **Software Development:** Providing a foundation for building database-driven software applications.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the Entity-Relationship (ER) Model in the context of Database Management Systems (DBMS). By understanding the key concepts of entities, attributes, relationships, and cardinality, you're equipped with the knowledge to design databases that accurately represent real-world scenarios. Whether you're creating a new database or analyzing an existing one, the ER Model empowers you to capture data relationships effectively, laying the groundwork for efficient and well-organized database systems.
 
@@ -862,7 +862,7 @@ A **composite key** is a key that consists of multiple columns. The combination 
 
 - **Composite Keys:** Useful when a single column cannot guarantee uniqueness.
 
-## Conclusion
+## Summary
 
 In this in-depth guide, we've navigated through the realm of DBMS keys, understanding their types, significance, and practical applications. By grasping the concept of primary keys, foreign keys, candidate keys, and more, you're empowered to design databases that maintain data integrity, establish relationships, and enable efficient data retrieval. As you venture into the world of database design and management, the knowledge of DBMS keys will prove invaluable in creating reliable and optimized systems.
 
@@ -958,7 +958,7 @@ History   | Johnson
 
 - **Maintenance:** Updates and modifications are simplified due to reduced redundancy.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the world of DBMS normalization, understanding its levels, significance, and step-by-step application. By grasping the concepts of 1NF, 2NF, 3NF, and BCNF, you're equipped to design databases that are well-organized, efficient, and maintain data integrity. As you navigate the process of database design and management, the knowledge of normalization principles will serve as a foundational pillar in creating reliable and optimized data structures.
 
@@ -1032,7 +1032,7 @@ CREATE INDEX idx_lastname ON Employees(LastName);
 
 - **Large Databases:** Indexes significantly improve performance in large databases with extensive data.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into the world of DBMS indexing, understanding its concepts, types, and practical application. By grasping the purpose of indexing, identifying suitable columns, and choosing the right index type, you're empowered to optimize database performance and enhance data retrieval speed. As you venture into the realm of database optimization, the knowledge of indexing techniques will prove invaluable in creating efficient and responsive database systems.
 
@@ -1117,7 +1117,7 @@ COMMIT; -- Or ROLLBACK;
 
 - **Reservations:** Handling seat reservations, room bookings, and event registrations.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the world of DBMS transactions, understanding their significance, properties, and practical applications. By grasping the concepts of ACID properties, transaction states, and concurrent execution, you're empowered to design and manage transactions that ensure data integrity, consistency, and reliability. As you navigate the landscape of database management, the knowledge of transaction management will serve as a foundation for building robust and dependable systems.
 
@@ -1198,7 +1198,7 @@ Transactions are allowed to proceed without locks. Before committing, the system
 
 - **Collaborative Environments:** Shared document editing and collaborative software.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the intricate world of DBMS concurrency, understanding its significance, challenges, and strategies for managing concurrent data operations. By grasping the concepts of transactions, isolation levels, locking, and optimistic concurrency control, you're empowered to design and manage database systems that allow multiple users to interact seamlessly while maintaining data consistency and reliability. As you navigate the complexities of multi-user environments, the knowledge of concurrency control will serve as a cornerstone in building robust and responsive systems.
 
@@ -1281,7 +1281,7 @@ A graph that represents the wait-for relationships among transactions.
 
 - **Operating Systems:** Managing resource allocation among multiple processes.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into the intricate world of DBMS deadlocks, understanding their causes, detection, and strategies for prevention and resolution. By grasping the concepts of resource types, deadlock causes, detection methods, and prevention strategies, you're equipped to design systems that effectively manage and recover from deadlocks. As you navigate the complexities of concurrent transactions, the knowledge of deadlock management will serve as a crucial tool in building robust and responsive systems that ensure data integrity and maintain system availability.
 
@@ -1395,7 +1395,7 @@ Apply these best practices in scenarios where concurrent transactions are common
 
 - **Multi-User Systems:** Design systems that can handle multiple users concurrently without deadlock-related delays.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the best practices to avoid deadlocks in DBMS, understanding the importance of preventing these situations. By following practices such as using timeout mechanisms, acquiring resources in defined orders, implementing wait-die or wound-wait schemes, releasing resources promptly, and monitoring system performance, you're empowered to design systems that minimize the risk of deadlocks and ensure smooth concurrent operations. As you navigate the complexities of concurrent transactions, these practices will serve as valuable tools in building reliable and responsive systems that uphold data integrity and maintain system availability.
 
@@ -1500,7 +1500,7 @@ Apply these best practices to scenarios where multiple users interact with the s
 
 - **Database-Driven Software:** Applications that rely heavily on database interactions.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into the best practices for managing concurrency in DBMS, understanding their significance and practical implementation. By adopting practices such as using appropriate isolation levels, minimizing transaction duration, employing optimistic concurrency control, implementing row-level locking, and using read-write locks, you're empowered to design systems that enable smooth multi-user interactions while ensuring data consistency and reducing conflicts. As you navigate the complexities of concurrent transactions, these best practices will serve as valuable tools in building systems that are both robust and responsive, supporting efficient multi-user operations and upholding data integrity.
 
@@ -1587,7 +1587,7 @@ Setting up and installing MySQL is a crucial step for anyone venturing into the 
 
 3. **Success:** If you're able to access the MySQL command-line interface, your installation is successful.
 
-## Conclusion
+## Summary
 
 In this comprehensive setup and installation guide, we've walked you through the process of installing MySQL on Windows, macOS, and Linux. By following these step-by-step instructions, you've now laid the groundwork to start working with MySQL, a powerful relational database management system that's widely used in the industry. As you continue your journey in database management, this solid foundation will serve as a valuable asset in building and maintaining robust database systems.
 
@@ -1691,7 +1691,7 @@ DROP TABLE employees;
 
 - **Database Maintenance:** Alter tables, add indexes, and create views as your application's needs evolve.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL's Data Definition Language (DDL), understanding its concepts and practical applications. By grasping the key DDL commands for creating databases, tables, indexes, and views, you're empowered to define and manage your database structure effectively. As you work on developing and maintaining databases, the knowledge of DDL in MySQL will serve as a foundational skill in building robust and well-structured data systems.
 
@@ -1798,7 +1798,7 @@ FROM employees;
 
 - **Reporting:** Use DML to aggregate and analyze data for generating meaningful reports.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL's Data Manipulation Language (DML), understanding its concepts and practical applications. By grasping the key DML commands for retrieving, inserting, updating, and deleting data, as well as for combining tables and performing aggregates, you're empowered to interact with and manipulate data within your MySQL database effectively. As you work on developing applications and analyzing data, the knowledge of DML in MySQL will serve as a foundational skill in working with and extracting value from your database systems.
 
@@ -1886,7 +1886,7 @@ SET autocommit = 0;
 
 - **Financial Systems:** Manage financial transactions, ensuring that money transfers and account updates are reliable and consistent.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL's Data Transaction Language (DTL), understanding its significance and practical applications. By grasping the key DTL commands for starting, committing, and rolling back transactions, as well as setting transaction isolation levels and using savepoints, you're empowered to manage your database transactions effectively. As you work on designing systems with critical operations and managing data integrity, the knowledge of DTL in MySQL will serve as a foundational skill in ensuring reliable and consistent data transactions.
 
@@ -1987,7 +1987,7 @@ LEFT JOIN orders ON customers.id = orders.customer_id;
 
 - **Business Analytics:** Query and analyze data to make informed business decisions.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL's Data Query Language (DQL), understanding its concepts and practical applications. By grasping the key DQL commands for selecting, filtering, sorting, limiting, aggregating, and joining data, you're empowered to retrieve and manipulate data within your MySQL database effectively. As you work on developing applications, generating reports, and analyzing data, the knowledge of DQL in MySQL will serve as a foundational skill in working with and extracting value from your database systems.
 
@@ -2073,7 +2073,7 @@ JOIN employees AS e2 ON e1.manager_id = e2.id;
 
 - **Data Analysis:** Combine data for analysis to discover patterns and trends.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL joins, understanding their concepts and practical applications. By grasping the key join types—inner, left, right, full outer, and self—you're empowered to craft queries that merge data from different tables effectively. As you work on developing applications, generating reports, and analyzing data, the knowledge of joins in MySQL will serve as an invaluable skill in extracting valuable insights and information from your database systems.
 
@@ -2146,7 +2146,7 @@ DROP INDEX idx_last_name ON employees;
 
 - **Query-Intensive Applications:** Optimize queries for applications that rely heavily on data retrieval.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into MySQL indexes, understanding their significance and practical applications. By grasping the key index types—regular, unique, primary key, and composite—you're empowered to create indexes that accelerate data retrieval efficiently. As you work on developing applications, generating reports, and optimizing database queries, the knowledge of indexes in MySQL will serve as an invaluable tool in enhancing query performance and ensuring efficient data access.
 
@@ -2236,7 +2236,7 @@ DROP TRIGGER after_insert_employee;
 
 - **Logging and Auditing:** Implement triggers to track changes for auditing purposes.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL triggers, understanding their significance and practical applications. By grasping the concepts of trigger creation, types, and utilization of OLD and NEW references, you're empowered to automate actions and enforce data integrity within your MySQL database. As you work on database management and data tracking, the knowledge of triggers in MySQL will serve as a powerful tool in automating tasks and maintaining a reliable and well-controlled database environment.
 
@@ -2316,7 +2316,7 @@ DROP PROCEDURE get_employee_details;
 
 - **Application Logic:** Use stored procedures to encapsulate business logic in the database.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL stored procedures, understanding their significance and practical applications. By grasping the concepts of procedure creation, parameter usage, and calling procedures, you're empowered to streamline complex database operations and promote code reusability within your MySQL environment. As you work on database management and application development, the knowledge of stored procedures in MySQL will serve as a valuable asset in enhancing efficiency, security, and maintainability in your database systems.
 
@@ -2396,7 +2396,7 @@ JOIN orders ON customers.id = orders.customer_id;
 
 - **Report Generation:** Utilize views to create simplified views of data for generating reports.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into MySQL views, understanding their significance and practical applications. By grasping the concepts of view creation, data retrieval, and data manipulation through views, you're empowered to simplify complex queries and enhance data security within your MySQL environment. As you work on optimizing data retrieval processes and ensuring data privacy, the knowledge of views in MySQL will serve as a valuable asset in providing a convenient and secure way to access and interact with your database.
 
@@ -2485,7 +2485,7 @@ ROLLBACK;
 
 - **E-commerce:** Apply transactions to manage order processing and inventory updates.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL transactions, understanding their significance and practical applications. By grasping the concepts of transaction properties, starting, committing, and rolling back transactions, you're empowered to maintain data integrity and consistency within your MySQL database. As you work on developing applications with critical data operations, the knowledge of transactions in MySQL will serve as an invaluable tool in ensuring reliable and accurate data management and processing.
 
@@ -2580,7 +2580,7 @@ SELECT * FROM products ORDER BY RAND() LIMIT 5;
 
 - **Reporting Systems:** Enhance query performance for generating reports from large datasets.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL query optimization, understanding its significance and practical applications. By grasping the concepts of indexing, efficient query writing, using joins wisely, and utilizing tools like EXPLAIN, you're empowered to create queries that run efficiently and take full advantage of your MySQL database's capabilities. As you work on database-driven applications, reporting systems, and data-intensive tasks, the knowledge of query optimization in MySQL will serve as an essential skill in ensuring optimal performance and responsiveness.
 
@@ -2690,7 +2690,7 @@ mongo
 
 - **Big Data:** Store and process large volumes of data efficiently.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've walked through the steps of setting up and installing MongoDB, understanding its significance and practical applications. By grasping the key steps involved in downloading, choosing an installation method, configuring MongoDB, and verifying the installation, you're equipped to begin working with MongoDB effectively. As you explore database-driven applications and data management, the knowledge of MongoDB setup and installation will serve as a solid foundation for harnessing the power of this NoSQL database system.
 
@@ -2759,6 +2759,6 @@ IoT devices generate enormous amounts of data, and NoSQL databases can handle th
 
 For real-time analytics scenarios, NoSQL databases enable efficient data aggregation and quick analysis.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the need for NoSQL databases, understanding their advantages and diverse use cases. By grasping the flexible schema, scalability, performance benefits, and practical applications, you're empowered to make informed decisions about when and why to choose NoSQL databases for your projects. As you embark on modern data-driven ventures, the knowledge of NoSQL's strengths and suitability for specific scenarios will serve as a valuable asset in architecting efficient and effective data management solutions.

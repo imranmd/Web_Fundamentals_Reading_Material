@@ -95,6 +95,6 @@ mongo
 
 - **Big Data:** Store and process large volumes of data efficiently.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've walked through the steps of setting up and installing MongoDB, understanding its significance and practical applications. By grasping the key steps involved in downloading, choosing an installation method, configuring MongoDB, and verifying the installation, you're equipped to begin working with MongoDB effectively. As you explore database-driven applications and data management, the knowledge of MongoDB setup and installation will serve as a solid foundation for harnessing the power of this NoSQL database system.

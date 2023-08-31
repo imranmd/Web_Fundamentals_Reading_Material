@@ -87,6 +87,6 @@ npm run dev
 
 This command will start the development server, and you can access your application by navigating to `http://localhost:3000` in your browser.
 
-### Conclusion
+### Summary
 
 Setting up a Next.js project involves installing the necessary dependencies, understanding the project structure, and creating your first page. The clear organization of files in the `pages` directory simplifies routing and development. In the next tutorials, we'll dive deeper into creating more pages, using dynamic routes, and exploring the powerful features of Next.js.

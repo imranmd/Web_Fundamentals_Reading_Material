@@ -92,6 +92,6 @@ The shift towards cloud computing introduced cloud-native databases. Managed dat
 [Application] <-> [Managed Database Service]
 ```
 
-## Conclusion
+## Summary
 
 The evolution of DBMS has been a remarkable journey, from hierarchical and network models to the relational paradigm, and then to NoSQL and specialized databases. Today, we stand at the crossroads of advanced NewSQL systems, graph databases, and cloud-native services. This evolution reflects the continuous effort to meet the diverse demands of modern applications, providing data management solutions that empower developers and organizations to innovate and thrive.

@@ -73,6 +73,6 @@ SET autocommit = 0;
 
 - **Financial Systems:** Manage financial transactions, ensuring that money transfers and account updates are reliable and consistent.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL's Data Transaction Language (DTL), understanding its significance and practical applications. By grasping the key DTL commands for starting, committing, and rolling back transactions, as well as setting transaction isolation levels and using savepoints, you're empowered to manage your database transactions effectively. As you work on designing systems with critical operations and managing data integrity, the knowledge of DTL in MySQL will serve as a foundational skill in ensuring reliable and consistent data transactions.

@@ -86,6 +86,6 @@ LEFT JOIN orders ON customers.id = orders.customer_id;
 
 - **Business Analytics:** Query and analyze data to make informed business decisions.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL's Data Query Language (DQL), understanding its concepts and practical applications. By grasping the key DQL commands for selecting, filtering, sorting, limiting, aggregating, and joining data, you're empowered to retrieve and manipulate data within your MySQL database effectively. As you work on developing applications, generating reports, and analyzing data, the knowledge of DQL in MySQL will serve as a foundational skill in working with and extracting value from your database systems.

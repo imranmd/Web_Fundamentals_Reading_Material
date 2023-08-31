@@ -97,6 +97,6 @@ export default App;
 
 - **Heavy Widgets:** Load heavy widgets, like charts or maps, only when they become visible.
 
-### Conclusion
+### Summary
 
 Lazy loading is a powerful technique that significantly enhances the performance of your React applications by loading components only when they are needed. This tutorial provided an in-depth exploration of lazy loading using `React.lazy` and `Suspense`, along with its benefits and practical use cases. By leveraging lazy loading, you can create applications that are faster to load, provide a smoother user experience, and optimize resource utilization.

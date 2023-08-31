@@ -86,6 +86,6 @@ this.setState((prevState) => ({
 }));
 ```
 
-### Conclusion
+### Summary
 
 State is a cornerstone concept in React that enables components to maintain and manage their internal data. By using state, you can create dynamic, interactive, and responsive user interfaces. This guide has provided you with a comprehensive understanding of state in React, from initialization to updating. By applying this knowledge, you'll be well-equipped to build complex and dynamic applications using React's state management.

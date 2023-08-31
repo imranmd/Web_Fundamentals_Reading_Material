@@ -98,6 +98,6 @@ node app.js
 - To create a new note, use a tool like `curl` or Postman to make a `POST` request to `http://localhost:3000/notes` with a JSON payload.
 - To delete a note, make a `DELETE` request to `http://localhost:3000/notes/:id` where `:id` is the ID of the note you want to delete.
 
-## Conclusion
+## Summary
 
 Congratulations! You've successfully built a simple note-taking app using Express.js. This project demonstrates how to handle routes, manage data using an array, and interact with the app through `GET`, `POST`, and `DELETE` requests. As you continue your journey, you can enhance the app by adding features like editing notes, using a database for data storage, and implementing user authentication. This hands-on experience with Express.js will give you a solid foundation for building more complex web applications.

@@ -147,6 +147,6 @@ function ProfilerExample() {
 export default ProfilerExample;
 ```
 
-### Conclusion
+### Summary
 
 Optimizing the performance of your React applications is crucial for delivering a fast and smooth user experience. This tutorial provided an in-depth exploration of strategies to enhance performance, from avoiding unnecessary rerenders and using code splitting to memoization techniques with `useMemo` and `useCallback`. By applying these strategies and leveraging tools like React Profiler, you can create highly performant applications that delight users and provide a seamless interaction.

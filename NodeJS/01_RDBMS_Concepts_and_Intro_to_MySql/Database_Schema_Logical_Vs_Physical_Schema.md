@@ -55,6 +55,6 @@ CREATE TABLE Order (
    - **Logical Schema:** Aims to capture the semantics and relationships of data accurately.
    - **Physical Schema:** Aims to optimize storage space, access speed, and overall system performance.
 
-## Conclusion
+## Summary
 
 In this tutorial, we've explored the intricacies of database schema, shedding light on both logical and physical schema in the context of Database Management Systems (DBMS). The logical schema provides a conceptual view of data organization, while the physical schema handles the practical aspects of data storage and retrieval. A clear understanding of these schemas is crucial for designing databases that are not only well-organized and efficient but also capable of meeting the needs of modern applications.

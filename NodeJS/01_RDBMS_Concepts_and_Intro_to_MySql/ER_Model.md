@@ -75,6 +75,6 @@ The ER Model finds application in various scenarios, including:
 
 - **Software Development:** Providing a foundation for building database-driven software applications.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the Entity-Relationship (ER) Model in the context of Database Management Systems (DBMS). By understanding the key concepts of entities, attributes, relationships, and cardinality, you're equipped with the knowledge to design databases that accurately represent real-world scenarios. Whether you're creating a new database or analyzing an existing one, the ER Model empowers you to capture data relationships effectively, laying the groundwork for efficient and well-organized database systems.

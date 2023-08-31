@@ -70,6 +70,6 @@ db.collection_name.find();
 
 - **Archiving:** Delete old or expired records to maintain a clean and relevant database.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've walked through the steps of deleting data in MongoDB, understanding its significance and practical applications. By grasping the key steps involved in opening the MongoDB shell, switching to the desired database, deleting single and multiple documents, and verifying deletions, you're well-equipped to efficiently manage and maintain your MongoDB collections. As you work on developing applications that rely on MongoDB for data storage, the knowledge of deleting data will serve as a crucial skill in keeping your database organized and up-to-date.

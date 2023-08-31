@@ -65,6 +65,6 @@ DROP PROCEDURE get_employee_details;
 
 - **Application Logic:** Use stored procedures to encapsulate business logic in the database.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL stored procedures, understanding their significance and practical applications. By grasping the concepts of procedure creation, parameter usage, and calling procedures, you're empowered to streamline complex database operations and promote code reusability within your MySQL environment. As you work on database management and application development, the knowledge of stored procedures in MySQL will serve as a valuable asset in enhancing efficiency, security, and maintainability in your database systems.

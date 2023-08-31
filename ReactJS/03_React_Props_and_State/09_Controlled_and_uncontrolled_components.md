@@ -85,6 +85,6 @@ export default UncontrolledComponent;
 
 - **Uncontrolled Components:** Uncontrolled components are useful when you want to integrate React with existing non-React code, like using third-party libraries, or when you don't need to perform complex validation or modifications before rendering.
 
-### Conclusion
+### Summary
 
 Controlled and uncontrolled components are two different approaches for handling form elements and user input in React applications. Each approach has its strengths and use cases. By understanding the differences and when to use each approach, you can make informed decisions when designing and implementing forms in your React projects. Choose the approach that best suits your project's requirements to build efficient and maintainable user interfaces.

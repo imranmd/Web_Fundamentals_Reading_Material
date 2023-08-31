@@ -72,6 +72,6 @@ export default ExampleComponent;
 - **Easier Testing:** Functional components with hooks are easier to test compared to class components.
 - **Performance Optimizations:** Hooks like `useMemo` and `useCallback` provide tools for performance optimization.
 
-### Conclusion
+### Summary
 
 Hooks are a significant addition to React that enhance the capabilities of functional components. By allowing you to use state, effects, context, and more in functional components, hooks simplify complex component logic and make code more concise and maintainable. In this tutorial, you've been introduced to the concept of hooks, learned about some commonly used hooks, and explored the benefits they offer. Experiment with hooks in your own projects to unlock their potential for improved development workflows and efficient component management.

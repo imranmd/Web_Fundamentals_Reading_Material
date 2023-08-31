@@ -81,6 +81,6 @@ History   | Johnson
 
 - **Maintenance:** Updates and modifications are simplified due to reduced redundancy.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the world of DBMS normalization, understanding its levels, significance, and step-by-step application. By grasping the concepts of 1NF, 2NF, 3NF, and BCNF, you're equipped to design databases that are well-organized, efficient, and maintain data integrity. As you navigate the process of database design and management, the knowledge of normalization principles will serve as a foundational pillar in creating reliable and optimized data structures.

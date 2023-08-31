@@ -70,6 +70,6 @@ show collections
 
 - **Logging:** Create collections to store log data for monitoring and analysis.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've walked through the steps of creating a collection in MongoDB, understanding its significance and practical applications. By grasping the key steps involved in opening the MongoDB shell, switching to the desired database, creating a collection, inserting documents, and listing collections, you're equipped to structure and manage collections efficiently to store your data. As you work on developing applications that rely on MongoDB for data storage, the knowledge of creating collections will serve as a foundational skill in building organized and well-structured data solutions.

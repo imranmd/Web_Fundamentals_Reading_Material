@@ -75,6 +75,6 @@ DROP TRIGGER after_insert_employee;
 
 - **Logging and Auditing:** Implement triggers to track changes for auditing purposes.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored MySQL triggers, understanding their significance and practical applications. By grasping the concepts of trigger creation, types, and utilization of OLD and NEW references, you're empowered to automate actions and enforce data integrity within your MySQL database. As you work on database management and data tracking, the knowledge of triggers in MySQL will serve as a powerful tool in automating tasks and maintaining a reliable and well-controlled database environment.

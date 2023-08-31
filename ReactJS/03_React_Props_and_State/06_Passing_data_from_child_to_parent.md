@@ -109,6 +109,6 @@ function ChildComponent(props) {
 }
 ```
 
-### Conclusion
+### Summary
 
 Using callbacks to pass data from child to parent is a valuable technique in React, enabling components to collaborate effectively and share information. With this guide, you've learned how to implement this data flow pattern in your applications. Incorporate this knowledge into your React projects to build more interactive and dynamic user interfaces.

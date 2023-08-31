@@ -99,6 +99,6 @@ Apply these best practices in scenarios where concurrent transactions are common
 
 - **Multi-User Systems:** Design systems that can handle multiple users concurrently without deadlock-related delays.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the best practices to avoid deadlocks in DBMS, understanding the importance of preventing these situations. By following practices such as using timeout mechanisms, acquiring resources in defined orders, implementing wait-die or wound-wait schemes, releasing resources promptly, and monitoring system performance, you're empowered to design systems that minimize the risk of deadlocks and ensure smooth concurrent operations. As you navigate the complexities of concurrent transactions, these practices will serve as valuable tools in building reliable and responsive systems that uphold data integrity and maintain system availability.

@@ -66,6 +66,6 @@ Transactions are allowed to proceed without locks. Before committing, the system
 
 - **Collaborative Environments:** Shared document editing and collaborative software.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've explored the intricate world of DBMS concurrency, understanding its significance, challenges, and strategies for managing concurrent data operations. By grasping the concepts of transactions, isolation levels, locking, and optimistic concurrency control, you're empowered to design and manage database systems that allow multiple users to interact seamlessly while maintaining data consistency and reliability. As you navigate the complexities of multi-user environments, the knowledge of concurrency control will serve as a cornerstone in building robust and responsive systems.

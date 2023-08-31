@@ -71,6 +71,6 @@ fs.readFile('file.txt', (err, data) => {
 
 - **Microservices:** Develop microservices-based applications for efficient modularization.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into the architecture of Node.js, understanding its significance and practical applications. By grasping the key components including the event loop, event emitters, and asynchronous APIs, you're well-equipped to design and develop efficient and scalable applications using Node.js. As you work on creating applications that require high performance, real-time capabilities, and asynchronous operations, the knowledge of Node.js architecture will serve as a foundational skill in building modern and responsive applications that can handle diverse workloads and user interactions.

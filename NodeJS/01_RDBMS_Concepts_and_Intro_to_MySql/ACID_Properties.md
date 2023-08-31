@@ -65,6 +65,6 @@ COMMIT; -- Transaction 1 completes
 -- After COMMIT, the changes are durable
 ```
 
-## Conclusion
+## Summary
 
 ACID properties are the bedrock of reliable and robust databases. They ensure data integrity, consistency, and reliability, making them indispensable for applications where accuracy and correctness are paramount. By understanding and applying the principles of ACID, you're equipped to design and build databases that can withstand failures, maintain data accuracy, and provide a dependable foundation for applications of all kinds.

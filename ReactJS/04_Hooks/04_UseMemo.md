@@ -70,6 +70,6 @@ In this example, the `result` is memoized using `useMemo`, preventing unnecessar
 
 - **Improved Responsiveness:** Memoization can lead to smoother user experiences by minimizing computation-related delays.
 
-### Conclusion
+### Summary
 
 The `useMemo` hook offers a valuable mechanism for optimizing performance in React applications. By memoizing expensive computations and calculations, you can reduce unnecessary re-rendering and improve the efficiency of your components. This tutorial provided a comprehensive exploration of the `useMemo` hook, its purpose, and how it contributes to optimizing your React application. Apply this knowledge to strategically use `useMemo` in your components and create more responsive and performant user interfaces.

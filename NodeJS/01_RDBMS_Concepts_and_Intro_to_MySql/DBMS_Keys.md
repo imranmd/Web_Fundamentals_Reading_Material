@@ -74,6 +74,6 @@ A **composite key** is a key that consists of multiple columns. The combination 
 
 - **Composite Keys:** Useful when a single column cannot guarantee uniqueness.
 
-## Conclusion
+## Summary
 
 In this in-depth guide, we've navigated through the realm of DBMS keys, understanding their types, significance, and practical applications. By grasping the concept of primary keys, foreign keys, candidate keys, and more, you're empowered to design databases that maintain data integrity, establish relationships, and enable efficient data retrieval. As you venture into the world of database design and management, the knowledge of DBMS keys will prove invaluable in creating reliable and optimized systems.

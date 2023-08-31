@@ -68,6 +68,6 @@ node app.js
 
 Open your web browser and navigate to http://localhost:3000. You should see the message "Hello, Node.js!" displayed in your browser.
 
-## Conclusion
+## Summary
 
 Congratulations! You've successfully built and run your first Node.js application. In this step-by-step guide, you've learned how to install Node.js, create a project folder, write a simple Node.js application, and run it using the Node.js runtime. This is just the beginning of your Node.js journey, and you're now equipped with the foundational knowledge to explore more advanced topics and build more sophisticated applications using the Node.js platform.

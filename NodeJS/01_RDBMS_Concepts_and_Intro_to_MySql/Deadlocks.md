@@ -68,6 +68,6 @@ A graph that represents the wait-for relationships among transactions.
 
 - **Operating Systems:** Managing resource allocation among multiple processes.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into the intricate world of DBMS deadlocks, understanding their causes, detection, and strategies for prevention and resolution. By grasping the concepts of resource types, deadlock causes, detection methods, and prevention strategies, you're equipped to design systems that effectively manage and recover from deadlocks. As you navigate the complexities of concurrent transactions, the knowledge of deadlock management will serve as a crucial tool in building robust and responsive systems that ensure data integrity and maintain system availability.

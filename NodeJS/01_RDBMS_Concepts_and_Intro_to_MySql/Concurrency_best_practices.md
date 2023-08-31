@@ -90,6 +90,6 @@ Apply these best practices to scenarios where multiple users interact with the s
 
 - **Database-Driven Software:** Applications that rely heavily on database interactions.
 
-## Conclusion
+## Summary
 
 In this comprehensive guide, we've delved into the best practices for managing concurrency in DBMS, understanding their significance and practical implementation. By adopting practices such as using appropriate isolation levels, minimizing transaction duration, employing optimistic concurrency control, implementing row-level locking, and using read-write locks, you're empowered to design systems that enable smooth multi-user interactions while ensuring data consistency and reducing conflicts. As you navigate the complexities of concurrent transactions, these best practices will serve as valuable tools in building systems that are both robust and responsive, supporting efficient multi-user operations and upholding data integrity.
