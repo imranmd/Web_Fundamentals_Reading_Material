@@ -1,5 +1,4 @@
-## Give 10 Beginner HTML Interview questions in markdown format
-
+# HTML
 ### Beginner Questions: [2 Point Each]
 
 1. What are attributes? Give an Example
@@ -10,28 +9,26 @@
 6. What is the difference between HTML elements and tags?
 7. What are meta tags, their significance and give code snippets where we use couple of meta tags?
 8. What is the difference between the id and class attributes in HTML?
-9. What is the difference between the <ol> and <ul> elements?
+9. What is the difference between the `<ol>` and `<ul>` elements?
 
-
-## Give 10 Beginner HTML Interview questions in markdown format, elaborate the question which ask the candidate to write the code snippet
 
 ### Intermediate Questions: [4 Points each]
 
 1. Describe the difference between a cookie, sessionStorage and localStorage? Write sample pseudo code snippets for each.
 2. What are semantic and non-semantic elements? Write sample pseudo code snippets for each.
-3. What does a <DOCTYPE html> do? 
+3. What does a `<DOCTYPE html>` do? 
 4. What is the purpose of main element? 
 5. Write code snippet for semantic HTML blog article.
 6. When should you use section, div or article? 
 7. What is an iframe and how it works? Write sample pseudo code snippets for each.
-What is the difference between the <article> and <section> elements?
+What is the difference between the `<article>` and `<section>` elements?
 
 
 ## Advanced Questions: [10 Points each]
 
 1. How can I get indexed better by search engines? Write/explain sample pseudo code snippets for each.
 2. Ways to improve website performance? You are given with a website like Amazon, too heavy on assets and resources, how do you improve the performance of the website? Write sample pseudo code snippets for each.
-3. What does async and defer refer to in script tag? Describe the difference between `<script>, <script async> and <script defer>`. Write sample code snippets for each.
+3. What does async and defer refer to in script tag? Describe the difference between `<script>`, `<script async>` and `<script defer>`. Write sample code snippets for each.
 4. Create a responsive HTML blog article that includes a header, a main content section, and a footer. The main content section should include a featured image, a title, a subtitle, and a body text. The article should also include a related articles section that displays links to other articles on the same topic.
 5. Create a responsive HTML form with validation that includes the following fields: name, email, password, and confirm password. The form should have a submit button that is disabled until all fields are valid.
 6. Implement 8X8 Chessboard with HTML and CSS
@@ -97,7 +94,7 @@ What is the difference between the <article> and <section> elements?
 3. Explain Closure with example
 4. What is the purpose of the Object.create() method in JavaScript?
 5. What is the purpose of the async and await keywords in JavaScript?
-6.What's the output?
+6. What's the output?
 
 ```javascript
 for (var i = 0; i < 3; i++) {
@@ -109,7 +106,7 @@ for (let i = 0; i < 3; i++) {
 }
 ```
 
-7.What's the output? Explain why
+7. What's the output? Explain why
 
 ```javascript
 let c = { greeting: 'Hey!' };
@@ -120,7 +117,7 @@ c.greeting = 'Hello';
 console.log(d.greeting);
 ```
 
-8.What's the output? Explain why
+8. What's the output? Explain why
 
 ```javascript
 let a = 3;
