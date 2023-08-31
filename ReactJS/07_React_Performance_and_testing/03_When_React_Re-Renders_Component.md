@@ -2,6 +2,8 @@
 
 Rerendering is a fundamental concept in React that plays a crucial role in keeping your user interfaces up-to-date and responsive. This tutorial delves into the mechanics of rerendering in React, explaining when and how components are updated, how to optimize rendering, and the use of React's lifecycle methods.
 
+![](../Assets/React/react-list-rerender.png)
+
 ### Understanding Rerendering
 
 In React, components rerender when their state or props change. Rerendering is a core mechanism that ensures your UI reflects the current data.

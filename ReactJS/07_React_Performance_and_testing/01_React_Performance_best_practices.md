@@ -2,6 +2,9 @@
 
 Optimizing the performance of your React applications is a crucial aspect of delivering a smooth user experience. This tutorial explores various strategies to improve performance in React, from component rendering optimizations to code splitting and memoization techniques.
 
+
+![](../Assets/React/React-Performance-Optimization.jpg)
+
 ### Avoiding Unnecessary Rerenders
 
 #### Using `React.memo`

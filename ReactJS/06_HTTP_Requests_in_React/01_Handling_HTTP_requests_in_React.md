@@ -2,6 +2,8 @@
 
 In the world of modern web applications, the ability to communicate with external APIs is crucial. This tutorial serves as your guide to mastering HTTP requests in React, covering the basics, different request methods, error handling, and practical examples using the JSONPlaceholder API.
 
+![](../Assets/React/http_requests.webp)
+
 ### Making GET Requests
 
 Making a GET request to an API is one of the most common operations. Let's explore how to fetch data using the `fetch` API and the `axios` library.

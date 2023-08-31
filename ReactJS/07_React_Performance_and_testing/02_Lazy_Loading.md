@@ -2,6 +2,8 @@
 
 Lazy loading is a powerful technique in React that helps improve the initial loading time of your application by loading components only when they are actually needed. This tutorial takes you through the concept of lazy loading, its benefits, and practical implementation using React's built-in mechanisms.
 
+![](../Assets/React/React-Lazy-Loading.png)
+
 ### Understanding Lazy Loading
 
 Lazy loading involves loading resources, such as components, only when they are required. This can significantly enhance the initial load time of your application, as it prevents unnecessary upfront loading of components that might not be immediately visible or necessary.

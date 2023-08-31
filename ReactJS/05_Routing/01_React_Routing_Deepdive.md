@@ -6,6 +6,8 @@ Routing is a fundamental aspect of building modern web applications, allowing us
 
 Routing in React involves managing different views or components based on the current URL. It enables users to navigate between different sections of a SPA without the need for full page reloads.
 
+![](../Assets/React/routing.gif)
+
 ### Setting Up Routing
 
 To enable routing in a React application, you can use popular libraries like `react-router` or `react-router-dom`. Here, we'll use `react-router-dom`, which provides routing components specifically for web applications.

@@ -2,6 +2,8 @@
 
 Adding styles to your React application is crucial for creating visually appealing and user-friendly interfaces. This tutorial takes you on a journey to explore various methods of adding styles to React components, from inline styles to CSS modules, empowering you to create stunning UIs.
 
+![](../Assets/React/Styling.webp)
+
 ### Inline Styles
 
 Inline styles involve adding CSS directly to JSX elements using the `style` attribute.
