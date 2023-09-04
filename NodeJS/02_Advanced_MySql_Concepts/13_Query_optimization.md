@@ -74,11 +74,6 @@ SELECT * FROM products ORDER BY RAND() LIMIT 5;
 
 - **Scalability:** Well-optimized queries allow your database to handle increasing amounts of data.
 
-## Practical Usage of Query Optimization in MySQL
-
-- **Web Applications:** Optimize queries for fast data retrieval in web applications.
-
-- **Reporting Systems:** Enhance query performance for generating reports from large datasets.
 
 ## Summary
 

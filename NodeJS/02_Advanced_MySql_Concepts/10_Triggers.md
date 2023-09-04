@@ -71,8 +71,6 @@ DROP TRIGGER after_insert_employee;
 
 ## Practical Usage of Triggers in MySQL
 
-- **Data Consistency:** Use triggers to enforce business rules and maintain data integrity.
-
 - **Logging and Auditing:** Implement triggers to track changes for auditing purposes.
 
 ## Summary

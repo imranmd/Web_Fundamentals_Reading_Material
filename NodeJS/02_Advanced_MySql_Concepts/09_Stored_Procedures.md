@@ -59,11 +59,6 @@ DROP PROCEDURE get_employee_details;
 
 - **Reusability:** Stored procedures can be called from different parts of your application, reducing redundant code.
 
-## Practical Usage of Stored Procedures in MySQL
-
-- **Data Manipulation:** Utilize stored procedures for complex data manipulation tasks.
-
-- **Application Logic:** Use stored procedures to encapsulate business logic in the database.
 
 ## Summary
 
