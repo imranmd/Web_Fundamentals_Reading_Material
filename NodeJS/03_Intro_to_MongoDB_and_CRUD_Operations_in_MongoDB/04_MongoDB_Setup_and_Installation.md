@@ -81,19 +81,6 @@ Open the Terminal or Command Prompt and run the MongoDB shell:
 mongo
 ```
 
-## Benefits of Setting Up MongoDB
-
-- **Scalability:** MongoDB's flexible architecture allows you to scale your data infrastructure easily.
-
-- **Document-Oriented:** Store complex, unstructured data in JSON-like documents.
-
-- **Performance:** MongoDB's architecture is designed for high-performance data access.
-
-## Practical Usage of MongoDB
-
-- **Web Applications:** Use MongoDB as the backend for web and mobile applications.
-
-- **Big Data:** Store and process large volumes of data efficiently.
 
 ## Summary
 

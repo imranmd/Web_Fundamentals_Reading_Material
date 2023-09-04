@@ -65,13 +65,6 @@ db.collection_name.aggregate([
 
 - **Understanding Data:** Familiarize yourself with your data's structure to design effective aggregations.
 
-## Benefits of Aggregation in MongoDB
-
-- **Advanced Analysis:** Perform complex calculations and data transformations.
-
-- **Data Insights:** Gain insights into your data's patterns and trends.
-
-- **Custom Reports:** Generate custom reports and summaries from your data.
 
 ## Practical Usage of Aggregation
 

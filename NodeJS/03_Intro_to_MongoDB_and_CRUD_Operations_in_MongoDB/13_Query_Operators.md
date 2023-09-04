@@ -64,21 +64,6 @@ db.collection_name.find({ age: { $lt: 40 } });
 db.collection_name.find({ $and: [{ age: { $gte: 18 } }, { gender: "female" }] });
 ```
 
-### Step 4: View Query Results
-
-After using query operators, view the query results.
-
-```javascript
-db.collection_name.find({ field: { operator: value } });
-```
-
-## Considerations and Best Practices
-
-- **Data Consistency:** Ensure the data type of the field matches the operator's expectation.
-
-- **Index Usage:** Efficiently use indexes for faster query performance.
-
-- **Query Precision:** Be specific in your queries to retrieve accurate results.
 
 ## Benefits of Query Operators in MongoDB
 
@@ -88,11 +73,7 @@ db.collection_name.find({ field: { operator: value } });
 
 - **Complex Queries:** Combine operators for advanced query capabilities.
 
-## Practical Usage of Query Operators
 
-- **E-commerce:** Filter products by price range, category, or availability.
-
-- **User Management:** Retrieve users by age, location, or activity.
 
 ## Summary
 

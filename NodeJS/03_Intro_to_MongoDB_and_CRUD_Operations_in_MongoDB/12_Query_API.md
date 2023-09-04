@@ -77,11 +77,6 @@ const result = await collection.find({ field: value }).hint("index_name").toArra
 
 - **Data Retrieval:** Retrieve specific fields, sort, limit, and skip data to meet application requirements.
 
-## Practical Usage of the MongoDB Query API
-
-- **Web Applications:** Retrieve and display data for web applications based on user preferences.
-
-- **Data Analytics:** Use aggregation to analyze and extract insights from large datasets.
 
 ## Summary
 
