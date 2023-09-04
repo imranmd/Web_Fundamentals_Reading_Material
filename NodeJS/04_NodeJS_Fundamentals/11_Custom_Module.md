@@ -42,28 +42,6 @@ const myModule = require('./myModule');
 console.log(myModule());
 ```
 
-## Considerations and Best Practices
-
-- **Naming Conventions:** Choose meaningful names for your modules to enhance readability.
-
-- **Modularization:** Divide your code into separate modules based on functionality.
-
-- **Reusability:** Create modules that can be reused across different projects.
-
-## Benefits of Custom Modules in Node.js
-
-- **Code Organization:** Custom modules promote clean and organized code.
-
-- **Reusability:** Modules can be reused in multiple parts of the application.
-
-- **Maintenance:** Modular code is easier to maintain and update.
-
-## Practical Usage of Custom Modules
-
-- **API Endpoints:** Create modules for different API endpoints.
-
-- **Utility Functions:** Build modules for utility functions like date formatting.
-
 ## Summary
 
 In this comprehensive guide, we've explored the creation and usage of custom modules in Node.js. By following the steps to create a custom module, you've learned how to encapsulate and reuse code effectively, enhancing the organization, reusability, and maintainability of your Node.js projects. As you work on building applications and projects, integrating custom modules into your codebase will help you create modular, efficient, and scalable applications that are easier to maintain and extend over time.

@@ -60,13 +60,6 @@ The `require` function enables importing external modules.
 const fs = require('fs');
 ```
 
-## Considerations and Best Practices
-
-- **Minimize Global Pollution:** Avoid cluttering the global namespace with too many variables.
-
-- **Modularization:** Use modules to encapsulate functionality and limit global usage.
-
-- **Variable Scoping:** Prefer local variables within functions over global variables.
 
 ## Benefits of the Node.js Global Object
 
@@ -76,7 +69,7 @@ const fs = require('fs');
 
 - **Cross-Module Communication:** The global object can be used for cross-module communication.
 
-## Practical Usage of the Node.js Global Object
+## Example Usage of the Node.js Global Object
 
 - **Logging and Debugging:** Use the global `console` object for logging and debugging.
 

@@ -59,11 +59,6 @@ Microtasks (e.g., promises) and macrotasks (e.g., setTimeout) are queued differe
 
 - **Scalability:** Event loop architecture supports horizontal scaling.
 
-## Practical Usage of the Node.js Event Loop
-
-- **Real-time Applications:** Develop chat applications, real-time dashboards, and gaming platforms.
-
-- **Web Servers:** Build high-performance web servers to handle multiple client requests.
 
 ## Summary
 

@@ -43,43 +43,7 @@ const server = http.createServer((req, res) => {
 });
 ```
 
-### Handling Routes
-
-You can route requests based on the URL path.
-
-```javascript
-// Example of handling routes
-const server = http.createServer((req, res) => {
-    if (req.url === '/') {
-        res.writeHead(200, {'Content-Type': 'text/plain'});
-        res.end('Home page.');
-    } else if (req.url === '/about') {
-        res.writeHead(200, {'Content-Type': 'text/plain'});
-        res.end('About page.');
-    } else {
-        res.writeHead(404, {'Content-Type': 'text/plain'});
-        res.end('Not found.');
-    }
-});
-```
-
-## Considerations and Best Practices
-
-- **Error Handling:** Implement error handling to ensure the server doesn't crash on errors.
-
-- **Routing Libraries:** Consider using routing libraries for complex applications.
-
-- **Middleware:** Implement middleware for tasks like authentication and data parsing.
-
-## Benefits of the Node.js HTTP Module
-
-- **Efficiency:** The HTTP module enables efficient handling of incoming HTTP requests.
-
-- **Customization:** Developers have control over request and response handling.
-
-- **Scalability:** Node.js HTTP servers can handle a large number of concurrent connections.
-
-## Practical Usage of the Node.js HTTP Module
+## Usage of the Node.js HTTP Module
 
 - **Building APIs:** Create RESTful APIs using the HTTP module.
 

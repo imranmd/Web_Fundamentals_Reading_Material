@@ -60,13 +60,6 @@ readableStream.on('error', (err) => {
 });
 ```
 
-## Considerations and Best Practices
-
-- **Memory Efficiency:** Streams process data in chunks, making them memory-efficient.
-
-- **Performance:** Use streams for processing large files or data streams.
-
-- **Backpressure:** Handle backpressure to prevent overwhelming slower consumers.
 
 ## Benefits of Node.js Streams
 
@@ -76,7 +69,7 @@ readableStream.on('error', (err) => {
 
 - **Modular Processing:** Streams enable modular data transformations.
 
-## Practical Usage of Node.js Streams
+## Example Usage of Node.js Streams
 
 - **File Processing:** Use streams for reading, writing, and transforming files.
 

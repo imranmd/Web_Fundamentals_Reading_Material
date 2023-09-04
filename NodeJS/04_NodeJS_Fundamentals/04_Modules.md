@@ -57,13 +57,6 @@ Use the Node Package Manager (NPM) to install and manage external modules.
 npm install package-name
 ```
 
-## Considerations and Best Practices
-
-- **Modularity:** Break your code into smaller, focused modules for maintainability.
-
-- **Reusability:** Create modules that can be reused across different parts of your application.
-
-- **Encapsulation:** Hide internal details of a module and expose only what's necessary.
 
 ## Benefits of Node.js Modules
 
@@ -73,11 +66,7 @@ npm install package-name
 
 - **Collaboration:** Teams can work on different modules concurrently.
 
-## Practical Usage of Node.js Modules
 
-- **API Endpoints:** Modularize routes and handlers in a RESTful API.
-
-- **Utility Functions:** Create utility modules for common tasks (e.g., data validation).
 
 ## Summary
 

@@ -71,21 +71,6 @@ const userInfo = os.userInfo();
 console.log('User information:', userInfo);
 ```
 
-## Considerations and Best Practices
-
-- **Cross-Platform Compatibility:** Rely on the OS module for consistent system information across different platforms.
-
-- **Error Handling:** Handle potential errors when accessing system information.
-
-- **Privacy:** Be mindful of user privacy when accessing user-related information.
-
-## Benefits of the Node.js OS Module
-
-- **Efficient System Monitoring:** The OS module enables efficient monitoring of system-related data.
-
-- **Informed Decisions:** Access to system information aids in making informed application decisions.
-
-- **Resource Optimization:** System data helps optimize application resource usage.
 
 ## Practical Usage of the Node.js OS Module
 
