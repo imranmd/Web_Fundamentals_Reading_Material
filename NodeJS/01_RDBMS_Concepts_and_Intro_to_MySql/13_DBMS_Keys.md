@@ -1,6 +1,6 @@
 # Understanding DBMS Keys: A Comprehensive Guide to Data Integrity
 
-In the realm of Database Management Systems (DBMS), **keys** play a pivotal role in ensuring data integrity and facilitating efficient data retrieval. This tutorial takes a deep dive into the world of DBMS keys, explaining their types, significance, and practical applications, equipping you with the knowledge to design well-structured and reliable databases.
+In the world of Database Management Systems (DBMS), **keys** play a pivotal role in ensuring data integrity and facilitating efficient data retrieval. This tutorial takes a deep dive into the world of DBMS keys, explaining their types, significance, and practical applications, equipping you with the knowledge to design well-structured and reliable databases.
 
 ## What are DBMS Keys?
 

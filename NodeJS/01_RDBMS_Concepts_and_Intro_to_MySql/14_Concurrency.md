@@ -1,6 +1,6 @@
 # DBMS Concurrency: Navigating Simultaneous Data Access
 
-In the realm of Database Management Systems (DBMS), **Concurrency** plays a critical role in enabling multiple users to access and modify data simultaneously. This comprehensive tutorial dives into the world of DBMS concurrency, explaining its concepts, challenges, and strategies for managing concurrent data operations. By the end of this guide, you'll be equipped to design and manage systems that ensure data consistency and reliability in multi-user environments.
+In Database Management Systems (DBMS), **Concurrency** plays a critical role in enabling multiple users to access and modify data simultaneously. This comprehensive tutorial dives into the world of DBMS concurrency, explaining its concepts, challenges, and strategies for managing concurrent data operations. By the end of this guide, you'll be equipped to design and manage systems that ensure data consistency and reliability in multi-user environments.
 
 ## What is DBMS Concurrency?
 
