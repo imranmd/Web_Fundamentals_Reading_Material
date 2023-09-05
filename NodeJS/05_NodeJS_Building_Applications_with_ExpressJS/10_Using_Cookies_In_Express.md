@@ -14,7 +14,7 @@ Express.js provides a convenient way to work with cookies using the `cookie-pars
 
 First, you need to install the `cookie-parser` middleware as a dependency in your Express.js application:
 
-```bash
+```
 npm install cookie-parser --save
 ```
 

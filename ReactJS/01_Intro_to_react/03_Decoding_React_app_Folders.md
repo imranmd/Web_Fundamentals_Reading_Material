@@ -129,13 +129,13 @@ To run your React app, follow these steps:
 
 2. Install dependencies by running:
 
-   ```bash
+   ```
    npm install
    ```
 
 3. Start your development server:
 
-   ```bash
+   ```
    npm start
    ```
 

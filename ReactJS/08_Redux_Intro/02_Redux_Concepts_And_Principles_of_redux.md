@@ -86,7 +86,7 @@ Redux might be overkill for simpler applications, where local component state ma
 
 ## 4. Setting Up Redux in a React Application
 To use Redux in a React application, you need to install the necessary packages:
-```bash
+```
 npm install redux react-redux
 ```
 

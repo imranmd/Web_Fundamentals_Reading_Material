@@ -51,7 +51,7 @@ Express.js supports various template engines, such as EJS (Embedded JavaScript),
 
 Install the template engine you want to use as a dependency in your Express.js application. For EJS, you can run:
 
-```bash
+```
 npm install ejs --save
 ```
 

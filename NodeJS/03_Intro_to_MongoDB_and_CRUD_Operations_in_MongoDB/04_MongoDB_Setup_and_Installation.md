@@ -26,7 +26,7 @@ Visit the official MongoDB website (https://www.mongodb.com/try/download/communi
 1. Open the Terminal.
 2. Use a package manager like Homebrew:
    
-   ```bash
+   ```
    brew tap mongodb/brew
    brew install mongodb-community@4.4
    ```
@@ -35,25 +35,25 @@ Visit the official MongoDB website (https://www.mongodb.com/try/download/communi
 
 1. Import the public key used by the package management system:
 
-   ```bash
+   ```
    wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
    ```
 
 2. Create a list file for MongoDB:
 
-   ```bash
+   ```
    echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
    ```
 
 3. Update the local package database:
 
-   ```bash
+   ```
    sudo apt-get update
    ```
 
 4. Install MongoDB:
 
-   ```bash
+   ```
    sudo apt-get install -y mongodb-org
    ```
 
@@ -69,7 +69,7 @@ Visit the official MongoDB website (https://www.mongodb.com/try/download/communi
 1. MongoDB data directory is usually `/data/db`.
 2. Start MongoDB as a service:
 
-   ```bash
+   ```
    sudo systemctl start mongod
    ```
 
@@ -77,7 +77,7 @@ Visit the official MongoDB website (https://www.mongodb.com/try/download/communi
 
 Open the Terminal or Command Prompt and run the MongoDB shell:
 
-```bash
+```
 mongo
 ```
 

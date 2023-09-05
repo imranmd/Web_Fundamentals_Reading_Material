@@ -14,7 +14,7 @@ Ensure you have a working Redux store in your application. If you haven't set up
 
 For this tutorial, we'll use Axios to make HTTP requests. If you haven't already, install Axios in your project:
 
-```bash
+```
 npm install axios
 ```
 

@@ -12,13 +12,13 @@ Before you can start using Redux Toolkit, you need to set up a React application
 
 1. **Create a React App:** If you don't already have a React application, create one using a tool like Create React App. Open your terminal and run the following command:
    
-   ```bash
+   ```
    npx create-react-app my-redux-app
    ```
 
 2. **Install Redux Toolkit:** Once your React application is set up, navigate to your project directory and install Redux Toolkit using npm or yarn:
    
-   ```bash
+   ```
    npm install @reduxjs/toolkit
    # or
    yarn add @reduxjs/toolkit

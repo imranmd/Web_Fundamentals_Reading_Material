@@ -38,7 +38,7 @@ Setting up and installing MySQL is a crucial step for anyone venturing into the 
 
 4. **Terminal Setup:** Open Terminal and navigate to the MySQL bin folder. Run the following command to set the root password:
 
-   ```bash
+   ```
    mysqladmin -u root password NEW_PASSWORD
    ```
 
@@ -50,13 +50,13 @@ Setting up and installing MySQL is a crucial step for anyone venturing into the 
 
 3. **Start MySQL:** Use the following command to start the MySQL server:
 
-   ```bash
+   ```
    sudo systemctl start mysqld
    ```
 
 4. **Secure Installation:** Run the MySQL secure installation script to set the root password and secure other settings:
 
-   ```bash
+   ```
    sudo mysql_secure_installation
    ```
 
@@ -64,7 +64,7 @@ Setting up and installing MySQL is a crucial step for anyone venturing into the 
 
 1. **Access MySQL:** Open a terminal or command prompt and run the MySQL client:
 
-   ```bash
+   ```
    mysql -u root -p
    ```
 

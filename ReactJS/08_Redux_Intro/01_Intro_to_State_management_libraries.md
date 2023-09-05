@@ -56,7 +56,7 @@ Before you begin, make sure you have a basic understanding of JavaScript and the
 
 2. **Install the Library:** Depending on your chosen library, install it using a package manager like npm or yarn. For example, to install Redux and React Redux:
 
-   ```bash
+   ```
    npm install redux react-redux
    ```
 

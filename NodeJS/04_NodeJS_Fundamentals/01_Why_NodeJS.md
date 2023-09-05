@@ -40,7 +40,7 @@ server.listen(3000);
 
 Node.js has a vibrant ecosystem of packages and libraries available through the Node Package Manager (NPM), facilitating rapid development.
 
-```bash
+```
 # Example of using NPM to install a package
 npm install express
 ```

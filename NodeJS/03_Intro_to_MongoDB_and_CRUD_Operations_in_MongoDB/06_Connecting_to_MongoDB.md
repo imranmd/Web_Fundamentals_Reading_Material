@@ -20,7 +20,7 @@ Follow these steps to connect to MongoDB from your local machine:
 
 - Start the MongoDB server by running the following command:
 
-   ```bash
+   ```
    mongod
    ```
 
@@ -28,7 +28,7 @@ Follow these steps to connect to MongoDB from your local machine:
 
    If you want to specify a custom data directory, you can use the `--dbpath` option:
 
-   ```bash
+   ```
    mongod --dbpath /path/to/custom/data/directory
    ```
 
@@ -40,7 +40,7 @@ Follow these steps to connect to MongoDB from your local machine:
 
 - To connect to the MongoDB server using the MongoDB Shell, run the following command:
 
-   ```bash
+   ```
    mongo
    ```
 
@@ -48,7 +48,7 @@ Follow these steps to connect to MongoDB from your local machine:
 
    If your MongoDB server is running on a different host or port, you can specify the connection details using the following command:
 
-   ```bash
+   ```
    mongo --host your_host --port your_port
    ```
 
@@ -144,7 +144,7 @@ You can connect to MongoDB Atlas using a MongoDB client or application. Here's h
 
 2. Use the `mongo` command along with your connection string:
 
-```bash
+```
 mongo "mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority"
 ```
 

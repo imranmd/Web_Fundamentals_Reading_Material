@@ -36,7 +36,7 @@ In this tutorial, we'll build a simple app that fetches a list of posts from an 
 
 Install the required packages:
 
-```bash
+```
 npm install @reduxjs/toolkit
 npm install @reduxjs/toolkit/query
 ```
@@ -161,7 +161,7 @@ export default App;
 
 Run your application:
 
-```bash
+```
 npm start
 ```
 

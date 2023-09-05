@@ -41,7 +41,7 @@ export default FetchExample;
 
 #### Using the `axios` Library
 
-```bash
+```
 npm install axios
 ```
 

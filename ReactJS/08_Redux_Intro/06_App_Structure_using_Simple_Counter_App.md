@@ -6,7 +6,7 @@ Welcome to the step-by-step guide on building a simple counter app using Redux T
 
 If you haven't already, let's start by creating a new React application using Create React App:
 
-```bash
+```
 npx create-react-app redux-counter-app
 cd redux-counter-app
 ```
@@ -15,7 +15,7 @@ cd redux-counter-app
 
 Navigate to your project directory and install Redux Toolkit:
 
-```bash
+```
 npm install @reduxjs/toolkit
 ```
 

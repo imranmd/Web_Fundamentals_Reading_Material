@@ -28,7 +28,7 @@ RTK Query is a part of Redux Toolkit that provides a streamlined way to work wit
 
 Before we get started, make sure you have Redux Toolkit and the RTK Query package installed. You can do this by running the following commands:
 
-```bash
+```
 npm install @reduxjs/toolkit
 npm install @reduxjs/toolkit/query
 ```

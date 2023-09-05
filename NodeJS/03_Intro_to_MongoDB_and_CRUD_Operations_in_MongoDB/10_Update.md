@@ -12,7 +12,7 @@ Updating data involves modifying the fields of existing documents in a collectio
 
 Open the MongoDB shell by running the `mongo` command in your terminal.
 
-```bash
+```
 mongo
 ```
 

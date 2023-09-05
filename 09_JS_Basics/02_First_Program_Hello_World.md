@@ -117,7 +117,7 @@ console.log("Hello World");
 
 4. Once you are inside the correct folder, type the following command to run the JavaScript program:
 
-```bash
+```
 node app.js
 ```
 

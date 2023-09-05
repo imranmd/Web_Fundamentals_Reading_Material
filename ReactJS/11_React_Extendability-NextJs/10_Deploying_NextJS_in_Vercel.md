@@ -13,7 +13,7 @@ Before you begin, make sure you have the following:
 
 To deploy your Next.js app to Vercel, you can use the Vercel CLI. Install it globally using npm or yarn if you haven't already.
 
-```bash
+```
 npm install -g vercel
 ```
 
@@ -21,7 +21,7 @@ npm install -g vercel
 
 Before deploying, make sure your Next.js app is built. Navigate to your project's root directory in the terminal and run:
 
-```bash
+```
 npm run build
 ```
 
@@ -31,7 +31,7 @@ npm run build
 
 2. Run the following command to deploy your app to Vercel:
 
-```bash
+```
 vercel
 ```
 

@@ -102,7 +102,7 @@ Styled Components is a popular library for writing CSS directly in your JavaScri
 
    Install the library using your package manager.
 
-   ```bash
+   ```
    npm install styled-components
    ```
 

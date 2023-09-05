@@ -8,7 +8,7 @@ Before you begin, make sure you have Node.js and npm (Node Package Manager) inst
 
 Create a new directory for your project and navigate to it using your terminal or command prompt.
 
-```bash
+```
 mkdir express-note-app
 cd express-note-app
 ```
@@ -17,7 +17,7 @@ cd express-note-app
 
 Inside your project directory, initialize a new Node.js project by running the following command. This will create a `package.json` file to manage your project dependencies.
 
-```bash
+```
 npm init -y
 ```
 
@@ -25,7 +25,7 @@ npm init -y
 
 Install the necessary dependencies for your Express.js app. You'll need `express`, `ejs` (for templating), and `body-parser` (for parsing request bodies).
 
-```bash
+```
 npm install express ejs body-parser --save
 ```
 
@@ -129,7 +129,7 @@ As your app grows, continue to follow the folder structure and best practices fo
 
 To start your Express.js app, run the following command in your project directory:
 
-```bash
+```
 node app.js
 ```
 
@@ -319,7 +319,7 @@ app.use('/notes', notesRoute);
 
 Now you can start your Express.js app:
 
-```bash
+```
 node app.js
 ```
 

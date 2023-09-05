@@ -12,7 +12,7 @@ Query operators in MongoDB enable precise data retrieval by applying conditions 
 
 Open the MongoDB shell by running the `mongo` command in your terminal.
 
-```bash
+```
 mongo
 ```
 

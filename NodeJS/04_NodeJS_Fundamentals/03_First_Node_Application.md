@@ -12,7 +12,7 @@ First, you need to install Node.js on your machine. Visit the official Node.js w
 
 Create a new folder for your Node.js application. Open your terminal or command prompt and navigate to the directory where you want to create the folder. Then, use the following command to create the folder:
 
-```bash
+```
 mkdir first-node-app
 ```
 
@@ -20,7 +20,7 @@ mkdir first-node-app
 
 Navigate into the newly created folder using the `cd` command:
 
-```bash
+```
 cd first-node-app
 ```
 
@@ -28,7 +28,7 @@ cd first-node-app
 
 Initialize a Node.js application by creating a `package.json` file. This file contains metadata about your application and its dependencies. Run the following command and follow the prompts:
 
-```bash
+```
 npm init
 ```
 
@@ -60,7 +60,7 @@ server.listen(3000, () => {
 
 Back in your terminal, ensure you're in the `first-node-app` directory and run the following command to start your Node.js application:
 
-```bash
+```
 node app.js
 ```
 

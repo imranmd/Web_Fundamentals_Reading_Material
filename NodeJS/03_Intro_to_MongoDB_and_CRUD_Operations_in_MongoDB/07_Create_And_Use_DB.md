@@ -12,7 +12,7 @@ Creating a database involves using MongoDB commands to initiate a new database i
 
 Open the MongoDB shell by running the `mongo` command in your terminal.
 
-```bash
+```
 mongo
 ```
 

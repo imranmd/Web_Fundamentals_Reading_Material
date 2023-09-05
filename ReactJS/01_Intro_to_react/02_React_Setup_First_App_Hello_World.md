@@ -12,7 +12,7 @@ Welcome to the tutorial on setting up a development environment and creating a s
 
 1. Open a terminal or command prompt.
 2. Run the following command to install Create React App globally:
-   ```bash
+   ```
    npm install -g create-react-app
    ```
 
@@ -20,14 +20,14 @@ Welcome to the tutorial on setting up a development environment and creating a s
 
 1. In the terminal, navigate to the directory where you want to create your React application.
 2. Run the following command to create a new React application named "hello-world":
-   ```bash
+   ```
    npx create-react-app hello-world
    ```
 
 ## Step 4: Explore the Project Structure
 
 1. Once the project is created, navigate to the "hello-world" directory:
-   ```bash
+   ```
    cd hello-world
    ```
 2. Open the project in your preferred code editor.
@@ -54,7 +54,7 @@ Welcome to the tutorial on setting up a development environment and creating a s
 
 1. In the terminal, make sure you are still inside the "hello-world" directory.
 2. Run the following command to start the development server:
-   ```bash
+   ```
    npm start
    ```
 3. Open your web browser and navigate to `http://localhost:3000`. You should see the "Hello World" message displayed on the screen.

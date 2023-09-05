@@ -12,7 +12,7 @@ Deleting data involves removing documents from a collection within a MongoDB dat
 
 Open the MongoDB shell by running the `mongo` command in your terminal.
 
-```bash
+```
 mongo
 ```
 

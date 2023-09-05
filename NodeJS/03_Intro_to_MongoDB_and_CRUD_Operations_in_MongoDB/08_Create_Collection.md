@@ -12,7 +12,7 @@ A collection is a group of related documents that share a common structure withi
 
 Open the MongoDB shell by running the `mongo` command in your terminal.
 
-```bash
+```
 mongo
 ```
 

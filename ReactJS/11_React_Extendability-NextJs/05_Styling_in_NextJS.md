@@ -10,7 +10,7 @@ To get started with Next.js, you'll need to have Node.js and npm (Node Package M
 
    Open your terminal and navigate to the directory where you want to create your project.
 
-   ```bash
+   ```
    mkdir my-nextjs-app
    cd my-nextjs-app
    ```
@@ -19,7 +19,7 @@ To get started with Next.js, you'll need to have Node.js and npm (Node Package M
 
    Run the following command to initialize a new Node.js project and create a `package.json` file.
 
-   ```bash
+   ```
    npm init -y
    ```
 
@@ -27,7 +27,7 @@ To get started with Next.js, you'll need to have Node.js and npm (Node Package M
 
    Install Next.js as a dependency in your project using the following command:
 
-   ```bash
+   ```
    npm install next react react-dom
    ```
 
@@ -81,7 +81,7 @@ export default HomePage;
 
 With this setup, your project is ready to go! You can start the development server by running:
 
-```bash
+```
 npm run dev
 ```
 

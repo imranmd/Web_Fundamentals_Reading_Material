@@ -52,7 +52,7 @@ Organize related modules within a folder. Create an `index.js` file to export al
 
 Use the Node Package Manager (NPM) to install and manage external modules.
 
-```bash
+```
 # Installing an external module
 npm install package-name
 ```

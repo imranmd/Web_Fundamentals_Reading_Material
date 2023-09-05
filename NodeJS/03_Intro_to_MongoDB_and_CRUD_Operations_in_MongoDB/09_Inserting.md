@@ -12,7 +12,7 @@ Inserting data involves adding new documents to a collection within a MongoDB da
 
 Open the MongoDB shell by running the `mongo` command in your terminal.
 
-```bash
+```
 mongo
 ```
 

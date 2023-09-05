@@ -16,7 +16,7 @@ To enable routing in a React application, you can use popular libraries like `re
 
    Start by installing the required packages using your package manager (npm or yarn):
 
-   ```bash
+   ```
    npm install react-router-dom
    ```
 

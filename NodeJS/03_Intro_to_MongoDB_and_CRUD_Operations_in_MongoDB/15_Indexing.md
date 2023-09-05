@@ -12,7 +12,7 @@ Indexes in MongoDB improve query performance by facilitating faster data retriev
 
 Open the MongoDB shell by running the `mongo` command in your terminal.
 
-```bash
+```
 mongo
 ```
 

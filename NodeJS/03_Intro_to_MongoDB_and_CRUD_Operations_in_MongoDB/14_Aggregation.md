@@ -12,7 +12,7 @@ Aggregation is a process that allows you to perform advanced data operations on 
 
 Open the MongoDB shell by running the `mongo` command in your terminal.
 
-```bash
+```
 mongo
 ```
 
