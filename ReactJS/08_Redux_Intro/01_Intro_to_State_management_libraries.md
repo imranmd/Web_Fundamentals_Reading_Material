@@ -1,23 +1,6 @@
 # Introduction to State Management Libraries
 
 ![](../Assets/React/top-react-state-management-libraries-list.webp)
-## Table of Contents
-
-1. Introduction
-2. What is State Management?
-3. When and Where to Use State Management Libraries
-4. Popular State Management Libraries
-   - React Redux
-   - MobX
-   - Vuex
-   - Redux Toolkit
-5. Getting Started
-   - Installation
-   - Basic Concepts
-6. State Management Workflow
-7. Advanced Usage
-8. Summary
-9. Additional Resources
 
 ## 1. Introduction
 

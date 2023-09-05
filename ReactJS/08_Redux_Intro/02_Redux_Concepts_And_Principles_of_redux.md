@@ -62,20 +62,6 @@ You've learned about the core concepts of Redux and the flow between them. Under
 
 ![](../Assets/React/redux_rule_book.gif)
 
-## Table of Contents
-1. Introduction to Redux
-2. The Three Principles of Redux
-   - Single Source of Truth
-   - State is Read-Only
-   - Changes are Made with Pure Functions
-3. When and Where to Use Redux
-4. Setting Up Redux in a React Application
-5. Actions, Reducers, and Store
-6. Connecting React Components to Redux Store
-7. Async Operations and Middleware
-8. DevTools for Redux
-9. Summary
-
 ## 1. Introduction to Redux
 Redux is a state management library for JavaScript applications, particularly those built using frameworks like React, Angular, or Vue. It helps manage the state of an application in a predictable and centralized manner, making it easier to debug, test, and maintain. Redux follows a few fundamental principles that guide its design and usage.
 

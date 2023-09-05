@@ -2,45 +2,6 @@
 
 Data modeling is a critical step in the database development process that involves creating an abstract representation of the data and its relationships within a database management system (DBMS). A well-designed data model is the foundation for an efficient, organized, and maintainable database. In this tutorial, we will explore the key concepts and steps involved in data modeling in DBMS.
 
-## Table of Contents
-
-1. **Introduction to Data Modeling**
-   - What is Data Modeling?
-   - Why is Data Modeling Important?
-
-2. **Types of Data Models**
-   - Conceptual Data Model
-   - Logical Data Model
-   - Physical Data Model
-
-3. **Entity-Relationship Diagrams (ERD)**
-   - Entities and Attributes
-   - Relationships
-   - Cardinality and Multiplicity
-
-4. **Normalization**
-   - First Normal Form (1NF)
-   - Second Normal Form (2NF)
-   - Third Normal Form (3NF)
-   - Benefits of Normalization
-
-5. **Data Modeling Tools**
-   - Popular Data Modeling Tools
-   - How to Use Data Modeling Tools
-
-6. **Best Practices in Data Modeling**
-   - Understand the Business Requirements
-   - Keep It Simple
-   - Maintain Data Integrity
-   - Optimize for Query Performance
-
-7. **Case Study: Data Modeling Example**
-   - Problem Statement
-   - Data Modeling Steps
-   - Implementation in a DBMS
-
-8. **Conclusion and Summary**
-
 ## 1. Introduction to Data Modeling
 
 ### What is Data Modeling?
