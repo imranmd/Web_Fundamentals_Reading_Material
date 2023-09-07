@@ -2,6 +2,8 @@
 
 In the realm of Database Management Systems (DBMS), ACID properties play a crucial role in maintaining the integrity and reliability of data. In this tutorial, we'll delve deep into the world of ACID properties, exploring what they are and why they are essential for designing robust and dependable databases.
 
+![ACID Properties](../Assets/ACID-Properties.jpg)
+
 ## What are ACID Properties?
 
 ACID stands for **Atomicity**, **Consistency**, **Isolation**, and **Durability**. These properties represent a set of characteristics that ensure the reliability of transactions within a database. Let's break down each property:

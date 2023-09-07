@@ -3,6 +3,8 @@
 Data modeling is a crucial process in database development that involves creating a structured representation of data to ensure its efficient storage and retrieval. In this tutorial, we will walk through the essential steps involved in data modeling and provide a sample practice demo at the end.
 
 
+![Data Types](../Assets/Data-Model-Steps-Diagram-1.webp)
+
 ## 1. Understanding the Business Requirements
 
 Before diving into data modeling, it's crucial to understand the business requirements. Engage with stakeholders, domain experts, and end-users to gather information about data entities, their relationships, and any specific constraints or rules.

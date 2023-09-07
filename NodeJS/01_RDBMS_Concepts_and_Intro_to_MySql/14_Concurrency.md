@@ -6,6 +6,9 @@ In Database Management Systems (DBMS), **Concurrency** plays a critical role in 
 
 DBMS concurrency refers to the ability of a database system to allow multiple users or transactions to access and manipulate data concurrently. Concurrency control mechanisms ensure that data remains consistent and accurate in the presence of simultaneous operations.
 
+
+![Data Types](../Assets/concurrency.gif)
+
 ## Key Concepts of DBMS Concurrency
 
 ### Transactions

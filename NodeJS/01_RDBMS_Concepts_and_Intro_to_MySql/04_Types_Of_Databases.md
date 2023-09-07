@@ -2,9 +2,12 @@
 
 Databases play a crucial role in modern computing, and there are several types of databases, each designed to serve specific needs and data management requirements. In this tutorial, we will explore eight different types of databases:
 
+
 1. **Hierarchical Databases**
 
    **Description:** Hierarchical databases are one of the oldest database models and organize data in a tree-like structure with a single root, parent-child relationships, and multiple levels of child nodes. Each node can have one parent but multiple children.
+
+   ![Data Types](../Assets/Hierarchical-DB.png)
 
    **Characteristics:**
    - Data is organized in a tree structure.
@@ -21,6 +24,8 @@ Databases play a crucial role in modern computing, and there are several types o
 2. **Network Databases**
 
    **Description:** Network databases extend the hierarchical model by allowing multiple parent-child relationships. They use pointers or references to connect records in a network-like structure.
+
+   ![Data Types](../Assets/Network-DB.png)
 
    **Characteristics:**
    - Data is organized as a graph-like structure.
@@ -39,6 +44,8 @@ Databases play a crucial role in modern computing, and there are several types o
 
    **Description:** Object-oriented databases store data as objects, similar to how programming languages define objects. These databases are designed to handle complex data structures and support object-oriented principles like inheritance and encapsulation.
 
+   ![Data Types](../Assets/Object-Oriented-DB.png)
+
    **Characteristics:**
    - Data is stored as objects with attributes and methods.
    - Supports object-oriented modeling and design.
@@ -55,6 +62,9 @@ Databases play a crucial role in modern computing, and there are several types o
 4. **Relational Databases**
 
    **Description:** Relational databases are the most widely used database type. They store data in structured tables with rows and columns and use SQL for data manipulation. The relational model emphasizes the use of keys and relationships to maintain data integrity.
+
+   ![Data Types](../Assets/Relational-DB.png)
+
 
    **Characteristics:**
    - Data is organized in tables with predefined schemas.
@@ -75,6 +85,8 @@ Databases play a crucial role in modern computing, and there are several types o
 5. **NoSQL Databases**
 
    **Description:** NoSQL databases (which stands for "not only SQL") encompass various database models that do not rely on the traditional relational model. They are designed to handle unstructured, semi-structured, or rapidly changing data.
+
+   ![Data Types](../Assets/NoSQL_Database_Examples.webp)
 
    **Characteristics:**
    - Diverse data models (document, key-value, column-family, graph).
@@ -148,5 +160,8 @@ Databases play a crucial role in modern computing, and there are several types o
    - PostGIS (extension for PostgreSQL)
    - Oracle Spatial and Graph
    - MongoDB (with spatial features)
+
+[Most popular databases](../Assets/most-popular-databases-2023-1.png)
+
 
 In conclusion, the choice of a database type depends on the specific requirements of your application and the nature of the data you need to store and retrieve. Understanding the characteristics and use cases of these various database types will help you make informed decisions when selecting the most suitable database for your project.

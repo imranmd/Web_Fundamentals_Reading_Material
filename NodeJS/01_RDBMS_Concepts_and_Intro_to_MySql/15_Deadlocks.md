@@ -2,9 +2,12 @@
 
 In the realm of Database Management Systems (DBMS), **Deadlocks** stand as a challenging scenario where transactions become stuck in a state of standstill, unable to proceed due to conflicting resource requests. This comprehensive tutorial delves deep into the world of DBMS deadlocks, explaining their concepts, causes, detection, and resolution strategies. By the end of this guide, you'll be well-equipped to design systems that mitigate the risk of deadlocks and recover gracefully when they occur.
 
+![Data Types](../Assets/Deadlock.gif)
+
 ## What are DBMS Deadlocks?
 
 DBMS deadlocks occur when two or more transactions are blocked, each waiting for a resource that's held by another transaction within the same group. This situation leads to a standstill where none of the transactions can proceed.
+![Data Types](../Assets/database-deadlock-1.png)
 
 ## Key Concepts of DBMS Deadlocks
 

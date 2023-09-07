@@ -40,6 +40,8 @@ There are several types of indexes in DBMS, each suited to specific use cases. S
 
 6. **Full-Text Index:** Used for text-based searching, full-text indexes allow you to perform text searches efficiently. They are common in search engines and document management systems.
 
+![Data Types](../Assets/ClusteredVsNonClustered.png)
+
 ## Best Practices for Using Indexing
 
 1. **Identify the Right Columns:** Choose columns for indexing based on the types of queries your application will execute frequently. Indexing every column is not always the best strategy, as it can increase storage requirements and slow down data modification operations.

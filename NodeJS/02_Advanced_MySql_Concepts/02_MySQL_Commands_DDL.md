@@ -1,3 +1,63 @@
+# Categories of MySQL commands : Comprehensive guide
+
+These categories encompass the various MySQL commands used for querying, modifying, defining, controlling, and managing databases and their data. Depending on your specific use case, you'll use these commands to interact with your MySQL database effectively.
+
+![Data Types](../Assets/Database%20Commands.png)
+
+- **Data Querying Commands**:
+  - **SELECT**: Retrieve data from one or more tables.
+  - **FROM**: Specify the table(s) to query.
+  - **WHERE**: Filter data based on specified conditions.
+  - **GROUP BY**: Group rows based on one or more columns.
+  - **HAVING**: Filter grouped data based on conditions.
+  - **ORDER BY**: Sort the result set by one or more columns.
+  - **LIMIT**: Limit the number of rows returned in the result.
+
+- **Data Modification Commands**:
+  - **INSERT INTO**: Add new rows into a table.
+  - **UPDATE**: Modify existing rows in a table.
+  - **DELETE**: Remove rows from a table.
+  - **REPLACE**: Insert a new row or replace an existing one based on a unique key.
+  - **INSERT IGNORE**: Insert a new row, ignoring duplicate key errors.
+  - **TRUNCATE**: Delete all rows from a table, but retain the table structure.
+
+- **Data Definition Commands**:
+  - **CREATE DATABASE**: Create a new database.
+  - **DROP DATABASE**: Delete an existing database.
+  - **CREATE TABLE**: Create a new table with specified columns and data types.
+  - **ALTER TABLE**: Modify the structure of an existing table.
+  - **DROP TABLE**: Delete an existing table and its data.
+  - **INDEX**: Create an index on one or more columns for faster data retrieval.
+
+- **Data Control Commands**:
+  - **GRANT**: Assign specific privileges to database users.
+  - **REVOKE**: Remove specific privileges from database users.
+  - **CREATE USER**: Create a new database user.
+  - **ALTER USER**: Modify an existing user's properties.
+  - **DROP USER**: Delete an existing database user.
+
+- **Database Management Commands**:
+  - **SHOW DATABASES**: Display a list of all available databases.
+  - **USE**: Select a specific database for subsequent operations.
+  - **SHOW TABLES**: Show a list of tables in the current database.
+  - **SHOW COLUMNS**: Display the columns of a table.
+  - **DESCRIBE or EXPLAIN**: Provide information about the structure of a table.
+  
+- **Transaction Control Commands**:
+  - **BEGIN**: Start a new transaction.
+  - **COMMIT**: Save the changes made in the current transaction.
+  - **ROLLBACK**: Undo the changes made in the current transaction.
+  - **SAVEPOINT**: Set a savepoint within a transaction.
+  - **ROLLBACK TO**: Rollback to a specific savepoint.
+  
+- **User-Defined Functions (UDF)**:
+  - MySQL allows you to create your own user-defined functions in supported programming languages.
+
+- **System Commands**:
+  - Commands related to server administration, configuration, and maintenance.
+
+
+
 # DDL Queries in MySQL: A Comprehensive Tutorial
 
 DDL (Data Definition Language) queries are a fundamental part of database management systems (DBMS). They are used to define, modify, and manage the structure and properties of database objects such as tables, indexes, and constraints. In this comprehensive tutorial, we'll cover the key DDL queries, their purposes, provide sample syntax, and demonstrate their usage with examples.

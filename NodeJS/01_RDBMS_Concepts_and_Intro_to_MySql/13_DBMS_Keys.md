@@ -6,6 +6,8 @@ In the world of Database Management Systems (DBMS), **keys** play a pivotal role
 
 DBMS keys are fundamental components that help uniquely identify records within a database table. They play a vital role in maintaining data integrity, enforcing relationships, and optimizing query performance.
 
+![Data Types](../Assets/Database-Keys.jpg)
+
 ## Key Types
 
 ### Primary Key

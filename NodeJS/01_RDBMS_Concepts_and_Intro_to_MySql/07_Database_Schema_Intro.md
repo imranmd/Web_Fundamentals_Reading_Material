@@ -2,6 +2,7 @@
 
 A database schema is a crucial component of a database management system (DBMS) that defines the structure, organization, and relationships of the data stored in a database. In this tutorial, we will explore what a database schema is, its components, types of schemas, and practical considerations for designing and managing database schemas.
 
+![Data Types](../Assets/database%20schema.png)
 
 ## 1. Introduction to Database Schema
 

@@ -2,6 +2,8 @@
 
 The evolution of technology has paved the way for significant advancements in the realm of Database Management Systems (DBMS). In this tutorial, we embark on a journey through time to explore the fascinating evolution of DBMS, from its early origins to the modern systems we rely on today.
 
+![Data Types](../Assets/DBs-table1.webp)
+
 ## Pre-Relational Era
 
 ### Hierarchical and Network Models

@@ -2,6 +2,8 @@
 
 In database management systems (DBMS), logical and physical schema represent different aspects of database design. In this tutorial, we will explain what logical and physical schema are, provide a sample real-use case practice with explanations, and summarize the differences between them in a table format.
 
+![DBMS Schemas Logical and Physical Schema](../Assets/dbms_schemas.png)
+
 ## 1. Introduction to Logical and Physical Schema
 
 ### What is Logical Schema?

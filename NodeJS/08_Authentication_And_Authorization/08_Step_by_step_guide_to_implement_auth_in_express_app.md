@@ -21,7 +21,7 @@ In this tutorial, we’re gonna build a Node.js Express Rest API example that su
 ___
 Comparing with Session-based Authentication that need to store Session on Cookie, the big advantage of Token-based Authentication is that we store the JSON Web Token (JWT) on Client side: Local Storage for Browser, Keychain for IOS and SharedPreferences for Android… So we don’t need to build another backend project that supports Native Apps or an additional Authentication module for Native App users.
 
-![in-depth-introduction-jwt-token-based-authentication](assets/in-depth-introduction-jwt-token-based-authentication.png)
+![in-depth-introduction-jwt-token-based-authentication](../Assets/in-depth-introduction-jwt-token-based-authentication.png)
 
 There are three important parts of a JWT: Header, Payload, Signature. Together they are combined to a standard structure: `header.payload.signature`.
 
@@ -62,14 +62,14 @@ These are APIs that we need to provide:
 
 The diagram shows flow of User Registration, User Login and Authorization process.
 
-![node-js-jwt-authentication-mysql-flow](./assets/node-js-jwt-authentication-mysql-flow.png)
+![node-js-jwt-authentication-mysql-flow](../Assets/node-js-jwt-authentication-mysql-flow.png)
 
 A legal JWT must be added to HTTP **x-access-token** Header if Client accesses protected resources.
 
 
 You can have an overview of our Node.js Express App with the diagram below:
 
-![node-js-jwt-authentication-mysql-architecture](./assets/node-js-jwt-authentication-mysql-architecture.png)
+![node-js-jwt-authentication-mysql-architecture](../Assets/node-js-jwt-authentication-mysql-architecture.png)
 
 Via _Express_ routes, **HTTP request** that matches a route will be checked by **CORS Middleware** before coming to **Security** layer.
 
@@ -94,7 +94,7 @@ If these middlewares throw any error, a message will be sent as HTTP response.
 
 This is directory structure for our Node.js Express application:
 
-![node-js-jwt-authentication-mysql-project-structure](./assets/node-js-jwt-authentication-mysql-project-structure.png)
+![node-js-jwt-authentication-mysql-project-structure](../Assets/node-js-jwt-authentication-mysql-project-structure.png)
 
 – **config**
 
@@ -923,7 +923,7 @@ Register some users with `/signup` API:
 -   **mod** with `moderator` and `user` roles
 -   **zkoder** with `user` role
 
-![node-js-jwt-authentication-mysql-signup-new-user](./assets/node-js-jwt-authentication-mysql-signup-new-user.png)
+![node-js-jwt-authentication-mysql-signup-new-user](../Assets/node-js-jwt-authentication-mysql-signup-new-user.png)
 
 Our tables after signup could look like this.
 
@@ -951,23 +951,23 @@ mysql> select * from user_roles;
 
 **Access public resource:** GET `/api/test/all`
 
-![node-js-jwt-authentication-mysql-get-public-content](./assets/node-js-jwt-authentication-mysql-get-public-content.png)
+![node-js-jwt-authentication-mysql-get-public-content](../Assets/node-js-jwt-authentication-mysql-get-public-content.png)
 
 **Access protected resource:** GET `/api/test/user`
 
-![node-js-jwt-authentication-mysql-get-user-content-not-loggedin](./assets/node-js-jwt-authentication-mysql-get-user-content-not-loggedin.png)
+![node-js-jwt-authentication-mysql-get-user-content-not-loggedin](../Assets/node-js-jwt-authentication-mysql-get-user-content-not-loggedin.png)
 
 **Login an account (with wrong password):** POST `/api/auth/signin`
 
-![node-js-jwt-authentication-mysql-user-signin-wrong-password](./assets/node-js-jwt-authentication-mysql-user-signin-wrong-password.png)
+![node-js-jwt-authentication-mysql-user-signin-wrong-password](../Assets/node-js-jwt-authentication-mysql-user-signin-wrong-password.png)
 
 **Login an account:** POST `/api/auth/signin`
 
-![node-js-jwt-authentication-mysql-user-signin](./assets/node-js-jwt-authentication-mysql-user-signin.png)
+![node-js-jwt-authentication-mysql-user-signin](../Assets/node-js-jwt-authentication-mysql-user-signin.png)
 
 **Access protected resources:** GET `/api/test/user`
 
-![node-js-jwt-authentication-mysql-get-authorized-content](./assets/node-js-jwt-authentication-mysql-get-authorized-content.png)
+![node-js-jwt-authentication-mysql-get-authorized-content](../Assets/node-js-jwt-authentication-mysql-get-authorized-content.png)
 
 ## Summary
 

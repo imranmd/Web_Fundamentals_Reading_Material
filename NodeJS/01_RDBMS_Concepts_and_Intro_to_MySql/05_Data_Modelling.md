@@ -13,7 +13,9 @@ Data modeling is the process of creating a visual representation of data to desc
 - **Efficiency:** Properly designed data models optimize data retrieval and storage, leading to improved system performance.
 - **Scalability and Maintenance:** A good data model allows for easy scalability and maintenance as the application evolves.
 
-## 2. Types of Data Models
+## 2. Phases of Data Modeling
+
+![Data Types](../Assets/Phases%20Of%20Data%20Model.png)
 
 ### Conceptual Data Model
 - Focuses on high-level concepts and entities.
@@ -63,7 +65,6 @@ Data modeling is the process of creating a visual representation of data to desc
 
 ## 5. Data Modeling Tools
 
-
 1. **ERwin Data Modeler**:
    - Website: [ERwin Data Modeler](https://erwin.com/products/data-modeler/)
    - Description: A comprehensive data modeling and database design tool.
@@ -72,12 +73,6 @@ Data modeling is the process of creating a visual representation of data to desc
    - Description: An online diagramming tool that includes features for creating ERDs.
 3. https://miro.com/ 
 
-
-
-### How to Use Data Modeling Tools
-- Create and define entities, attributes, and relationships.
-- Generate diagrams and documentation.
-- Collaborate with team members.
 
 ## 6. Best Practices in Data Modeling
 
@@ -97,22 +92,7 @@ Data modeling is the process of creating a visual representation of data to desc
 - Consider how data will be queried.
 - Use appropriate indexing and denormalization techniques when necessary.
 
-## 7. Case Study: Data Modeling Example
 
-### Problem Statement
-- Design a database for an e-commerce platform.
-- Entities: Customers, Products, Orders, and Suppliers.
-- Define relationships, attributes, and constraints.
-
-### Data Modeling Steps
-- Create a conceptual model.
-- Refine into a logical model.
-- Translate into a physical model (e.g., using SQL).
-
-### Implementation in a DBMS
-- Use SQL statements to create tables, relationships, and constraints.
-- Populate the database with sample data.
-
-## 8. Conclusion and Summary
+## Summary
 
 Data modeling is a crucial step in the database development process, ensuring that data is organized, efficient, and aligned with business requirements. Understanding the types of data models, creating ERDs, normalizing data, and following best practices are essential for successful data modeling. With the right tools and techniques, you can design robust databases that support your application's data needs effectively.

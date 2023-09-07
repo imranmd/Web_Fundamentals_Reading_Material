@@ -6,6 +6,8 @@ Whether you're developing a simple web app or a complex enterprise system, effic
 
 At its essence, a **Database Management System (DBMS)** is a software suite that enables you to store, manage, organize, retrieve, and manipulate vast amounts of data in a structured manner. Instead of dealing directly with raw data files, a DBMS provides an organized approach to interact with data using a set of well-defined procedures and protocols.
 
+![Data Types](../Assets/Database%20Management%20System.webp)
+
 ### The Role of DBMS
 
 A DBMS serves as an intermediary layer between your application and the physical data storage. It provides several critical functions:
