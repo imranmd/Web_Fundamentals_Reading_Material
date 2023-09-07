@@ -2,6 +2,7 @@
 
 Routing in Express.js is a fundamental concept that allows you to define how your application responds to different HTTP requests. In this comprehensive guide, we'll explore routing in Express.js, including route definition, route parameters, middleware, and best practices.
 
+![Routing in nodejs](../Assets/NodeJS_Routing.png)
 ## What is Routing in Express.js?
 
 Routing is the process of determining how an application responds to client requests at specific endpoints (URLs). In Express.js, routing involves defining routes that map HTTP methods (GET, POST, PUT, DELETE, etc.) to specific functions known as route handlers. Each route handler is responsible for handling a particular type of request and sending an appropriate response.

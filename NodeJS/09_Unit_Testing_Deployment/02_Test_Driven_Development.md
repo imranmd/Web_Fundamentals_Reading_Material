@@ -2,6 +2,8 @@
 
 Test-Driven Development (TDD) is a software development methodology that emphasizes writing tests before writing the actual code. It follows a cycle of writing tests, implementing code to make the tests pass, and then refactoring the code. TDD is beneficial for ensuring code correctness, maintainability, and collaboration among team members. This tutorial will guide you through the TDD process step by step.
 
+![Test-Driven Development (TDD)](../Assets/TDD-1-320x385.webp)
+
 ### Process of TDD
 
 The flow of Test-Driven Development (TDD) can be summarized in a series of steps, often referred to as the TDD cycle. Here's the flow of TDD:

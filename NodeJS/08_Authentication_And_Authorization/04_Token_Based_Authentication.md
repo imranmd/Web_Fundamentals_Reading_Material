@@ -4,6 +4,8 @@
 
 Imagine you have a special key card that lets you into your apartment building. When you use this card, the building knows it's you and grants access. In the digital world, this is similar to token-based authentication. It's like getting a digital key (token) that proves you're allowed to access a website or app.
 
+![Token-Based Authentication](../Assets/TokenBasedAuthentication.png)
+
 ## How Does Token-Based Authentication Work?
 
 **1. Requesting Access:**

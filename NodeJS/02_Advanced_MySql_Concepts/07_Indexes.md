@@ -2,6 +2,7 @@
 
 Indexes in MySQL are essential database objects that significantly enhance the speed and efficiency of data retrieval operations. They provide a way to quickly locate specific rows within database tables. In this tutorial, we'll explore indexes in MySQL, including types of indexes, their purposes, and provide sample syntax and examples.
 
+![Database index](../Assets/database-index-design-index-basics.png)
 ## Types of Indexes in MySQL
 
 Here are some common types of indexes in MySQL:

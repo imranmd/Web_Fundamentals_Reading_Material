@@ -2,6 +2,7 @@
 
 In the ever-evolving landscape of data management, NoSQL databases have emerged as a powerful alternative to traditional relational databases. This comprehensive guide delves into the reasons behind the adoption of NoSQL databases, covering their advantages and practical use cases. By the end of this guide, you'll have a clear understanding of why NoSQL databases are essential in modern data-driven environments.
 
+![Why NOSQL databases](../Assets/No_SQL_Databases_Explained.png)
 ## Understanding the Need for NoSQL Databases
 
 NoSQL databases address limitations of traditional relational databases, offering flexibility, scalability, and enhanced performance for specific use cases.

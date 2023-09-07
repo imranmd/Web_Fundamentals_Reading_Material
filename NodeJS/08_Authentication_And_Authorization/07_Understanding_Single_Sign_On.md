@@ -4,6 +4,8 @@
 
 Single Sign-On (SSO) is a method that allows users to log in once and access multiple applications or services without having to re-enter their credentials for each one. It simplifies the user experience and enhances security by centralizing authentication.
 
+![Single Sign-On (SSO)](../Assets/SSO-auth-process.webp)
+
 ## SSO Concept
 
 Imagine you work in a large office building with several locked rooms. Each room represents a different application or service, like email, document storage, and HR tools. Without SSO, you'd need a separate key to unlock each room, which can be cumbersome. With SSO, you only need one master key to access all the rooms.

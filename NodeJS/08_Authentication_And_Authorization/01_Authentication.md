@@ -2,6 +2,8 @@
 
 Authentication is a fundamental concept in the world of cybersecurity and web development. It's the process of verifying the identity of a user or a system to ensure they are who they claim to be before granting access to specific resources or services. In this tutorial, we'll break down what authentication is, provide examples, and explore the different types of authentication.
 
+![Node JS different types of authentication](../Assets/different-types-of-authentication.webp)
+
 ## What is Authentication?
 
 **Authentication** is like proving your identity to a system or website. Imagine it as showing your ID card to a bouncer at a club. Only if your ID matches their expectations and is valid, they'll allow you inside. Similarly, authentication ensures that you are the person or entity you say you are, granting you access to a system, account, or website.

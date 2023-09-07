@@ -2,6 +2,8 @@
 
 Node.js is known for its non-blocking, asynchronous I/O, which is made possible by its event-driven architecture and the event loop. In this tutorial, we'll explore what the event loop is, how it works within the JavaScript engine, and provide an example of asynchronous code in Node.js to illustrate its operation.
 
+[Node JS Architecture](../Assets/Node.js-Architecture-Chart.png)
+
 ## What is the Event Loop?
 
 The event loop is a core concept in Node.js and other JavaScript environments. It's responsible for handling asynchronous operations and ensuring that JavaScript remains non-blocking and efficient, even when dealing with I/O-bound tasks such as file system operations or network requests.

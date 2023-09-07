@@ -2,6 +2,7 @@
 
 Triggers in MySQL are powerful tools that allow you to automate actions based on changes in your database. This comprehensive tutorial dives into the world of MySQL triggers, covering essential concepts, trigger types, and practical examples. By the end of this guide, you'll have a solid grasp of how to utilize triggers to streamline your database management processes.
 
+![MySQL Triggers](../Assets/Triggers-in-SQL.png)
 ## Understanding Triggers in MySQL
 
 Triggers in MySQL are database objects that execute automatically in response to specified events, such as INSERT, UPDATE, DELETE operations on tables.

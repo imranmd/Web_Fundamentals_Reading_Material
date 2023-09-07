@@ -2,6 +2,8 @@
 
 Behavior-Driven Development (BDD) is a software development methodology that extends Test-Driven Development (TDD) by emphasizing collaboration between developers, testers, and non-technical stakeholders. BDD focuses on defining the behavior of a software system from the user's perspective and using this understanding to drive development. This tutorial will guide you through the principles and practices of BDD.
 
+![Behavior-Driven Development (BDD)](../Assets/Lifecycle-of-BDD.webp)
+
 ## What is Behavior-Driven Development (BDD)?
 
 BDD is an agile software development approach that encourages communication, collaboration, and shared understanding among team members. It centers around the following key principles:

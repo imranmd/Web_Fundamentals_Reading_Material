@@ -2,6 +2,7 @@
 
 In Express.js, the `request` object, often referred to as `req`, is a crucial part of handling incoming HTTP requests. It provides valuable information about the incoming request, including data sent by the client, URL parameters, headers, and more. This comprehensive guide explains the Express.js `request` object, its various properties, and how to use them effectively.
 
+![Request in nodejs](../Assets/Request%20and%20Response.jpg)
 ## Accessing the Request Object
 
 In an Express.js application, you can access the `request` object in route handlers and middleware functions by including it as a parameter in the function's callback. Here's an example:

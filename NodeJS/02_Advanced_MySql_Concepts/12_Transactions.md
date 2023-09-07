@@ -2,6 +2,7 @@
 
 Transactions in MySQL are a crucial mechanism for maintaining data integrity and consistency, particularly in multi-step operations. This comprehensive tutorial delves into MySQL transactions, covering essential concepts, transaction properties, and practical examples. By the end of this guide, you'll have a solid understanding of how to use transactions to ensure reliable data operations in your database.
 
+![MySQL Transactions](../Assets/Transaction%20in%20MYSql.png)
 ## Understanding Transactions in MySQL
 
 Transactions in MySQL allow you to group multiple database operations into a single unit, ensuring that all changes are either fully completed or fully rolled back in case of failures.

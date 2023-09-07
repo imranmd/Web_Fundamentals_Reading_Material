@@ -2,6 +2,7 @@
 
 Query optimization in MySQL is a crucial skill for achieving optimal database performance and reducing response times. This comprehensive tutorial delves into the world of MySQL query optimization, covering essential concepts, techniques, and practical examples. By the end of this guide, you'll be equipped to craft efficient queries that make the most of your database resources.
 
+![Query execution order](../Assets/Query%20Execution%20Order.png)
 ## Understanding Query Optimization in MySQL
 
 Query optimization in MySQL involves enhancing the performance of your database queries to ensure faster and more efficient execution.

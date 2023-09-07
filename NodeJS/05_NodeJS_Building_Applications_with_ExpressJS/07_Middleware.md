@@ -2,11 +2,15 @@
 
 Middleware in Express.js plays a critical role in handling HTTP requests and responses. It allows you to add functionality, perform operations, and modify request or response objects in a structured way. This comprehensive guide explains Express.js middleware, how to use it, and why it's essential for building robust web applications.
 
+![Middleware in nodejs](../Assets/middleware.png)
+
 ## What is Middleware in Express.js?
 
 Middleware, in the context of Express.js, refers to functions or code snippets that are executed in a sequence during the processing of an HTTP request. These functions have access to the request and response objects (`req` and `res`) and can perform tasks such as validation, authentication, logging, and data manipulation. Middleware functions are executed in the order they are defined, making them a powerful tool for managing the flow of a request through your application.
 
 ## Using Middleware in Express.js
+
+![Middleware in Express](../Assets/express-mw.png)
 
 In Express.js, middleware can be added to specific routes or applied globally to all routes. You can use the `app.use()` method or specify middleware functions directly in route handlers. Here's how to use middleware:
 
@@ -45,6 +49,8 @@ app.get('/secure', authenticate, (req, res) => {
 ## Built-in Middleware in Express.js
 
 Express.js provides several built-in middleware functions to handle common tasks, such as parsing request bodies, serving static files, and handling cookies. These middleware functions can be easily integrated into your application:
+
+![Middleware in node js](../Assets/middleware%20in%20nodejs.jpg)
 
 - **`express.json()`**: Parses JSON request bodies.
 
@@ -95,6 +101,9 @@ app.get('/example', (req, res) => {
 ```
 
 ## Middleware Chaining in Express.js
+
+![Middleware chaining](../Assets/middleware-chaining.png)
+
 
 Middleware chaining refers to the practice of applying multiple middleware functions to a route or globally to an Express application. Each middleware function in the chain processes the request and can either pass control to the next middleware in line or respond to the request and end the chain. Chaining middleware is a powerful technique for modularizing your application's logic and ensuring that each step is executed in a predictable order.
 

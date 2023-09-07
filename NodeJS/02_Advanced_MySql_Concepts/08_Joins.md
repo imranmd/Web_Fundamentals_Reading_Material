@@ -2,6 +2,9 @@
 
 Joins in MySQL allow you to combine rows from two or more tables based on a related column between them. This tutorial covers various types of joins, their purposes, and provides sample syntax and examples.
 
+![MySQL Joins](../Assets/SQL%20Join.png)
+
+
 ## Types of Joins
 
 Here are some common types of joins in MySQL:
@@ -12,8 +15,7 @@ Here are some common types of joins in MySQL:
 4. **FULL JOIN (or FULL OUTER JOIN)**: Returns all rows when there is a match in either the left or right table.
 5. **CROSS JOIN**: Returns the Cartesian product of rows from both tables (all possible combinations).
 6. **SELF JOIN**: Joins a table with itself, typically to find relationships between rows within the same table.
-7. **NATURAL JOIN**: Performs a join based on columns with the same name in both tables (not recommended due to ambiguity).
-8. **UNION JOIN**: Combines the results of two SELECT statements into a single result set.
+7. **UNION JOIN**: Combines the results of two SELECT statements into a single result set.
 
 ## Joins with Purpose, Syntax, and Example
 

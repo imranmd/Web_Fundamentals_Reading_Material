@@ -2,6 +2,8 @@
 
 The concept of events and the Event Emitter in Node.js provide a powerful way to handle asynchronous interactions. In this comprehensive tutorial, we'll explore the significance of events, how to use the built-in Event Emitter, practical examples, and best practices. By the end of this guide, you'll be well-equipped to harness the event-driven paradigm in Node.js and build applications that handle asynchronous events seamlessly.
 
+[Node JS Event emitter and event loop](../Assets/event_loop.jpg)
+
 ## Embracing Asynchronous Event Handling: Your Guide to Node.js Events and Event Emitter
 
 Events and the Event Emitter in Node.js streamline asynchronous communication, enhancing application performance and responsiveness.

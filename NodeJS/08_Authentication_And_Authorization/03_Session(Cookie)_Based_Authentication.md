@@ -4,6 +4,8 @@
 
 Imagine you have a special badge to enter a club, and you want to keep that badge throughout your visit. This badge tells the club's staff that you're allowed inside. In the digital world, this is similar to session-based authentication, often called cookie-based authentication. It's like receiving a badge (cookie) when you enter a website that proves you're allowed to access it.
 
+![Session-Based Authentication (Cookie-Based Authentication)](../Assets/SessionBases.png)
+
 ## How Does Session-Based Authentication Work?
 
 **1. Visiting a Website:**

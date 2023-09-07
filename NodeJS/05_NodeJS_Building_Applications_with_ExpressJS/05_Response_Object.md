@@ -2,6 +2,7 @@
 
 In Express.js, the `response` object, often referred to as `res`, is a crucial part of handling HTTP requests. It allows you to send responses back to clients, set response headers, and manage the HTTP status code. This comprehensive guide explains the Express.js `response` object, its various methods and properties, and how to use them effectively.
 
+![Response in nodejs](../Assets/Request%20and%20Response.jpg)
 ## Accessing the Response Object
 
 In an Express.js application, you can access the `response` object in route handlers and middleware functions by including it as a parameter in the function's callback. Here's an example:

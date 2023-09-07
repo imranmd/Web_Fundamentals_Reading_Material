@@ -2,6 +2,8 @@
 
 In this tutorial, we'll walk you through the process of deploying a Node.js application to Render.com, a cloud platform that simplifies the deployment and hosting of web applications. Follow these steps to get your Node.js app up and running on Render.
 
+![Deploy node js on render.com](../Assets/Deploy%20NodeJS%20on%20render.com.png)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following prerequisites in place:

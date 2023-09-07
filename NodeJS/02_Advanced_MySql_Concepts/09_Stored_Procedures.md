@@ -2,6 +2,7 @@
 
 Stored Procedures in MySQL provide a powerful way to encapsulate and execute complex database logic. This comprehensive tutorial delves into the world of MySQL stored procedures, covering essential concepts, creation, parameters, and practical examples. By the end of this guide, you'll be adept at designing and utilizing stored procedures to enhance your database management and development processes.
 
+![MySQL Stored Procedures](../Assets/what-is-stored-procedure.png)
 ## Understanding Stored Procedures in MySQL
 
 Stored Procedures in MySQL are sets of SQL statements that can be executed as a single unit, simplifying complex operations and promoting reusability.

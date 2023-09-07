@@ -1,5 +1,7 @@
 # Understanding JWT Tokens
 
+![JWT Token](../Assets/jwt-structure.webp) 
+
 ## What is a JWT Token?
 
 JSON Web Token (JWT) is a compact and self-contained way to represent information between two parties. It's often used for authentication and authorization in web applications. A JWT consists of three parts: a header, a payload, and a signature. Let's break down what each part does and how to decode a JWT.

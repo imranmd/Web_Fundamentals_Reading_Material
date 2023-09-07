@@ -2,6 +2,7 @@
 
 Setting up and installing MongoDB is the foundation for building powerful, scalable, and flexible database applications. This comprehensive tutorial takes you through the process of installing MongoDB, covering essential concepts, installation methods, and practical steps. By the end of this guide, you'll be well-prepared to start working with MongoDB and harness its capabilities.
 
+![Mongo DB Set up](../Assets/mongodbgif.gif)
 ## Understanding MongoDB Setup and Installation
 
 Setting up MongoDB involves installing the database server on your system, configuring its settings, and getting ready to manage your data.

@@ -20,6 +20,8 @@
 
 ## Unit Testing Frameworks in Node.js
 
+![top javascript testing frameworks](../Assets/Top-11-JavaScript-frameworks.png)
+
 Node.js offers several unit testing frameworks that simplify the process of writing and executing unit tests. Here are some popular options:
 
 ### 1. **Mocha**:

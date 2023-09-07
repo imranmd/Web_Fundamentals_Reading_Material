@@ -2,6 +2,7 @@
 
 Views in MySQL offer a versatile way to simplify complex queries, enhance data security, and provide a convenient abstraction layer. This comprehensive tutorial delves into the world of MySQL views, covering essential concepts, creation, advantages, and practical examples. By the end of this guide, you'll be well-versed in creating and utilizing views to optimize your data retrieval processes.
 
+![MySQL Views](../Assets/sql-view.png)
 ## Understanding Views in MySQL
 
 Views in MySQL are virtual tables created by defining a query, enabling you to access and manipulate data without altering the underlying tables.

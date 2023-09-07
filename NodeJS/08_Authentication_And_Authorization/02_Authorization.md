@@ -19,6 +19,8 @@ Let's illustrate authorization with a practical example:
 
 In this example, authorization determines the actions you're permitted to take within your email account after you've authenticated.
 
+![RBAC Vs ABAC](../Assets/Difference-Between-RBAC-and-ABAC-Comparison-Summary.jpg)
+
 ## Types of Authorization Methods
 
 ### 1. **Role-Based Authorization**

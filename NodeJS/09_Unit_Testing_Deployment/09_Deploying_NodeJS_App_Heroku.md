@@ -2,6 +2,8 @@
 
 In this tutorial, we will walk you through the process of deploying a Node.js application to Heroku, a popular cloud platform for hosting web applications. Follow these steps to get your Node.js app up and running on Heroku.
 
+![Deploy node js on heroku](../Assets/Deploy%20NodeJS%20on%20heroku.png)
+
 ## Prerequisites
 
 Before you start, ensure you have the following prerequisites in place:
