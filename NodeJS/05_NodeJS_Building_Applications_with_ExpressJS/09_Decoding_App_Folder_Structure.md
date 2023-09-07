@@ -93,6 +93,6 @@ These files and folders are essential for managing your application's dependenci
 
 A readme file is often included to provide documentation and instructions on how to run and use the application.
 
-## Conclusion
+## Summary
 
 Understanding the folder structure of an Express.js application is crucial for maintaining a well-organized and scalable codebase. By structuring your app with clear separation of concerns, you can improve code maintainability, collaboration among team members, and overall development efficiency. The folder structure outlined in this guide is a common approach, but you can customize it to fit the specific needs of your project.

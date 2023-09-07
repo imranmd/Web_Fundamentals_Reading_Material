@@ -56,6 +56,6 @@ There are several types of indexes in DBMS, each suited to specific use cases. S
 
 7. **Plan for Growth:** Consider the expected growth of your database. Indexing strategies that work well for small datasets may not be suitable for large datasets.
 
-## Conclusion
+## Summary
 
 Indexing is a vital technique in DBMS that enhances query performance, sorting, and data retrieval operations. By understanding the types of indexes, best practices for their use, and their impact on database performance, you can effectively design and manage indexes to optimize the performance of your database-driven applications.

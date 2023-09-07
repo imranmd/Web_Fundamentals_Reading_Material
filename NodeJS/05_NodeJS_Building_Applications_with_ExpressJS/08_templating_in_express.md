@@ -111,6 +111,6 @@ In this code, `res.render('index', { pageTitle, items })` renders the `index.ejs
 
 As your application grows, create additional templates for different pages or components. Organize your templates in a folder (commonly named `views`) to keep your project structured.
 
-## Conclusion
+## Summary
 
 Using template engines in Express.js simplifies the process of generating dynamic HTML content for your web applications. Whether you choose EJS, Pug, Handlebars, or another template engine, they all offer similar benefits: clean separation of concerns, reusability, dynamic data rendering, and consistent styling. Experiment with different template engines to determine which one best fits your project's requirements and your personal preferences.
