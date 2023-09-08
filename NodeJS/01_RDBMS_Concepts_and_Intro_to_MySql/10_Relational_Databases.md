@@ -6,7 +6,7 @@ In the landscape of Database Management Systems (DBMS), **Relational Databases**
 
 A **Relational Database** is a type of database that organizes data into tables with rows and columns, leveraging the principles of the relational model. This model establishes relationships between tables, allowing for efficient data management, retrieval, and querying.
 
-![Data Types](../Assets/SQL_Database_Examples.jpeg)
+![Data Types](../Assets/SQL_Database_Examples.jpg)
 
 ## Key Concepts of Relational Databases
 

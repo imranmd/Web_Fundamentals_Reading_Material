@@ -143,26 +143,8 @@ LEFT JOIN Employees AS m
 ON e.ManagerID = m.EmployeeID;
 ```
 
-### 7. NATURAL JOIN (Not Recommended)
 
-**Purpose**: To perform a join based on columns with the same name in both tables. However, this is not recommended due to potential ambiguity.
-
-**Syntax**:
-```sql
-SELECT columns
-FROM table1
-NATURAL JOIN table2;
-```
-
-**Example**:
-```sql
--- Avoid using NATURAL JOIN as it can lead to ambiguous results
-SELECT Customers.CustomerName, Orders.OrderID
-FROM Customers
-NATURAL JOIN Orders;
-```
-
-### 8. UNION JOIN
+### 7. UNION JOIN
 
 **Purpose**: To combine the results of two SELECT statements into a single result set.
 

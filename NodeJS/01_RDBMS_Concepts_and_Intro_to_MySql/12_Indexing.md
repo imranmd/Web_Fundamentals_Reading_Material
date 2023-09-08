@@ -40,7 +40,57 @@ There are several types of indexes in DBMS, each suited to specific use cases. S
 
 6. **Full-Text Index:** Used for text-based searching, full-text indexes allow you to perform text searches efficiently. They are common in search engines and document management systems.
 
+# Clustered Index and Non-Clustered Index in DBMS: A Comprehensive Guide
+
+In Database Management Systems (DBMS), indexes are essential for efficient data retrieval. Two common types of indexes are Clustered Indexes and Non-Clustered Indexes. In this tutorial, we will explore what these indexes are, how they work, and their differences.
+
+
+## Clustered Index
+
+A Clustered Index determines the physical order of data rows in a table. Each table can have only one Clustered Index, and the data rows are stored on disk in the same order as the index. This means that the order of rows in the table matches the order of the index.
+
+### Characteristics of a Clustered Index:
+
+- **Defines Physical Order**: It defines the physical order of rows in the table, so the table itself is essentially an ordered list based on the Clustered Index key.
+
+- **Unique**: A Clustered Index key is unique, meaning it ensures that each row in the table has a unique value for the indexed column(s).
+
+- **Faster Retrieval**: Retrieving data based on the Clustered Index key is very fast because it utilizes the physical order of rows.
+
+- **Storage Impact**: It may impact storage space as data rows are stored in the order of the Clustered Index.
+
+- **One Per Table**: There can be only one Clustered Index per table.
+
+## Non-Clustered Index
+
+A Non-Clustered Index is a separate data structure that contains a copy of selected columns of the table, along with a pointer to the corresponding data row. Unlike the Clustered Index, a table can have multiple Non-Clustered Indexes.
+
+### Characteristics of a Non-Clustered Index:
+
+- **Doesn't Define Physical Order**: It does not affect the physical order of rows in the table. The data rows remain in their storage order.
+
+- **Non-Unique**: Non-Clustered Index keys do not have to be unique, meaning multiple rows may have the same key value.
+
+- **Faster Data Retrieval**: Retrieving data based on Non-Clustered Index key(s) is faster than a full table scan but slower than using a Clustered Index.
+
+- **Storage Impact**: Non-Clustered Indexes require additional storage space to store the indexed columns and pointers.
+
+- **Multiple Indexes**: A table can have multiple Non-Clustered Indexes.
+
 ![Data Types](../Assets/ClusteredVsNonClustered.png)
+## When to Use Clustered and Non-Clustered Indexes
+
+- **Clustered Index**:
+  - Use when you want to physically store data rows in a specific order.
+  - Typically used on columns with unique or semi-unique values (e.g., primary keys).
+  - There can be only one Clustered Index per table.
+
+- **Non-Clustered Index**:
+  - Use when you want to improve data retrieval speed based on specific columns.
+  - Suitable for columns that are frequently used in search and filtering operations.
+  - Multiple Non-Clustered Indexes can be created on a table.
+
+
 
 ## Best Practices for Using Indexing
 
