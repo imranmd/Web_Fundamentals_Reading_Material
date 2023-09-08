@@ -2,7 +2,7 @@
 
 Node.js is a popular JavaScript runtime environment known for its ability to build scalable and efficient server-side applications. To simplify and expedite web application development with Node.js, various frameworks have emerged. This tutorial provides a detailed comparison of the top 5 Node.js frameworks: Express, Koa, NestJS, Hapi.js, and Meteor.
 
-[Node JS frameworks](../Assets/node.js-frameworks-list.jpg)
+![Node JS frameworks](../Assets/node.js-frameworks-list.jpg)
 
 ## Frameworks List
 
