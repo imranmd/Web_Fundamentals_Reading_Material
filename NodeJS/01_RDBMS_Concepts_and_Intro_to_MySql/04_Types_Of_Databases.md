@@ -63,7 +63,7 @@ Databases play a crucial role in modern computing, and there are several types o
 
    **Description:** Relational databases are the most widely used database type. They store data in structured tables with rows and columns and use SQL for data manipulation. The relational model emphasizes the use of keys and relationships to maintain data integrity.
 
-   ![Data Types](../Assets/Relational-DB.png)
+   ![Data Types](../Assets/SQL_Database_Examples.jpg)
 
 
    **Characteristics:**
@@ -86,7 +86,7 @@ Databases play a crucial role in modern computing, and there are several types o
 
    **Description:** NoSQL databases (which stands for "not only SQL") encompass various database models that do not rely on the traditional relational model. They are designed to handle unstructured, semi-structured, or rapidly changing data.
 
-   ![Data Types](../Assets/NoSQL_Database_Examples.webp)
+   ![Data Types](../Assets/NoSQL_Database_Examples.jpg)
 
    **Characteristics:**
    - Diverse data models (document, key-value, column-family, graph).
@@ -161,7 +161,7 @@ Databases play a crucial role in modern computing, and there are several types o
    - Oracle Spatial and Graph
    - MongoDB (with spatial features)
 
-[Most popular databases](../Assets/most-popular-databases-2023-1.png)
+![Most popular databases](../Assets/most-popular-databases-2023-1.png)
 
 
 In conclusion, the choice of a database type depends on the specific requirements of your application and the nature of the data you need to store and retrieve. Understanding the characteristics and use cases of these various database types will help you make informed decisions when selecting the most suitable database for your project.

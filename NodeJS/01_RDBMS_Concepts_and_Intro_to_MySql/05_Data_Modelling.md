@@ -46,23 +46,6 @@ Data modeling is the process of creating a visual representation of data to desc
 - Cardinality defines the number of instances of one entity related to another (e.g., 1:1, 1:N, N:M).
 - Multiplicity specifies the range of valid occurrences (e.g., 0..1, 1..*, 0..*).
 
-## 4. Normalization
-
-### First Normal Form (1NF)
-- Ensures that each column in a table contains atomic (indivisible) values.
-- Eliminates repeating groups and arrays.
-
-### Second Normal Form (2NF)
-- Builds on 1NF and requires that non-key attributes be functionally dependent on the primary key.
-
-### Third Normal Form (3NF)
-- Further refines the data structure by removing transitive dependencies.
-
-### Benefits of Normalization
-- Minimizes data redundancy.
-- Maintains data integrity.
-- Simplifies updates and reduces anomalies.
-
 ## 5. Data Modeling Tools
 
 1. **ERwin Data Modeler**:

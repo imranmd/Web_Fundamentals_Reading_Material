@@ -65,15 +65,6 @@ Address (depends on the existence of a Student)
 
 5. **Database Creation:** Serves as a blueprint for creating database tables and establishing relationships between them.
 
-## Practical Usage of the ER Model
-
-The ER Model finds application in various scenarios, including:
-
-- **Business Processes:** Modeling business processes and interactions between different entities, such as customers, orders, and products.
-
-- **Database Design:** Assisting in the design and planning of a database structure, especially in the initial stages of development.
-
-- **Software Development:** Providing a foundation for building database-driven software applications.
 
 ## Summary
 
