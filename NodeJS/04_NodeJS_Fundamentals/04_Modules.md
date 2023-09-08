@@ -2,7 +2,7 @@
 
 Node.js modules are essential for structuring and organizing your codebase. In this comprehensive tutorial, we'll take you through the world of Node.js modules, explaining their importance, how to create and use them, and practical examples. By the end of this guide, you'll have a solid understanding of how to modularize your Node.js applications for improved maintainability and scalability.
 
-[Node JS Modules](../Assets/nodejs_module_table.webp)
+![Node JS Modules](../Assets/nodejs_module_table.webp)
 ## Node.js Modules: A Deep Dive
 
 Node.js modules allow you to break your code into reusable and maintainable components.

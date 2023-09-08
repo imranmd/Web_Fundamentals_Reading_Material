@@ -6,7 +6,7 @@ NoSQL databases offer diverse solutions for different data storage and retrieval
 
 NoSQL databases are categorized into four main types based on their data models and storage structures.
 
-[Types of NOSQL databases](../Assets/NoSQL.png)
+![Types of NOSQL databases](../Assets/NoSQL.png)
 
 ## Document Stores
 
