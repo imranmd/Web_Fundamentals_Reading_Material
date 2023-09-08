@@ -68,4 +68,64 @@ async function updateSingleDocument() {
 }
 ```
 
-### Update Multiple Documents
+### Update Multiple Documents:
+
+```javascript
+async function updateMultipleDocuments() {
+  try {
+    // Connect to the MongoDB server
+    await client.connect();
+
+    // Specify the database and collection name
+    const dbName = 'mydatabase';
+    const collectionName = 'users';
+
+    // Get a reference to the database
+    const db = client.db(dbName);
+
+    // Get a reference to the collection
+    const collection = db.collection(collectionName);
+
+    // Define the update criteria (e.g., update users older than 40)
+    const updateCriteria = { age: { $gt: 40 } };
+
+    // Define the update operation (e.g., set a new status)
+    const updateOperation = { $set: { status: 'inactive' } };
+
+    // Update multiple documents matching the criteria
+    const result = await collection.updateMany(updateCriteria, updateOperation);
+
+    console.log(`${result.modifiedCount} documents updated.`);
+  } catch (error) {
+    console.error('Error updating multiple documents:', error);
+  } finally {
+    // Close the MongoDB client
+    await client.close();
+  }
+}
+```
+
+## Step 4: Call the Functions to Update Documents
+
+Call the functions to update documents based on the specified criteria:
+
+```javascript
+updateSingleDocument();
+updateMultipleDocuments();
+```
+
+## Step 5: Run Your Node.js Application
+
+Run your Node.js application using the following command:
+
+```bash
+node app.js
+```
+
+Replace `app.js` with the name of your main application file.
+
+## Step 6: Verify the Updates
+
+After running your Node.js application, the documents that match the specified update criteria will be modified in the MongoDB collection. You can verify the updates using a MongoDB client or by running MongoDB commands.
+
+Your Node.js application is now set up to update documents in a MongoDB collection based on specific criteria using the `updateOne()` and `updateMany()` methods. Customize the collection name, update criteria, update operations, and include additional options as required for your application.
