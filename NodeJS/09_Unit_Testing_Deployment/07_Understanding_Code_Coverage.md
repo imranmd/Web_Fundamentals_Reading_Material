@@ -74,6 +74,39 @@ Jest generates code coverage reports in various formats, such as HTML, LCOV, and
    - The coverage table lists your project's files with coverage percentages for each file.
    - Files with low coverage may require additional tests.
 
+
+When you run your Jest tests with code coverage, you will see a summary in the terminal that looks like this:
+
+```
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   X%    |    X%    |   X%    |   X%    |
+ app.js            |   X%    |    X%    |   X%    |   X%    | X, X, X-X, X
+ controllers/      |   X%    |    X%    |   X%    |   X%    |
+  mainController.js|   X%    |    X%    |   X%    |   X%    | X, X-X, X-X, X-X
+ middleware/       |   X%    |    X%    |   X%    |   X%    |
+  customMiddleware.js|   X%    |    X%    |   X%    |   X%    | X, X
+ models/           |   X%    |    X%    |   X%    |   X%    |
+  userModel.js     |   X%    |    X%    |   X%    |   X%    | X-X-X, X-X-X
+-------------------|---------|----------|---------|---------|-------------------
+```
+
+- `% Stmts` represents line coverage.
+- `% Branch` represents branch coverage.
+- `% Funcs` represents function coverage.
+- `% Lines` represents coverage at the line level.
+- `Uncovered Line #s` shows which lines of code were not executed during the tests.
+
+Here's how to interpret the code coverage information when you run your tests with Jest
+
+1. **Line Coverage:** This metric tells you the percentage of lines of code that were executed during the tests. A high line coverage indicates that most of your code has been tested.
+
+2. **Function Coverage:** It shows the percentage of functions in your code that were executed. It's essential to ensure that not only lines of code but also functions are covered by your tests.
+
+3. **Branch Coverage:** Branch coverage indicates the percentage of code branches that were exercised during the tests. This is particularly important for conditional statements (e.g., if-else) where different code paths can be taken.
+In the summary, you'll see the coverage percentage for each file, directory, and the overall project. You can then review the "Uncovered Line #s" section to identify specific lines of code that were not covered by your tests.
+
 3. **Line Highlighting**:
 
    - Coverage reports highlight lines in your code with colors (e.g., green for covered, red for not covered).
