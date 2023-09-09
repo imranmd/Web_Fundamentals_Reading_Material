@@ -94,6 +94,6 @@ const writableStream = fs.createWriteStream('output.txt');
 readableStream.pipe(writableStream);
 ```
 
-## Conclusion
+## Summary
 
 Node.js streams provide a flexible and efficient way to work with data in a continuous and sequential manner. Whether you're dealing with large files, network communication, or real-time data processing, understanding and using Node.js streams is essential for building high-performance and memory-efficient applications.

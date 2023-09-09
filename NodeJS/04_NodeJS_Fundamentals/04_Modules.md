@@ -75,6 +75,6 @@ Let's say you want to create a custom module that calculates the area of a recta
 
    In this example, we created a custom module named `rectangle.js` that exports a `calculateArea` function. In our main application, we import the module using `require` and use the exported function to calculate the area.
 
-## Conclusion
+## Summary
 
 Node.js modules, whether core or custom, play a vital role in structuring and organizing your code. They facilitate code reusability, separation of concerns, and collaboration among developers. Understanding how to use core modules and create custom modules is essential for building scalable and maintainable Node.js applications.
