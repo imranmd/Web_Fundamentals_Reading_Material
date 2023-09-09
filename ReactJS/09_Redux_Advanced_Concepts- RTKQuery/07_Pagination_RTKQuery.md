@@ -1,76 +1,73 @@
-# Invalidating and Refetching Data with RTK Query
+# Pagination with RTK Query
 
-In this tutorial, you'll learn how to manually invalidate cache to trigger refetching of data and how to use the `invalidates` option to define dependencies between endpoints in RTK Query. These features are valuable for keeping your data up-to-date and ensuring that changes are reflected across related parts of your application.
+In this tutorial, you'll learn how to implement pagination using RTK Query. Pagination is essential for fetching and displaying large datasets in smaller, manageable chunks. We'll cover how to set up pagination using the `paginate` option in endpoints and how to use the `usePaginatedQuery` hook for paginated queries.
 
-## Manually Invalidating Cache to Trigger Refetching
+## Implementing Pagination with `paginate` in Endpoints
 
-Invalidating the cache manually is useful when you want to force RTK Query to re-fetch data from the server, even if the cached data hasn't expired. This can be helpful in situations where you know that the data on the server has changed and you want to ensure that your app displays the most recent information.
+RTK Query makes implementing pagination straightforward by providing a `paginate` option within the `endpoints` object. This option enables you to configure how pagination should be applied to your API calls. Let's create an example where we'll fetch a list of posts with pagination.
 
 ### Step 1: Set Up Your API
 
-Assuming you have the following endpoint defined in your API configuration:
+Set up your API with the `paginate` option within the `getPosts` endpoint:
 
 ```javascript
 // api.js
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+
 export const api = createApi({
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://jsonplaceholder.typicode.com' }),
   endpoints: (builder) => ({
     getPosts: builder.query({
       query: () => 'posts',
+      paginate: true, // Enable pagination
     }),
   }),
 });
+
+export const { useGetPostsQuery } = api;
 ```
 
-### Step 2: Manually Invalidating Cache
+### Step 2: Using the `useGetPostsQuery` Hook with Pagination
 
-You can manually invalidate the cache and trigger a re-fetch by using the `invalidateQueries` function from RTK Query:
+Now you can use the `useGetPostsQuery` hook with pagination in your component:
 
 ```javascript
-import { invalidateQueries } from '@reduxjs/toolkit/query/react';
-import { api } from './api';
+import React from 'react';
+import { useGetPostsQuery } from './api';
 
-function RefreshPostsButton() {
-  const handleClick = () => {
-    invalidateQueries('getPosts');
-  };
+function PostList() {
+  const { data, error, isLoading, hasNextPage, fetchNextPage } = useGetPostsQuery();
 
-  return <button onClick={handleClick}>Refresh Posts</button>;
+  if (isLoading) {
+    return <p>Loading...</p>;
+  }
+
+  if (error) {
+    return <p>Error: {error.message}</p>;
+  }
+
+  return (
+    <div>
+      <h2>Posts</h2>
+      <ul>
+        {data.pages.map((page) =>
+          page.map((post) => <li key={post.id}>{post.title}</li>)
+        )}
+      </ul>
+      {hasNextPage && (
+        <button onClick={() => fetchNextPage()}>Load More</button>
+      )}
+    </div>
+  );
 }
 
-export default RefreshPostsButton;
+export default PostList;
 ```
 
-In this example, the `RefreshPostsButton` component contains a button that, when clicked, triggers the invalidation of the `getPosts` query cache. This will lead to a re-fetch of the data from the server the next time the `useGetPostsQuery` hook is used.
+### Step 3: Using `hasNextPage` and `fetchNextPage`
 
-## Using `invalidates` to Define Dependencies
-
-The `invalidates` option allows you to define dependencies between different endpoints. When one endpoint's data changes, you can automatically invalidate the cache of another endpoint that depends on it.
-
-### Step 1: Set Up Your API
-
-Assuming you have two endpoints defined in your API configuration:
-
-```javascript
-// api.js
-export const api = createApi({
-  endpoints: (builder) => ({
-    getPosts: builder.query({
-      query: () => 'posts',
-    }),
-    createPost: builder.mutation({
-      query: (newPost) => ({
-        url: 'posts',
-        method: 'POST',
-        body: newPost,
-      }),
-      invalidates: ['getPosts'], // Define dependencies
-    }),
-  }),
-});
-```
-
-In this example, the `createPost` mutation is defined with the `invalidates` option set to `['getPosts']`. This means that when a new post is created, the cache for the `getPosts` query will be automatically invalidated, triggering a re-fetch.
+In the `PostList` component, we're using the `hasNextPage` property to determine if there are more pages of data available. If there are, we provide a "Load More" button that calls the `fetchNextPage` function to fetch the next page of data.
 
 ## Summary
 
-You've learned how to manually invalidate cache to trigger refetching and how to use the `invalidates` option to define dependencies between endpoints in RTK Query. These features give you fine-grained control over how your application's data is updated and ensure that changes are properly reflected throughout the app. In the next sections of this tutorial, we'll continue exploring more advanced RTK Query features.
+You've successfully learned how to implement pagination using RTK Query. By using the `paginate` option within endpoints and utilizing the `usePaginatedQuery` hook, you can easily fetch and display paginated data in your application. This enhances the user experience by efficiently handling large datasets. In the next sections of this tutorial, we'll continue exploring more advanced features of RTK Query.
